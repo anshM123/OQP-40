@@ -3,7 +3,10 @@
 **Status (2026-10-09).** For positive definite matrices of every size, the lower half of OQP 40 holds at
 (n, m) = (3,3), (3,4), (4,3), (4,4), (4,6) and (6,4). It is still open in general.
 - **(3,3)** is Theorem 1. The proof is elementary: an explicit certificate, plus the positivity of three explicit
-  functions of two variables. It does not use Stahl's theorem.
+  functions of two variables. It does not use Stahl's theorem. Theorem 1 is machine-checked in Lean for positive
+  semidefinite A, B of every size ([`../lean/OQP40/Thm33.lean`](../lean/OQP40/Thm33.lean),
+  [`../lean/THM33_NOTES.md`](../lean/THM33_NOTES.md)); the classical last step (Araki–Lieb–Thirring, Section 2.6) is
+  not formalized.
 - **The other five cases** follow from exact rational sum-of-squares certificates (Theorem 2).
 - **Checks.** Both parts were checked internally, with independently written code (Section 5.1). They have not been
   refereed externally.

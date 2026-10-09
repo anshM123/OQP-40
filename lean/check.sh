@@ -4,7 +4,8 @@
 #     lake exe cache get
 #     bash check.sh
 # Each file is elaborated and kernel-checked by `lake env lean`; its .olean goes to .lake/build so that later files can
-# import it. OQP40/Axioms.lean prints `#print axioms` for the main theorems. Logs go to logs_check/.
+# import it. OQP40/Axioms.lean and OQP40/AxiomsThm33.lean print `#print axioms` for the main theorems. Logs go to
+# logs_check/.
 set -uo pipefail
 out=.lake/build/lib/lean
 mkdir -p "$out/OQP27" "$out/HarmonicMajorization" "$out/OQP40" logs_check
@@ -25,5 +26,8 @@ while read -r m; do
 done < BUILD_ORDER.txt
 echo "== axioms (every line below must end with [propext, Classical.choice, Quot.sound]) =="
 grep "depends on axioms" logs_check/OQP40.Axioms.log
+echo "== axioms of Theorem 1 of the lower-half note (OQP40/AxiomsThm33.lean) =="
+grep "depends on axioms" logs_check/OQP40.AxiomsThm33.log
 echo "== nonstandard axiom lines (should be empty) =="
-grep "depends on axioms" logs_check/OQP40.Axioms.log | grep -v "\[propext, Classical.choice, Quot.sound\]" || echo "none"
+cat logs_check/OQP40.Axioms.log logs_check/OQP40.AxiomsThm33.log | grep "depends on axioms" \
+  | grep -v "\[propext, Classical.choice, Quot.sound\]" || echo "none"

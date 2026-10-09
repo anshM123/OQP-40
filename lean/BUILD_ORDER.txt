@@ -42,3 +42,9 @@ HarmonicMajorization.MainGen
 HarmonicMajorization.DensityGen
 OQP40.Pinching
 OQP40.Axioms
+OQP40.Thm33Interval
+OQP40.Thm33Signs
+OQP40.Thm33Kernel
+OQP40.Thm33Reduction
+OQP40.Thm33
+OQP40.AxiomsThm33

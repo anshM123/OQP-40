@@ -1,0 +1,100 @@
+== keyword scan (code lines only; docstrings mention 'no sorry') ==
+none
+OQP40.Statement                          exit=0    35s
+OQP27.StripJensen                        exit=0    14s
+OQP27.StripPencil                        exit=0    12s
+OQP27.StripSlice                         exit=0    14s
+OQP27.StripBounds                        exit=0    13s
+OQP27.StripBMV                           exit=0    13s
+HarmonicMajorization.SpecDecomp          exit=0    12s
+HarmonicMajorization.PencilGen           exit=0    13s
+OQP27.StripRIContour                     exit=0    12s
+OQP27.StripRIPencil                      exit=0    13s
+OQP27.StripRISums                        exit=0    13s
+OQP27.StripRISmooth                      exit=0    14s
+OQP27.StripRIEnds                        exit=0    15s
+OQP27.StripRIBoundary                    exit=0    15s
+OQP27.StripRIAssembly                    exit=0    14s
+OQP27.StripRIMain                        exit=0    13s
+HarmonicMajorization.RIG1                exit=0    14s
+HarmonicMajorization.RIG2                exit=0    14s
+HarmonicMajorization.RIG3a               exit=0    17s
+HarmonicMajorization.RIG3b               exit=0    31s
+HarmonicMajorization.RIG4a               exit=0    14s
+HarmonicMajorization.TheoremAGen         exit=0    12s
+HarmonicMajorization.RIG4b               exit=0    14s
+HarmonicMajorization.Duhamel             exit=0    12s
+HarmonicMajorization.MarginalGen         exit=0    13s
+OQP27.StripKernel                        exit=0    14s
+OQP27.StripPoisson                       exit=0    13s
+OQP27.StripSpectral                      exit=0    13s
+OQP27.StripFromBMV                       exit=0    14s
+HarmonicMajorization.PoissonGen          exit=0    13s
+HarmonicMajorization.TheoremBGen         exit=0    14s
+HarmonicMajorization.MarginalProj        exit=0    12s
+OQP27.StripTheorem2                      exit=0    11s
+OQP27.Statement                          exit=0    13s
+OQP27.CertDefs                           exit=0    10s
+OQP27.Skeleton                           exit=0    12s
+OQP27.StripSkeleton                      exit=0    11s
+OQP27.StripRIChain                       exit=0    12s
+HarmonicMajorization.TheoremCProj        exit=0    12s
+HarmonicMajorization.TheoremCGen         exit=0    13s
+HarmonicMajorization.MainGen             exit=0    12s
+HarmonicMajorization.DensityGen          exit=0    12s
+OQP40.Pinching                           exit=0    23s
+OQP40.Axioms                             exit=0    20s
+OQP40.Thm33Interval                      exit=0    22s
+OQP40.Thm33Signs                         exit=0    22s
+OQP40.Thm33Kernel                        exit=0    22s
+OQP40.Thm33Reduction                     exit=0    22s
+OQP40.Thm33                              exit=0    21s
+OQP40.AxiomsThm33                        exit=0    19s
+== axioms (every line below must end with [propext, Classical.choice, Quot.sound]) ==
+'OpenQuantumProblem40.refinedBMV' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.not_refinedBMV' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.not_upperHalf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLee_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLee_perturbed_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLee_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLee_wordAverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.wordSum_succ_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.wordAverage_of_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.wordAverage_one_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.wordAverage_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.trace_pow_mul_pow_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.trace_exp_log_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLeeA_add_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLeeB_add_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.pinchingInequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.trace_pinching_le_wordAverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.wordAverage_eq_trace_pinching_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.gap_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.coeff_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.moment_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.pinchH_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.pinching_eq_self_of_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+== axioms of Theorem 1 of the lower-half note (OQP40/AxiomsThm33.lean) ==
+'OpenQuantumProblem40.three_mul_trace_mul_cube_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.trace_mul_cube_le_wordAverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.wordAverage_three_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.trace_sq_sq_mul_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.core_diag' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.sum_kappa_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.kernel_sum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.kernel_sum_nonneg_of_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.share_add_share_add_share' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.sum_kappa_eq_three_mul_sum_share' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.psdForm_reT' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.sum_mul_share_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.above_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.kerE_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.intervalHyp_kerF' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.kerE_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.cond1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.cond2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.cond3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.Thm33.interval_mixture' depends on axioms: [propext, Classical.choice, Quot.sound]
+== nonstandard axiom lines (should be empty) ==
+none
+exit=0 total=762s

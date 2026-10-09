@@ -22,6 +22,7 @@ for n = 23).
 | `python endtoend_check.py n` | the certificate identity and the positivity of every certificate matrix on random matrices, 40 digits | `endtoend.log` |
 | `python show_n3.py` | all polynomials for n = 3, printed in full | `show_n3.log` |
 | `python p0_constant_terms.py 1 2 3 ...` | the constant terms in obligation (P0) | `p0_constant_terms.log` |
+| `python second-check/verify_polys_vs_direct.py n 8` (every other n in the proved set) | the same check | `second-check/verify_polys_vs_direct_all.log` |
 | `python second-check/verify_polys_vs_direct.py n 10` (n = 4, 5, 6, 7) | the exact polynomials that `verify_n.py` proves SP, against F and its derivatives computed from the definitions, 80 digits | `second-check/verify_polys_vs_direct.log` |
 | `python second-check/sympy_verify.py n` (n = 3, 6) | a second implementation in sympy, built from the quotient rule | `second-check/sympy_verify_n{n}.log` |
 | `python second-check/direct_signs.py n 160 1` (n = 3, 4, 5, 7) | the four sign conditions straight from the definitions, 60 digits | `second-check/direct_signs_small.log` |

@@ -202,7 +202,8 @@ All checks are internal; none is an external referee report. Scripts and logs ar
    `second-check/verify_polys_vs_direct.log`). The pairs $C_0,\dots,C_3$ that `verify_n.py` itself proves SP were
    evaluated at random points and compared with the claimed multiples of F, $F_X$, $F_Y$, $F_{XY}$ computed straight
    from the definitions (real powers, numerical differentiation at 80 digits). They agree to $10^{-74}$ for
-   n = 4, 5, 6 and 7, including the cube-root variables.
+   n = 4, 5, 6 and 7, and to at least $10^{-65}$ for every other n ∈ 𝒩, including the cube-root variables
+   (`second-check/verify_polys_vs_direct_all.log`).
 6. **Direct sign checks** ([`second-check/direct_signs.py`](../lower-half/m3/second-check/direct_signs.py)). F and
    its derivatives were evaluated straight from the definitions, with no polynomial algebra, at 60 digits (and at 250
    digits for n ≥ 30, where 60 digits lose the small values of F far from the diagonal). Points were taken

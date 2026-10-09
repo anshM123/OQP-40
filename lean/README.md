@@ -1,8 +1,9 @@
 # Lean 4 formalization
 
 Lean `v4.33.1` with Mathlib at the pinned revision (`lake-manifest.json`). Three libraries:
-- `OQP40`: the statement of Open Quantum Problem 40, its negative answer, and the pinching inequality for all word
-  lengths.
+- `OQP40`: the statement of Open Quantum Problem 40, its negative answer, the pinching inequality for all word
+  lengths, and Theorem 1 of the lower-half note, p₃,₃(A, B) ≥ Tr((AB)³) for positive semidefinite A, B (files
+  `OQP40/Thm33*.lean` and `OQP40/AxiomsThm33.lean`; see below and `THM33_NOTES.md`).
 - `HarmonicMajorization`: Theorem A (the pinched two-variable BMV identity) for Hermitian P with spectrum in [0, 1],
   with the density ρ and its properties. These 18 files are the part of our harmonic-majorization formalization that
   `OQP40/Pinching.lean` imports.
@@ -17,7 +18,7 @@ scratch with Mathlib.
 
 ```bash
 lake exe cache get    # prebuilt Mathlib
-bash check.sh         # every file in BUILD_ORDER.txt, then #print axioms; about 12 minutes
+bash check.sh         # every file in BUILD_ORDER.txt, then #print axioms; about 13 minutes
 ```
 
 `check.sh` elaborates and kernel-checks each file with `lake env lean`, in dependency order. It scans for `sorry`,
@@ -38,8 +39,32 @@ bash check.sh         # every file in BUILD_ORDER.txt, then #print axioms; about
 
 `LowerHalf` is stated as a `Prop` and is not proved; it is open (see `math/03-lower-half.md`).
 
-Every declaration listed in `OQP40/Axioms.lean` depends only on `[propext, Classical.choice, Quot.sound]`. The output
-of a full check is in `logs/`.
+## Theorem 1 of the lower-half note (n = m = 3)
+
+Theorem 1 of `math/04-lower-half-new-cases.md` is formalized for positive semidefinite A, B of every size. The last,
+classical step from it to the (3,3) case of `LowerHalf` (Tr((AB)³) ≥ Tr exp(3 log A + 3 log B), by the
+Araki–Lieb–Thirring inequality) is not formalized; Mathlib does not have it.
+
+| Declaration | Statement |
+|---|---|
+| `three_mul_trace_mul_cube_le` | 3 Re Tr((AB)³) ≤ Re Tr(A³B³) + 2 Re Tr(A²BAB²) for positive semidefinite A, B indexed by any finite type |
+| `trace_mul_cube_le_wordAverage` | Re Tr((AB)³) ≤ Re p₃,₃(A, B) (`wordAverage 3 3`) for positive semidefinite A, B |
+| `wordAverage_three_three` | 20 p₃,₃(A, B) = 6 Tr(A³B³) + 6 Tr(A²BAB²) + 6 Tr(A²B²AB) + 2 Tr((AB)³) for all A, B |
+| `trace_sq_sq_mul_re` | Re Tr(A²B²AB) = Re Tr(A²BAB²) for Hermitian A, B |
+| `Thm33.kernel_sum_nonneg` | Σ_{i,j,k} Re(b_ij b_jk b_ki) κ(α_i, α_j, α_k) ≥ 0 for b ≥ 0 and α_i ≥ 0, with κ(x,y,z) = (x+y+z)(x²+y²+z²) − 9xyz |
+| `Thm33.share_add_share_add_share`, `Thm33.sum_kappa_eq_three_mul_sum_share` | the certificate (apex shares) and Lemma 2 |
+| `Thm33.kerE_psd` | Lemma 3: the kernel E(X, Y) = κ(1, X, Y) − (Y−1)(Y−X)√((Y+4)(Y+4X)) is positive semidefinite on (1, ∞) |
+| `Thm33.kerE_nonneg`, `Thm33.cond1`, `Thm33.cond2`, `Thm33.cond3` | the four sign conditions on F = E/(w(X)w(Y)), w(X) = (X−1)^{3/2} |
+| `Thm33.interval_mixture` | Lemma 4 (interval mixtures) |
+
+Files, in dependency order: `Thm33Interval.lean` (Lemma 4), `Thm33Signs.lean` (the kernel and the four conditions, by
+squaring and polynomials with nonnegative coefficients), `Thm33Kernel.lean` (derivatives, mean value theorem, Lemma 3),
+`Thm33Reduction.lean` (certificate, Lemma 2, finite inequality), `Thm33.lean` (eigenbasis, word identity, main
+theorems), `AxiomsThm33.lean` (`#print axioms`).
+
+Every declaration listed in `OQP40/Axioms.lean` and `OQP40/AxiomsThm33.lean` depends only on
+`[propext, Classical.choice, Quot.sound]`. The output of a full check is in `logs/` (`check_thm33.log` for the check
+that includes the files above).
 
 ## Numbering and internal references
 

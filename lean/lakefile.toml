@@ -59,10 +59,16 @@ globs = [
   "HarmonicMajorization.DensityGen"
 ]
 
-# OQP 40: the statement, its negative answer, and the pinching inequality for all word lengths.
+# OQP 40: the statement, its negative answer, the pinching inequality for all word lengths, and
+# Theorem 1 of the lower-half note (p_{3,3}(A,B) >= Tr((AB)^3)).
 [[lean_lib]]
 name = "OQP40"
 globs = [
   "OQP40.Statement",
-  "OQP40.Pinching"
+  "OQP40.Pinching",
+  "OQP40.Thm33Interval",
+  "OQP40.Thm33Signs",
+  "OQP40.Thm33Kernel",
+  "OQP40.Thm33Reduction",
+  "OQP40.Thm33"
 ]
