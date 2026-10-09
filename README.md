@@ -22,7 +22,7 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
 | **Corrected upper bound:** $p_{n,m}\le\operatorname{Tr}(A^nE_A(B)^m)+m(m-1)\|B\|^{m-2}S_n$, with a matching lower bound (equality for m = 2) | **Proved here** | same note, Theorem 3 |
 | Variants: indefinite letters under sign conditions; a Jensen form for functions convex in the B-variable; for fixed m, $n\mapsto p_{n,m}$ is the moment sequence of an explicit positive measure | **Proved here** | same note, Theorems 4–6 |
 | The identity behind all of this: the pinched two-variable BMV identity (Theorem A) | **Proved** (full proof). The generic case is Heinävaara's explicit BMV measure; the general-multiplicity form was stated in our OQP 27 paper | [`math/02-theorem-A.md`](math/02-theorem-A.md) |
-| **Lower half:** $p_{n,m}(A,B)\ge\operatorname{Tr}\exp(n\log A+m\log B)$ | **Open.** Proved when min(n, m) ≤ 2. A stronger form, $p_{n,m}\ge\operatorname{Tr}(A^{n/m}B)^m$, is proved for rank-one B. No counterexample in extensive searches. | [`math/03-lower-half.md`](math/03-lower-half.md) |
+| **Lower half:** $p_{n,m}(A,B)\ge\operatorname{Tr}\exp(n\log A+m\log B)$ | **Open in general.** Proved when min(n, m) ≤ 2; when A or B has at most two distinct eigenvalues (any dimension; this uses Stahl's theorem); and when B is entrywise nonnegative in some eigenbasis of A, which covers all d = 2. In all these cases a stronger form also holds: $p_{n,m}\ge\operatorname{Tr}(A^{n/m}B)^m$, or its version with the letters exchanged. No counterexample in extensive searches. | [`math/03-lower-half.md`](math/03-lower-half.md) |
 
 ### In words
 

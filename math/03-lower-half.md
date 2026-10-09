@@ -1,6 +1,11 @@
 # The lower half of OQP 40: status
 
-**Status (2026-10-08): OPEN.** We have not proved or refuted the lower half in general. This note records:
+**Status (2026-10-08): OPEN in general.** It is proved in these cases:
+- min(n, m) ≤ 2;
+- A or B has at most two distinct eigenvalues, in any dimension (Proposition 2.5);
+- B has nonnegative entries in some eigenbasis of A (Proposition 2.4). This includes every pair with d = 2.
+
+This note records:
 - what is proved (Sections 2–3);
 - the numerical evidence (Section 4);
 - a stronger conjecture (Section 5);
@@ -58,6 +63,60 @@ holds with the letters exchanged.
   $\prod_j\psi(N_j)$, with $\psi(t)=\langle b,A^tb\rangle$.
 - **Log-convexity.** ψ is log-convex, so $\frac1m\sum_j\log\psi(N_j)\ge\log\psi(n/m)$ for **every** composition.
 - **Conclusion.** Hence every word trace is $\ge\psi(n/m)^m=F_{n,m}(A,B)$. ∎
+
+### 2.4 Two further proved cases
+
+**Cycle expansion.** Fix an orthonormal eigenbasis $(e_i)$ of A, with $Ae_i=\alpha_ie_i$ and $b_{ij}=\langle e_i,Be_j\rangle$.
+For $i\in[d]^m$ put $\beta(i)=b_{i_1i_2}b_{i_2i_3}\cdots b_{i_mi_1}$. For a symmetric function φ on $(0,\infty)^m$ put
+$\Phi_B(\varphi)=\sum_i\beta(i)\,\varphi(\alpha_{i_1},\dots,\alpha_{i_m})$. Then
+
+$$\mathcal A_{n,m}(A,B)=\Phi_B(M_n),\qquad p^{\rm mult}_{n,m}(A,B):=\Phi_B(\bar x^{\,n}),\qquad F_{n,m}(A,B)=\Phi_B(G^n),$$
+
+where:
+- $M_n(x)=h_n(x)/\binom{n+m-1}{n}=\mathbb E_u(\sum_ju_jx_j)^n$, with $u\sim\mathrm{Dirichlet}(1,\dots,1)$;
+- $\bar x$ is the arithmetic mean and $G(x)=(x_1\cdots x_m)^{1/m}$ the geometric mean.
+
+The first identity holds because a uniformly random word gives a uniformly random composition
+$(N_1,\dots,N_m)$ of n, and averaging $\prod_jx_j^{N_j}$ over compositions gives $M_n$. Pointwise,
+$M_n\ge\bar x^{\,n}\ge G^n$ (Jensen, then AM–GM).
+
+**Proposition 2.4.** Suppose some orthonormal eigenbasis of A has $\langle e_i,Be_j\rangle\ge0$ for all i, j. Then
+
+$$\mathcal A_{n,m}(A,B)\ \ge\ p^{\rm mult}_{n,m}(A,B)\ \ge\ F_{n,m}(A,B)\ \ge\ L_{n,m}(A,B).$$
+
+The hypothesis holds in the following cases:
+- d = 2;
+- B = D + ww* with [D, A] = 0;
+- the off-diagonal pattern of B in some eigenbasis of A is a forest (for example, tridiagonal).
+
+The same holds with the letters exchanged.
+
+*Proof.*
+- **The chain.** All β(i) ≥ 0, so $\Phi_B$ preserves pointwise inequalities between kernels, and the last step is
+  Lemma 2.1.
+- **When the hypothesis holds.** Rotating eigenvectors by phases, $e_j\mapsto e^{i\phi_j}e_j$, changes $b_{jk}$ into
+  $e^{-i\phi_j}b_{jk}e^{i\phi_k}$.
+  - On a forest, the equations $\phi_k-\phi_j=-\arg b_{jk}$ (one per edge) are solvable.
+  - For B = D + ww*, first diagonalize D inside each eigenspace of A. Then $b_{jk}=w_j\bar w_k$ for j ≠ k, and
+    $\phi_j=\arg w_j$ works. ∎
+
+**Proposition 2.5 (two distinct eigenvalues).** If A or B has at most two distinct eigenvalues, then (LH) holds, in
+every dimension. If A is the one, the chain of Proposition 2.4 holds.
+
+*Proof.*
+- **Reduction to types.** Let $A=\alpha_1Q_1+\alpha_2Q_2$, and let k(i) be the number of indices $i_j$ in the range
+  of $Q_1$. For symmetric φ, $\varphi(\alpha_i)$ depends only on k(i), say $\varphi[k]$, and so
+  $\Phi_B(\varphi)=\sum_{k=0}^mc_k\varphi[k]$ with $c_k=\sum_{k(i)=k}\beta(i)$.
+- **The type weights are nonnegative.** With $D_s=sQ_1+Q_2$, we have
+  $\sum_kc_ks^k=\operatorname{Tr}(D_sB)^m=\operatorname{Tr}(Z+sY)^m$, where $Z=B^{1/2}Q_2B^{1/2}\ge0$ and
+  $Y=B^{1/2}Q_1B^{1/2}\ge0$. By Stahl's theorem in the Lieb–Seiringer form, every coefficient of
+  $s\mapsto\operatorname{Tr}(Z+sY)^m$ is nonnegative. So $c_k\ge0$.
+- **The chain.** Since $c_k\ge0$, the pointwise kernel inequalities give
+  $\mathcal A_{n,m}\ge p^{\rm mult}_{n,m}\ge F_{n,m}$. Lemma 2.1 finishes.
+- **B with two eigenvalues.** Use $\mathcal A_{n,m}(A,B)=\mathcal A_{m,n}(B,A)$. ∎
+
+For three or more distinct eigenvalues the type weights are the coefficients of
+$\operatorname{Tr}(s_1W_1+s_2W_2+s_3W_3)^m$, which can be negative. This is where a new idea is needed.
 
 ## 3. Structural facts proved here
 
