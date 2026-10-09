@@ -1,0 +1,6 @@
+chart formulas vs direct Cond(B,C;5): max rel diff 1.99e-38 over 300 random points (should be ~1e-35)
+chart 1 (t in [0,1], kk = 5/C in [0,10], i.e. C >= 1/2 incl. C = inf): certified=True, boxes=127, evaluations=169, min certified lower bounds (I,II,III) = [3.0243, 2.6305, 0.2473] 
+chart 2 (t in [0,1], eta = C/5 in [0,0.1], i.e. 0 < C <= 1/2, scaled by eta): certified=True, boxes=4, evaluations=5, min certified lower bounds = [0.9515, 2.9519, 2.8651] 
+time 0.0s; precision 128 bits
+CONCLUSION: (I), (II), (III) > 0 on all of {0 <= B <= C, C > 0}
+smallest values on a 201x201 chart-1 grid (value, (t, C)): [(3.421, (0.355, inf)), (3.421, (0.355, inf)), (2.5217, (0.165, inf))]

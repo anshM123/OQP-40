@@ -22,7 +22,7 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
 | **Corrected upper bound:** $p_{n,m}\le\operatorname{Tr}(A^nE_A(B)^m)+m(m-1)\|B\|^{m-2}S_n$, with a matching lower bound (equality for m = 2) | **Proved here** | same note, Theorem 3 |
 | Variants: indefinite letters under sign conditions; a Jensen form for functions convex in the B-variable; for fixed m, $n\mapsto p_{n,m}$ is the moment sequence of an explicit positive measure | **Proved here** | same note, Theorems 4–6 |
 | The identity behind all of this: the pinched two-variable BMV identity (Theorem A) | **Proved** (full proof); **machine-checked in Lean** for P with spectrum in [0, 1], which is all that the results above need. The generic case is Heinävaara's explicit BMV measure; the general-multiplicity form was stated in our OQP 27 paper | [`math/02-theorem-A.md`](math/02-theorem-A.md), [`lean/`](lean/) |
-| **Lower half:** $p_{n,m}(A,B)\ge\operatorname{Tr}\exp(n\log A+m\log B)$ | **Open in general.** Proved when min(n, m) ≤ 2; when A or B has at most two distinct eigenvalues (any dimension; this uses Stahl's theorem); and when B is entrywise nonnegative in some eigenbasis of A, which covers all d = 2. In all these cases a stronger form also holds: $p_{n,m}\ge\operatorname{Tr}(A^{n/m}B)^m$, or its version with the letters exchanged. No counterexample in extensive searches. | [`math/03-lower-half.md`](math/03-lower-half.md) |
+| **Lower half:** $p_{n,m}(A,B)\ge\operatorname{Tr}\exp(n\log A+m\log B)$ | **Open in general.** Proved when min(n, m) ≤ 2; when (n, m) is (3,3), (3,4), (4,3), (4,4), (4,6) or (6,4), in every dimension; when A or B has at most two distinct eigenvalues (any dimension; this uses Stahl's theorem); and when B is entrywise nonnegative in some eigenbasis of A, which covers all d = 2. The (3,3) case, $\operatorname{Tr}(A^3B^3)+2\operatorname{Re}\operatorname{Tr}(A^2BAB^2)\ge3\operatorname{Tr}((AB)^3)$, has an elementary proof; its single-word version is false. The other five new cases rest on exact rational sum-of-squares certificates. In all these cases a stronger form also holds: $p_{n,m}\ge\operatorname{Tr}(A^{n/m}B)^m$, or its version with the letters exchanged. The new cases were checked internally with independent code; they have not been refereed externally. No counterexample in extensive searches. | [`math/03-lower-half.md`](math/03-lower-half.md), [`math/04-lower-half-new-cases.md`](math/04-lower-half-new-cases.md), [`lower-half/`](lower-half/README.md) |
 
 ### In words
 
@@ -31,8 +31,13 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
     $\operatorname{Tr}(A^nE_A(B)^m)$.
   - The excess over it is an explicit integral of a nonnegative density.
   - The excess is bounded above and below by explicit multiples of the two-letter excess.
-- **The lower half.** It is still open. Any proof must be at least as strong as Stahl's theorem (the former BMV
-  conjecture), because the lower half implies $p_{n,m}>0$.
+- **The lower half.** It is still open in general.
+  - It now holds in every dimension when min(n, m) ≤ 2, and at (n, m) = (3,3), (3,4), (4,3), (4,4), (4,6) and (6,4).
+  - The (3,3) case has an elementary proof: an explicit certificate, plus the positivity of three explicit functions
+    of two variables. The other five cases follow from exact sum-of-squares identities. Identities of that kind
+    provably do not exist at (3,3) and (6,3), for the substitutions we tried.
+  - Any proof of the general case must be at least as strong as Stahl's theorem (the former BMV conjecture), because
+    the lower half implies $p_{n,m}>0$.
 
 ## Verification
 
@@ -67,6 +72,15 @@ The GPU searches (`code/oqp40_torch.py`, `code/negword_search.py`, `code/oqp40_a
 runs quoted in the notes are in `logs/`, and [`logs/COMMANDS.md`](logs/COMMANDS.md) records the command behind each
 one.
 
+**Lower half, new cases.** The certificates, the scripts behind the (3,3) proof, and two independent checks written
+with new code are in [`lower-half/`](lower-half/README.md), with one command per log. These checks are internal, not
+external referee reports. For example:
+
+```bash
+cd lower-half/sos && python verify_certificate.py certs/*.json   # all 25 certificate files, exact; about 2 minutes
+cd ../thm33/independent-check && python r3_interval.py           # (I)-(III) of the (3,3) proof, interval arithmetic
+```
+
 ## Credits
 
 - **The problem:** D. Hägele (communicated by R. F. Werner), IQOQI Vienna Open Quantum Problems, Problem 40.
@@ -83,6 +97,16 @@ one.
 - **Equivalent forms of BMV:** E. H. Lieb and R. Seiringer, J. Stat. Phys. 115 (2004).
 - **Words with negative trace:** C. R. Johnson and C. J. Hillar, SIAM J. Matrix Anal. Appl. 23 (2002); F. Garbe and
   F. Wei, arXiv:2605.02314.
+- **Single-word bounds for 2 × 2 matrices:** S. Furuichi, K. Kuriyama and K. Yanagi, *Trace inequalities for products
+  of matrices*, Linear Algebra Appl. 430 (2009) 2271–2276, arXiv:1001.1384. Their Theorem 2.2 gives the d = 2 case of
+  the (3,3) inequality; with a limit in the exponents it gives every single-word bound
+  $\operatorname{Tr}W\ge\operatorname{Tr}(A^{n/m}B)^m$ for d = 2, hence the d = 2 case of the lower half. Their
+  Conjecture 2.8(i) would imply the (3,3) inequality in every dimension, but it fails for 3 × 3 matrices: see our
+  single-word example in [`math/04-lower-half-new-cases.md`](math/04-lower-half-new-cases.md), Section 3.
+- **A related single-word question:** T. Ando, F. Hiai and K. Okubo, Math. Inequal. Appl. 3 (2000) 307–318, (1.7);
+  negative answers by A. Plevnik (2016) and by E. A. Carlen and E. H. Lieb, J. Math. Phys. 63 (2022) 062203.
+- **The Araki–Lieb–Thirring inequality and the Lie–Trotter formula,** used for the last step of the lower half: see,
+  for example, R. Bhatia, *Matrix Analysis*, Springer, 1997, Chapter IX.
 
 ## Citation
 

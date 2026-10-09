@@ -1,0 +1,112 @@
+certs/D34m_11-xx-yy.json: target  p_{3,4}(X^4, Y^2) - p^mult_{3,4}(A,B)
+   recomputed from definition: A = X^4, B = Y^2, subtracted words: []
+   Gram blocks (P, Q, rank) [('1', '1', 44), ('1', '1', 38), ('x', 'x', 31), ('x', 'x', 27), ('y', 'y', 15), ('y', 'y', 13)]: all exactly PSD
+   exact identity f == sum of Gram blocks: OK
+   => tau f(X,Y) >= 0 for all X, Y >= 0, in every tracial von Neumann algebra (all matrix sizes).
+certs/D44_11-xx-yy.json: target  p_{4,4}(X^2, Y^2) - p^mult_{4,4}(A,B)
+   recomputed from definition: A = X^2, B = Y^2, subtracted words: []
+   Gram blocks (P, Q, rank) [('1', '1', 23), ('1', '1', 19), ('x', 'x', 6), ('x', 'x', 6), ('y', 'y', 6), ('y', 'y', 6)]: all exactly PSD
+   exact identity f == sum of Gram blocks: OK
+   => tau f(X,Y) >= 0 for all X, Y >= 0, in every tracial von Neumann algebra (all matrix sizes).
+certs/F24_11-xx-yy.json: target  p_{2,4}(X^2, Y^2) - tr (A^{1/2} B)^4
+   recomputed from definition: A = X^2, B = Y^2, subtracted words: [('1', 'xyyxyyxyyxyy')]
+   4 dihedral classes in f; 20 squares {'(1,1)': 11, '(x,x)': 3, '(y,y)': 6}; weights all > 0
+   exact identity f == sum of terms: OK
+   => tau f(X,Y) >= 0 for all X, Y >= 0, in every tracial von Neumann algebra (all matrix sizes).
+certs/F34m_11-xx-yy.json: target  p_{3,4}(X^4, Y^2) - tr (A^{3/4} B)^4
+   recomputed from definition: A = X^4, B = Y^2, subtracted words: [('1', 'xxxyyxxxyyxxxyyxxxyy')]
+   Gram blocks (P, Q, rank) [('1', '1', 44), ('1', '1', 38), ('x', 'x', 31), ('x', 'x', 27), ('y', 'y', 15), ('y', 'y', 13)]: all exactly PSD
+   exact identity f == sum of Gram blocks: OK
+   => tau f(X,Y) >= 0 for all X, Y >= 0, in every tracial von Neumann algebra (all matrix sizes).
+certs/F42_11-xx-yy.json: target  p_{4,2}(X^2, Y^2) - tr (A^2 B)^2
+   recomputed from definition: A = X^2, B = Y^2, subtracted words: [('1', 'xxxxyyxxxxyy')]
+   3 dihedral classes in f; 9 squares {'(1,1)': 5, '(x,x)': 3, '(y,y)': 1}; weights all > 0
+   exact identity f == sum of terms: OK
+   => tau f(X,Y) >= 0 for all X, Y >= 0, in every tracial von Neumann algebra (all matrix sizes).
+certs/F44_11-xx-yy.json: target  p_{4,4}(X^2, Y^2) - tr (AB)^4
+   recomputed from definition: A = X^2, B = Y^2, subtracted words: [('1', 'xxyyxxyyxxyyxxyy')]
+   8 dihedral classes in f; 66 squares {'(1,1)': 42, '(x,x)': 12, '(y,y)': 12}; weights all > 0
+   exact identity f == sum of terms: OK
+   => tau f(X,Y) >= 0 for all X, Y >= 0, in every tracial von Neumann algebra (all matrix sizes).
+certs/F44_gram.json: target  p_{4,4}(X^2, Y^2) - tr (AB)^4
+   recomputed from definition: A = X^2, B = Y^2, subtracted words: [('1', 'xxyyxxyyxxyyxxyy')]
+   Gram blocks (P, Q, rank) [('1', '1', 23), ('1', '1', 19), ('x', 'x', 6), ('x', 'x', 6), ('y', 'y', 6), ('y', 'y', 6)]: all exactly PSD
+   exact identity f == sum of Gram blocks: OK
+   => tau f(X,Y) >= 0 for all X, Y >= 0, in every tracial von Neumann algebra (all matrix sizes).
+certs/F64_11-xx-yy.json: target  p_{6,4}(X^2, Y^2) - tr (A^{3/2} B)^4
+   recomputed from definition: A = X^2, B = Y^2, subtracted words: [('1', 'xxxyyxxxyyxxxyyxxxyy')]
+   Gram blocks (P, Q, rank) [('1', '1', 44), ('1', '1', 38), ('x', 'x', 31), ('x', 'x', 27), ('y', 'y', 15), ('y', 'y', 13)]: all exactly PSD
+   exact identity f == sum of Gram blocks: OK
+   => tau f(X,Y) >= 0 for all X, Y >= 0, in every tracial von Neumann algebra (all matrix sizes).
+certs/M34m_11-xx-yy.json: target  p_{3,4}(X^4, Y^2) [p^mult] - tr (A^{3/4} B)^4
+   recomputed from definition: A = X^4, B = Y^2, subtracted words: [('1', 'xxxyyxxxyyxxxyyxxxyy')]
+   Gram blocks (P, Q, rank) [('1', '1', 44), ('1', '1', 38), ('x', 'x', 31), ('x', 'x', 27), ('y', 'y', 15), ('y', 'y', 13)]: all exactly PSD
+   exact identity f == sum of Gram blocks: OK
+   => tau f(X,Y) >= 0 for all X, Y >= 0, in every tracial von Neumann algebra (all matrix sizes).
+certs/M44_11-xx-yy.json: target  p_{4,4}(X^2, Y^2) [p^mult] - tr (AB)^4
+   recomputed from definition: A = X^2, B = Y^2, subtracted words: [('1', 'xxyyxxyyxxyyxxyy')]
+   Gram blocks (P, Q, rank) [('1', '1', 23), ('1', '1', 19), ('x', 'x', 6), ('x', 'x', 6), ('y', 'y', 6), ('y', 'y', 6)]: all exactly PSD
+   exact identity f == sum of Gram blocks: OK
+   => tau f(X,Y) >= 0 for all X, Y >= 0, in every tracial von Neumann algebra (all matrix sizes).
+certs/nonSOS_D33_QM.json: NON-EXISTENCE  D33 = p_{3,3} - p^mult_{3,3} with localizers 1, X, Y; y = indicator of (AB)^3
+   recomputed from definition: lhs p_{3,3}(X^2, Y^2) - p^mult, subtracted words []
+   localized moment matrices (localizer, size, PSD exact): [('1', 20, True), ('x', 10, True), ('y', 10, True)];  y(f) = -11/90
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/nonSOS_F33_pureSOS.json: NON-EXISTENCE  F33 pure SOS, A=X^2,B=Y^2, y = indicator of (AB)^3
+   recomputed from definition: lhs p_{3,3}(X^2, Y^2), subtracted words [['1', 'xxyyxxyyxxyy']]
+   localized moment matrices (localizer, size, PSD exact): [('1', 20, True)];  y(f) = -9/10
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['']
+certs/nonSOS_F33_QM.json: NON-EXISTENCE  F33 = p_{3,3} - tr(X^2Y^2)^3 with localizers 1, X, Y
+   recomputed from definition: lhs p_{3,3}(X^2, Y^2), subtracted words [['1', 'xxyyxxyyxxyy']]
+   localized moment matrices (localizer, size, PSD exact): [('1', 20, True), ('x', 10, True), ('y', 10, True)];  y(f) = -23/10
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/nonSOS_F63_QM.json: NON-EXISTENCE  F63 = p_{6,3} - tr(X^4 Y^2)^3 with localizers 1, X, Y
+   recomputed from definition: lhs p_{6,3}(X^2, Y^2), subtracted words [['1', 'xxxxyyxxxxyyxxxxyy']]
+   localized moment matrices (localizer, size, PSD exact): [('1', 84, True), ('x', 56, True), ('y', 28, True)];  y(f) = -59/28
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/nonSOS_H33_QM.json: NON-EXISTENCE  H33 = p_{3,3} - tr(XY)^6 with localizers 1, X, Y
+   recomputed from definition: lhs p_{3,3}(X^2, Y^2), subtracted words [['1', 'xyxyxyxyxyxy']]
+   localized moment matrices (localizer, size, PSD exact): [('1', 20, True), ('x', 10, True), ('y', 10, True)];  y(f) = -3/10
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/nonSOS_H33_QM_Y4.json: NON-EXISTENCE  H33 with A=X^2, B=Y^4 (rhs tr(X Y^2)^6), localizers 1, X, Y
+   recomputed from definition: lhs p_{3,3}(X^2, Y^4), subtracted words [['1', 'xyyxyyxyyxyyxyyxyy']]
+   localized moment matrices (localizer, size, PSD exact): [('1', 84, True), ('x', 28, True), ('y', 56, True)];  y(f) = -3/10
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/nonSOS_M33_QM.json: NON-EXISTENCE  M33 = p^mult_{3,3} - tr(AB)^3 with localizers 1, X, Y; y = indicator of (AB)^3
+   recomputed from definition: lhs pmult_{3,3}(X^2, Y^2), subtracted words [['1', 'xxyyxxyyxxyy']]
+   localized moment matrices (localizer, size, PSD exact): [('1', 20, True), ('x', 10, True), ('y', 10, True)];  y(f) = -7/9
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/nonSOS_P33_pureSOS.json: NON-EXISTENCE  P33 = p_{3,3}(X^2,Y^2) pure SOS
+   recomputed from definition: lhs p_{3,3}(X^2, Y^2), subtracted words []
+   localized moment matrices (localizer, size, PSD exact): [('1', 20, True)];  y(f) = -3/10
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['']
+certs/nonSOS_P33_QM.json: NON-EXISTENCE  P33 with localizers 1, X, Y
+   recomputed from definition: lhs p_{3,3}(X^2, Y^2), subtracted words []
+   localized moment matrices (localizer, size, PSD exact): [('1', 20, True), ('x', 10, True), ('y', 10, True)];  y(f) = -3/10
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/nonSOS_P33_QM_X4Y4.json: NON-EXISTENCE  P33 with A=X^4, B=Y^4 (fourth roots), localizers 1, X, Y
+   recomputed from definition: lhs p_{3,3}(X^4, Y^4), subtracted words []
+   localized moment matrices (localizer, size, PSD exact): [('1', 924, True), ('x', 462, True), ('y', 462, True)];  y(f) = -3/10
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/nonSOS_P33_QM_Y4.json: NON-EXISTENCE  P33 with A=X^2, B=Y^4, localizers 1, X, Y
+   recomputed from definition: lhs p_{3,3}(X^2, Y^4), subtracted words []
+   localized moment matrices (localizer, size, PSD exact): [('1', 84, True), ('x', 28, True), ('y', 56, True)];  y(f) = -3/10
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/nonSOS_P63_QM.json: NON-EXISTENCE  P63 = p_{6,3}(X^2,Y^2) with localizers 1, X, Y
+   recomputed from definition: lhs p_{6,3}(X^2, Y^2), subtracted words []
+   localized moment matrices (localizer, size, PSD exact): [('1', 84, True), ('x', 56, True), ('y', 28, True)];  y(f) = -3/28
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/nonSOS_Q33_QM_X4Y4.json: NON-EXISTENCE  Q33 = p_{3,3} - tr(A^{1/4}B^{1/4})^12 with A=X^4, B=Y^4, localizers 1, X, Y
+   recomputed from definition: lhs p_{3,3}(X^4, Y^4), subtracted words [['1', 'xyxyxyxyxyxyxyxyxyxyxyxy']]
+   localized moment matrices (localizer, size, PSD exact): [('1', 924, True), ('x', 462, True), ('y', 462, True)];  y(f) = -3/10
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/nonSOS_S63_QM.json: NON-EXISTENCE  S63 = p_{6,3} - tr(X^2 Y)^6 with localizers 1, X, Y
+   recomputed from definition: lhs p_{6,3}(X^2, Y^2), subtracted words [['1', 'xxyxxyxxyxxyxxyxxy']]
+   localized moment matrices (localizer, size, PSD exact): [('1', 84, True), ('x', 56, True), ('y', 28, True)];  y(f) = -3/28
+   => OK: f is not a sum of terms tau(P g^* P g), P in ['', 'x', 'y']
+certs/P44.json: target  p_{4,4}(X^2, Y^2) - 0
+   recomputed from definition: A = X^2, B = Y^2, subtracted words: []
+   8 dihedral classes in f; 50 squares {'(1,1)': 50}; weights all > 0
+   exact identity f == sum of terms: OK
+   => tau f(X,Y) >= 0 for all Hermitian X, Y, in every tracial von Neumann algebra (all matrix sizes).
+ALL OK

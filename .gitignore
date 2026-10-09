@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 lean/.lake/
 lean/logs_check/
+lower-half/thm33/uc33_conditions.pkl

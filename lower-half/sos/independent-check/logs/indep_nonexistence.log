@@ -1,0 +1,114 @@
+# run 2026-10-09 00:05:19 files=['nonSOS_F33_pureSOS.json', 'nonSOS_F33_QM.json', 'nonSOS_H33_QM.json', 'nonSOS_H33_QM_Y4.json', 'nonSOS_Q33_QM_X4Y4.json', 'nonSOS_D33_QM.json', 'nonSOS_M33_QM.json', 'nonSOS_P33_pureSOS.json', 'nonSOS_P33_QM.json', 'nonSOS_P33_QM_Y4.json', 'nonSOS_P33_QM_X4Y4.json', 'nonSOS_P63_QM.json', 'nonSOS_F63_QM.json', 'nonSOS_S63_QM.json']
+== nonSOS_F33_pureSOS.json: target p_{3,3}(X^2,Y^2) - xxyyxxyyxxyy; localizers ['1']; bidegree (6, 6)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 20x20, 2 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yxxyyx'] -> [['1']] psd=True; ['xyyxxy'] -> [['1']] psd=True
+    M_x: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True  [extra localizer, not part of the claim]
+    M_y: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True  [extra localizer, not part of the claim]
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -9/10 (claimed -9/10: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+== nonSOS_F33_QM.json: target p_{3,3}(X^2,Y^2) - xxyyxxyyxxyy; localizers ['1', 'x', 'y']; bidegree (6, 6)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 20x20, 6 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yyyxxx', 'yxxyyx'] -> [['1', '-4/3'], ['-4/3', '2']] psd=True; ['xyyxxy', 'xxxyyy'] -> [['2', '-4/3'], ['-4/3', '1']] psd=True
+    M_x: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -23/10 (claimed -23/10: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+== nonSOS_H33_QM.json: target p_{3,3}(X^2,Y^2) - xyxyxyxyxyxy; localizers ['1', 'x', 'y']; bidegree (6, 6)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 20x20, 6 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yyyxxx', 'yxxyyx'] -> [['1', '-4/3'], ['-4/3', '2']] psd=True; ['xyyxxy', 'xxxyyy'] -> [['2', '-4/3'], ['-4/3', '1']] psd=True
+    M_x: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -3/10 (claimed -3/10: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+== nonSOS_H33_QM_Y4.json: target p_{3,3}(X^2,Y^4) - xyyxyyxyyxyyxyyxyy; localizers ['1', 'x', 'y']; bidegree (6, 12)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 84x84, 6 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yyyyyyxxx', 'yyxxyyyyx'] -> [['1', '-4/3'], ['-4/3', '2']] psd=True; ['xyyyyxxyy', 'xxxyyyyyy'] -> [['2', '-4/3'], ['-4/3', '1']] psd=True
+    M_x: 28x28, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 56x56, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -3/10 (claimed -3/10: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+== nonSOS_Q33_QM_X4Y4.json: target p_{3,3}(X^4,Y^4) - xyxyxyxyxyxyxyxyxyxyxyxy; localizers ['1', 'x', 'y']; bidegree (12, 12)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 924x924, 6 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yyyyyyxxxxxx', 'yyxxxxyyyyxx'] -> [['1', '-4/3'], ['-4/3', '2']] psd=True; ['xxyyyyxxxxyy', 'xxxxxxyyyyyy'] -> [['2', '-4/3'], ['-4/3', '1']] psd=True
+    M_x: 462x462, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 462x462, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -3/10 (claimed -3/10: matches) -> NON-EXISTENCE CONFIRMED (2.6s)
+== nonSOS_D33_QM.json: target p_{3,3}(X^2,Y^2) - p^mult; localizers ['1', 'x', 'y']; bidegree (6, 6)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 20x20, 2 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yxxyyx'] -> [['1']] psd=True; ['xyyxxy'] -> [['1']] psd=True
+    M_x: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -11/90 (claimed -11/90: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+== nonSOS_M33_QM.json: target pmult_{3,3}(X^2,Y^2) - xxyyxxyyxxyy; localizers ['1', 'x', 'y']; bidegree (6, 6)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 20x20, 2 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yxxyyx'] -> [['1']] psd=True; ['xyyxxy'] -> [['1']] psd=True
+    M_x: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -7/9 (claimed -7/9: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+== nonSOS_P33_pureSOS.json: target p_{3,3}(X^2,Y^2); localizers ['1']; bidegree (6, 6)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 20x20, 6 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yyyxxx', 'yxxyyx'] -> [['1', '-4/3'], ['-4/3', '2']] psd=True; ['xyyxxy', 'xxxyyy'] -> [['2', '-4/3'], ['-4/3', '1']] psd=True
+    M_x: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True  [extra localizer, not part of the claim]
+    M_y: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True  [extra localizer, not part of the claim]
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -3/10 (claimed -3/10: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+== nonSOS_P33_QM.json: target p_{3,3}(X^2,Y^2); localizers ['1', 'x', 'y']; bidegree (6, 6)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 20x20, 6 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yyyxxx', 'yxxyyx'] -> [['1', '-4/3'], ['-4/3', '2']] psd=True; ['xyyxxy', 'xxxyyy'] -> [['2', '-4/3'], ['-4/3', '1']] psd=True
+    M_x: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 10x10, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -3/10 (claimed -3/10: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+== nonSOS_P33_QM_Y4.json: target p_{3,3}(X^2,Y^4); localizers ['1', 'x', 'y']; bidegree (6, 12)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 84x84, 6 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yyyyyyxxx', 'yyxxyyyyx'] -> [['1', '-4/3'], ['-4/3', '2']] psd=True; ['xyyyyxxyy', 'xxxyyyyyy'] -> [['2', '-4/3'], ['-4/3', '1']] psd=True
+    M_x: 28x28, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 56x56, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -3/10 (claimed -3/10: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+== nonSOS_P33_QM_X4Y4.json: target p_{3,3}(X^4,Y^4); localizers ['1', 'x', 'y']; bidegree (12, 12)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 924x924, 6 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yyyyyyxxxxxx', 'yyxxxxyyyyxx'] -> [['1', '-4/3'], ['-4/3', '2']] psd=True; ['xxyyyyxxxxyy', 'xxxxxxyyyyyy'] -> [['2', '-4/3'], ['-4/3', '1']] psd=True
+    M_x: 462x462, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 462x462, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -3/10 (claimed -3/10: matches) -> NON-EXISTENCE CONFIRMED (2.6s)
+== nonSOS_P63_QM.json: target p_{6,3}(X^2,Y^2); localizers ['1', 'x', 'y']; bidegree (12, 6)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 84x84, 6 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yyyxxxxxx', 'yxxxxyyxx'] -> [['1', '-4/3'], ['-4/3', '2']] psd=True; ['xxyyxxxxy', 'xxxxxxyyy'] -> [['2', '-4/3'], ['-4/3', '1']] psd=True
+    M_x: 56x56, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 28x28, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -3/28 (claimed -3/28: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+== nonSOS_F63_QM.json: target p_{6,3}(X^2,Y^2) - xxxxyyxxxxyyxxxxyy; localizers ['1', 'x', 'y']; bidegree (12, 6)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 84x84, 6 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yyyxxxxxx', 'yxxxxyyxx'] -> [['1', '-4/3'], ['-4/3', '2']] psd=True; ['xxyyxxxxy', 'xxxxxxyyy'] -> [['2', '-4/3'], ['-4/3', '1']] psd=True
+    M_x: 56x56, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 28x28, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -59/28 (claimed -59/28: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+== nonSOS_S63_QM.json: target p_{6,3}(X^2,Y^2) - xxyxxyxxyxxyxxyxxy; localizers ['1', 'x', 'y']; bidegree (12, 6)
+    meta agrees with the claim: True; functional in file == functional stated in SOS_RESULTS: True
+    M_1: 84x84, 6 nonzero (upper) entries, 2 nonzero blocks, PSD exactly: True
+        blocks: ['yyyxxxxxx', 'yxxxxyyxx'] -> [['1', '-4/3'], ['-4/3', '2']] psd=True; ['xxyyxxxxy', 'xxxxxxyyy'] -> [['2', '-4/3'], ['-4/3', '1']] psd=True
+    M_x: 56x56, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    M_y: 28x28, 0 nonzero (upper) entries, 0 nonzero blocks, PSD exactly: True
+    mixed localizer pairs: [('1', 'x', 'excluded by parity'), ('1', 'y', 'excluded by parity'), ('x', 'y', 'excluded by parity')]
+    y(f) = -3/28 (claimed -3/28: matches) -> NON-EXISTENCE CONFIRMED (0.0s)
+SUMMARY: nonSOS_F33_pureSOS.json: OK, nonSOS_F33_QM.json: OK, nonSOS_H33_QM.json: OK, nonSOS_H33_QM_Y4.json: OK, nonSOS_Q33_QM_X4Y4.json: OK, nonSOS_D33_QM.json: OK, nonSOS_M33_QM.json: OK, nonSOS_P33_pureSOS.json: OK, nonSOS_P33_QM.json: OK, nonSOS_P33_QM_Y4.json: OK, nonSOS_P33_QM_X4Y4.json: OK, nonSOS_P63_QM.json: OK, nonSOS_F63_QM.json: OK, nonSOS_S63_QM.json: OK

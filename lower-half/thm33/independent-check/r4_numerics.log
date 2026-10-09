@@ -1,0 +1,21 @@
+[random PD pairs d=2..30 (complex and real, log-normal spectra)] pairs=1110  certified violations (f<0)=0  undecided=0  precision use={256: 1110}
+    min ratio = 1.00093745834119 (ratio-1 = 9.375e-04) at d=2 cplx=False sa=2.0 sb=1.0
+    min J = f/tr(AYBY) = 1.03924 at d=2 cplx=False sa=2.0 sb=2.0
+    identity f = tr(AYBY) + 2tr((AB+BA)Y^2): max rel err 6.49e-74
+[extreme spectra, condition numbers 1e6..1e16] pairs=1500  certified violations (f<0)=0  undecided=0  precision use={256: 1500}
+    min ratio = 1.01276613527744 (ratio-1 = 1.277e-02) at d=2 kind=1 cond=1e9
+    min J = f/tr(AYBY) = 1.00052 at d=12 kind=3 cond=1e6
+    identity f = tr(AYBY) + 2tr((AB+BA)Y^2): max rel err 4.52e-73
+[near-commuting pairs (A diagonal, B = (I+eps N) diag (I+eps N)^*), eps = 1e-1..1e-12] pairs=1200  certified violations (f<0)=0  undecided=0  precision use={256: 1200}
+    min ratio = 1 (ratio-1 = 4.329e-20) at d=5 eps=1e-10
+    min J = f/tr(AYBY) = 1.06184 at d=4 eps=1e-06
+    identity f = tr(AYBY) + 2tr((AB+BA)Y^2): max rel err 1.83e-75
+[rank-deficient / near-singular (PSD with exact zero eigenvalues, or 1e-30)] pairs=1200  certified violations (f<0)=0  undecided=0  precision use={256: 1200}
+    min ratio = 1.00558547961716 (ratio-1 = 5.585e-03) at d=2 rankA=2 rankB=2 tiny=1e-30
+    min J = f/tr(AYBY) = 1.00348 at d=10 rankA=3 rankB=1 tiny=0
+    identity f = tr(AYBY) + 2tr((AB+BA)Y^2): max rel err 3.43e-73
+[Cha-Lee family A_x + dA I, B_x + dB I (x = 1e-10..10, shifts 0..1), plus random conjugation of B] pairs=2475  certified violations (f<0)=0  undecided=0  precision use={256: 2475}
+    min ratio = 1 (ratio-1 = 1.667e-18) at x=1e-10 dA=0 dB=0.1
+    min J = f/tr(AYBY) = 1.00001 at x=1.78e-10 dA=dB=1e-6 perturbed B
+    identity f = tr(AYBY) + 2tr((AB+BA)Y^2): max rel err 6.11e-76
+total time 12.8s

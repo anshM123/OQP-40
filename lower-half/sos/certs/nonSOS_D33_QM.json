@@ -1,0 +1,21 @@
+{
+ "type": "nonexistence",
+ "label": "D33 = p_{3,3} - p^mult_{3,3} with localizers 1, X, Y; y = indicator of (AB)^3",
+ "meta": {
+  "n": 3,
+  "m": 3,
+  "ea": 2,
+  "eb": 2,
+  "lhs": "p",
+  "sub": "pmult",
+  "rhs": [],
+  "localizers": [
+   "",
+   "x",
+   "y"
+  ]
+ },
+ "y": {
+  "xxyyxxyyxxyy": "1"
+ }
+}

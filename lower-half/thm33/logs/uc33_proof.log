@@ -1,0 +1,7 @@
+I : denominator = 4*q*(p + q)**2*(p**2 - 5)
+    numerator degree: 5  #terms 10
+II : denominator = 4*p*q*(p + q)**2*(p**2 - 5)
+    numerator degree: 6  #terms 14
+III : denominator = 4*p*q**3*(p + q)**2*(p**2 - 5)
+    numerator degree: 8  #terms 20
+numeric violations on region: {'I': 0, 'II': 0, 'III': 0}

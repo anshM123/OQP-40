@@ -1,0 +1,4 @@
+150 random PD pairs (d = 2..6, complex):
+  min tr((AB)^3) / L_33 = 1.0005632   min p_33 / L_33 = 1.0028732
+  ALT family r = 1, .5, .1, .01, .001 nonincreasing and equal to tr((AB)^3) at r = 1: True
+  rel. distance of the r = 0.001 member from L_33: max 4.58e-5 (Lie-Trotter limit, O(r))

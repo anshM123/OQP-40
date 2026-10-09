@@ -1,0 +1,12 @@
+Booth least rotation agrees with brute force on 42450 words
+p^mult_{3,3}(X^2,Y^2): compositions == brute force over [m]^n (4 cyclic classes), total weight 1
+p^mult_{4,4}(X^2,Y^2): compositions == brute force over [m]^n (10 cyclic classes), total weight 1
+p^mult_{3,4}(X^4,Y^2): compositions == brute force over [m]^n (5 cyclic classes), total weight 1
+p^mult_{6,4}(X^2,Y^2): compositions == brute force over [m]^n (22 cyclic classes), total weight 1
+p^mult_{2,4}(X^2,Y^2): compositions == brute force over [m]^n (3 cyclic classes), total weight 1
+p^mult_{4,2}(X^2,Y^2): compositions == brute force over [m]^n (3 cyclic classes), total weight 1
+p^mult_{5,3}(X^1,Y^1): compositions == brute force over [m]^n (7 cyclic classes), total weight 1
+p_{3,3}: 20 p = 6 tr A^3B^3 + 6 tr A^2BAB^2 + 6 tr A^2B^2AB + 2 tr (AB)^3; AABBAB is the reversal class of AABABB
+p, p^mult and the (A^{n/m}B)^m word are reversal symmetric for all certified (n,m,ea,eb)
+PSD testers OK on small examples
+ALL CORE SELF-TESTS PASSED

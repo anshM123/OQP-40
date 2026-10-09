@@ -19,3 +19,7 @@ Thread count: `OMP_NUM_THREADS=2`. Each command was run from `code/`.
 | `moment_test.log` | `python moment_test.py` | |
 
 The independent check has its own scripts and logs in `../independent-check/scripts/`.
+
+The new cases of the lower half ([`../math/04-lower-half-new-cases.md`](../math/04-lower-half-new-cases.md)) have their
+own scripts, certificates and logs in `../lower-half/`. The command behind each of those logs is listed in
+[`../lower-half/README.md`](../lower-half/README.md).

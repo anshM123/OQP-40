@@ -1,0 +1,19 @@
+integer example:
+   A PD (leading minors): [1, 100000, 90000000000]
+   B PD (leading minors): [130001, 4540050, 7780516]  eigenvalues ~ [1.0000000, 59.842685, 130016.16]
+   tr(A^2BAB^2) = -28461367246374197639999  (~-2.84614E+22);  equals tr(A^2B^2AB): True
+   tr((AB)^3)   = 18951153147665700390001  (~1.89512E+22)
+   tr(A^3B^3)   = 1197432463362197562994750001  (~1.19743E+27)
+   Theorem 4 combination = 1197318687168261817498300000  (~1.19732E+27) > 0: True
+   single word < 0: True;  tr(A^2BAB^2)/tr((AB)^3) = -1.5018277;  |word| < tr((AB)^3): False
+   matches printed values (-2.85e22, 1.90e22, +1.20e27): True True True
+rational example eps = 89/10^6:
+   A PD (leading minors): [89/1000000, 89/1000000, 801/1000000]
+   B PD (leading minors): [130001, 4540050, 7780516]  eigenvalues ~ [1.0000000, 59.842685, 130016.16]
+   tr(A^2BAB^2) = -25604809792857072455031/1000000000000000000  (~-25604.8);  equals tr(A^2B^2AB): True
+   tr((AB)^3)   = 18970447240849353238614969/1000000000000000000  (~1.89704E+7)
+   tr(A^3B^3)   = 1197432464909213786845913454969/1000000000000000000  (~1.19743E+12)
+   Theorem 4 combination = 11973755023578716530720527/10000000000000  (~1.19738E+12) > 0: True
+   single word < 0: True;  tr(A^2BAB^2)/tr((AB)^3) = -0.0013497209;  |word| < tr((AB)^3): True
+(iii) cycle expansion tr(A^2BAB^2) = sum al_i al_k^2 T(i,j,k): True
+     W_0-part equals <u, H u> with the printed H: True

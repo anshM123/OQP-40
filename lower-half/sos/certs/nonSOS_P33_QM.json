@@ -1,0 +1,23 @@
+{
+ "type": "nonexistence",
+ "label": "P33 with localizers 1, X, Y",
+ "meta": {
+  "n": 3,
+  "m": 3,
+  "ea": 2,
+  "eb": 2,
+  "lhs": "p",
+  "sub": null,
+  "rhs": [],
+  "localizers": [
+   "",
+   "x",
+   "y"
+  ]
+ },
+ "y": {
+  "xxxxxxyyyyyy": "1",
+  "xxxxyyxxyyyy": "-4/3",
+  "xxyyxxyyxxyy": "2"
+ }
+}

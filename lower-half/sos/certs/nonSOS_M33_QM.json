@@ -1,0 +1,26 @@
+{
+ "type": "nonexistence",
+ "label": "M33 = p^mult_{3,3} - tr(AB)^3 with localizers 1, X, Y; y = indicator of (AB)^3",
+ "meta": {
+  "n": 3,
+  "m": 3,
+  "ea": 2,
+  "eb": 2,
+  "lhs": "pmult",
+  "sub": null,
+  "rhs": [
+   [
+    "1",
+    "xxyyxxyyxxyy"
+   ]
+  ],
+  "localizers": [
+   "",
+   "x",
+   "y"
+  ]
+ },
+ "y": {
+  "xxyyxxyyxxyy": "1"
+ }
+}

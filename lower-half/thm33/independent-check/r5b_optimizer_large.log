@@ -1,0 +1,6 @@
+[ratio] d=10: float min 1 | exact: ratio-1 = [5.48969e-17 +/- 2.76e-23], J = [65614.268 +/- 2.66e-5], f>0 certified True, f = [2.8764e+38 +/- 1.22e+33] | cond A 6.31e+18, cond B 1.27e+17  (4s)
+[ratio] d=12: float min 1 | exact: ratio-1 = [1.34038e-16 +/- 4.44e-22], J = [19527.056 +/- 1.91e-4], f>0 certified True, f = [4.1442e+50 +/- 6.76e+44] | cond A 3.71e+21, cond B 3.09e+19  (8s)
+[ratio] d=16: float min 1 | exact: ratio-1 = [2.73160e-16 +/- 7.09e-23], J = [169.56060 +/- 4.54e-6], f>0 certified True, f = [1.4980e+27 +/- 1.09e+22] | cond A 3.33e+13, cond B 9.34e+12  (12s)
+[J] d=10: float min 0.9976975064 | exact: ratio-1 = [3192.31 +/- 2.25e-3], J = [0.99769751 +/- 3.64e-9], f>0 certified True, f = [9.7291e+40 +/- 4.25e+35] | cond A 5.58e+12, cond B 2.42e+13  (15s)
+[J] d=12: float min 0.9999971247 | exact: ratio-1 = [2.40355e+12 +/- 1.95e+6], J = [1.0000000 +/- 3.58e-8], f>0 certified True, f = [4.1222e+92 +/- 3.50e+87] | cond A 1.92e+34, cond B 1.19e+22  (16s)
+[J] d=16: float min 0.998172009 | exact: ratio-1 = [5346.34 +/- 2.15e-3], J = [0.99817201 +/- 1.03e-9], f>0 certified True, f = [5.9362e+303 +/- 4.45e+298] | cond A 7.62e+131, cond B 1.44e+77  (18s)

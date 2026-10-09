@@ -1,0 +1,28 @@
+{
+ "type": "nonexistence",
+ "label": "H33 = p_{3,3} - tr(XY)^6 with localizers 1, X, Y",
+ "meta": {
+  "n": 3,
+  "m": 3,
+  "ea": 2,
+  "eb": 2,
+  "lhs": "p",
+  "sub": null,
+  "rhs": [
+   [
+    "1",
+    "xyxyxyxyxyxy"
+   ]
+  ],
+  "localizers": [
+   "",
+   "x",
+   "y"
+  ]
+ },
+ "y": {
+  "xxxxxxyyyyyy": "1",
+  "xxxxyyxxyyyy": "-4/3",
+  "xxyyxxyyxxyy": "2"
+ }
+}

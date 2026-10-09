@@ -1,0 +1,630 @@
+[
+ {
+  "file": "nonSOS_F33_pureSOS.json",
+  "ok": true,
+  "yf": "-9/10",
+  "claimed": "-9/10",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    20,
+    2
+   ]
+  ],
+  "extra_psd": [
+   [
+    "x",
+    true
+   ],
+   [
+    "y",
+    true
+   ]
+  ],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_F33_QM.json",
+  "ok": true,
+  "yf": "-23/10",
+  "claimed": "-23/10",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    20,
+    2
+   ],
+   [
+    "x",
+    10,
+    0
+   ],
+   [
+    "y",
+    10,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_H33_QM.json",
+  "ok": true,
+  "yf": "-3/10",
+  "claimed": "-3/10",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    20,
+    2
+   ],
+   [
+    "x",
+    10,
+    0
+   ],
+   [
+    "y",
+    10,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_H33_QM_Y4.json",
+  "ok": true,
+  "yf": "-3/10",
+  "claimed": "-3/10",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    84,
+    2
+   ],
+   [
+    "x",
+    28,
+    0
+   ],
+   [
+    "y",
+    56,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_Q33_QM_X4Y4.json",
+  "ok": true,
+  "yf": "-3/10",
+  "claimed": "-3/10",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    924,
+    2
+   ],
+   [
+    "x",
+    462,
+    0
+   ],
+   [
+    "y",
+    462,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_D33_QM.json",
+  "ok": true,
+  "yf": "-11/90",
+  "claimed": "-11/90",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    20,
+    2
+   ],
+   [
+    "x",
+    10,
+    0
+   ],
+   [
+    "y",
+    10,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_M33_QM.json",
+  "ok": true,
+  "yf": "-7/9",
+  "claimed": "-7/9",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    20,
+    2
+   ],
+   [
+    "x",
+    10,
+    0
+   ],
+   [
+    "y",
+    10,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_P33_pureSOS.json",
+  "ok": true,
+  "yf": "-3/10",
+  "claimed": "-3/10",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    20,
+    2
+   ]
+  ],
+  "extra_psd": [
+   [
+    "x",
+    true
+   ],
+   [
+    "y",
+    true
+   ]
+  ],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_P33_QM.json",
+  "ok": true,
+  "yf": "-3/10",
+  "claimed": "-3/10",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    20,
+    2
+   ],
+   [
+    "x",
+    10,
+    0
+   ],
+   [
+    "y",
+    10,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_P33_QM_Y4.json",
+  "ok": true,
+  "yf": "-3/10",
+  "claimed": "-3/10",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    84,
+    2
+   ],
+   [
+    "x",
+    28,
+    0
+   ],
+   [
+    "y",
+    56,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_P33_QM_X4Y4.json",
+  "ok": true,
+  "yf": "-3/10",
+  "claimed": "-3/10",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    924,
+    2
+   ],
+   [
+    "x",
+    462,
+    0
+   ],
+   [
+    "y",
+    462,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_P63_QM.json",
+  "ok": true,
+  "yf": "-3/28",
+  "claimed": "-3/28",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    84,
+    2
+   ],
+   [
+    "x",
+    56,
+    0
+   ],
+   [
+    "y",
+    28,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_F63_QM.json",
+  "ok": true,
+  "yf": "-59/28",
+  "claimed": "-59/28",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    84,
+    2
+   ],
+   [
+    "x",
+    56,
+    0
+   ],
+   [
+    "y",
+    28,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ },
+ {
+  "file": "nonSOS_S63_QM.json",
+  "ok": true,
+  "yf": "-3/28",
+  "claimed": "-3/28",
+  "yf_matches": true,
+  "meta_ok": true,
+  "y_ok": true,
+  "psd": true,
+  "sizes": [
+   [
+    "1",
+    84,
+    2
+   ],
+   [
+    "x",
+    56,
+    0
+   ],
+   [
+    "y",
+    28,
+    0
+   ]
+  ],
+  "extra_psd": [],
+  "mixed": [
+   [
+    "1",
+    "x",
+    "excluded by parity"
+   ],
+   [
+    "1",
+    "y",
+    "excluded by parity"
+   ],
+   [
+    "x",
+    "y",
+    "excluded by parity"
+   ]
+  ]
+ }
+]

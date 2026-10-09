@@ -1,0 +1,90 @@
+{
+ "F44_11-xx-yy.json": {
+  "samples": 42,
+  "ok": 42,
+  "worst_rel_diff": 2.8015318431821028e-179,
+  "min_f_over_scale": 1.0197971428686861e-13,
+  "min_part_over_scale": 3.6176824850645805e-90,
+  "seconds": 8.2
+ },
+ "F44_gram.json": {
+  "samples": 42,
+  "ok": 42,
+  "worst_rel_diff": 1.3030512020607079e-179,
+  "min_f_over_scale": 8.949649886057016e-13,
+  "min_part_over_scale": 3.214459218110717e-32,
+  "seconds": 13.4
+ },
+ "D44_11-xx-yy.json": {
+  "samples": 42,
+  "ok": 42,
+  "worst_rel_diff": 1.0784391396335406e-179,
+  "min_f_over_scale": 8.640265901095362e-14,
+  "min_part_over_scale": 1.7600006557258304e-31,
+  "seconds": 13.3
+ },
+ "M44_11-xx-yy.json": {
+  "samples": 42,
+  "ok": 42,
+  "worst_rel_diff": 1.3013567271555574e-179,
+  "min_f_over_scale": 2.695163215230177e-15,
+  "min_part_over_scale": 9.280289952526016e-32,
+  "seconds": 12.5
+ },
+ "F34m_11-xx-yy.json": {
+  "samples": 30,
+  "ok": 30,
+  "worst_rel_diff": 8.868505103578614e-179,
+  "min_f_over_scale": 1.8378885573429844e-13,
+  "min_part_over_scale": 4.550248107857357e-31,
+  "seconds": 27.4
+ },
+ "D34m_11-xx-yy.json": {
+  "samples": 30,
+  "ok": 30,
+  "worst_rel_diff": 7.40749118535999e-179,
+  "min_f_over_scale": 1.1011797429997698e-13,
+  "min_part_over_scale": 4.4648754762685566e-32,
+  "seconds": 28.2
+ },
+ "M34m_11-xx-yy.json": {
+  "samples": 30,
+  "ok": 30,
+  "worst_rel_diff": 5.61511328568972e-179,
+  "min_f_over_scale": 1.5148964839505965e-13,
+  "min_part_over_scale": 3.11728882103308e-31,
+  "seconds": 28.4
+ },
+ "F64_11-xx-yy.json": {
+  "samples": 30,
+  "ok": 30,
+  "worst_rel_diff": 2.482744631026462e-178,
+  "min_f_over_scale": 9.98891453603959e-13,
+  "min_part_over_scale": 8.138568981118494e-31,
+  "seconds": 33.0
+ },
+ "P44.json": {
+  "samples": 42,
+  "ok": 42,
+  "worst_rel_diff": 2.120729481290538e-179,
+  "min_f_over_scale": 1.0,
+  "min_part_over_scale": 9.888465302127017e-123,
+  "seconds": 3.6
+ },
+ "F24_11-xx-yy.json": {
+  "samples": 42,
+  "ok": 42,
+  "worst_rel_diff": 1.92191109241955e-179,
+  "min_f_over_scale": 3.2556773752926147e-15,
+  "min_part_over_scale": 3.8914094518603873e-90,
+  "seconds": 1.0
+ },
+ "F42_11-xx-yy.json": {
+  "samples": 42,
+  "ok": 42,
+  "worst_rel_diff": 1.6387455082699612e-179,
+  "min_f_over_scale": 3.792600642986209e-15,
+  "min_part_over_scale": 1.7608201187358291e-90,
+  "seconds": 0.8
+ }
+}

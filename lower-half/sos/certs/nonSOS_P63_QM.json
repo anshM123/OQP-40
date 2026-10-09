@@ -1,0 +1,23 @@
+{
+ "type": "nonexistence",
+ "label": "P63 = p_{6,3}(X^2,Y^2) with localizers 1, X, Y",
+ "meta": {
+  "n": 6,
+  "m": 3,
+  "ea": 2,
+  "eb": 2,
+  "lhs": "p",
+  "sub": null,
+  "rhs": [],
+  "localizers": [
+   "",
+   "x",
+   "y"
+  ]
+ },
+ "y": {
+  "xxxxxxxxxxxxyyyyyy": "1",
+  "xxxxxxxxyyxxxxyyyy": "-4/3",
+  "xxxxyyxxxxyyxxxxyy": "2"
+ }
+}

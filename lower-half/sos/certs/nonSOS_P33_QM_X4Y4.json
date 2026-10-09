@@ -1,0 +1,23 @@
+{
+ "type": "nonexistence",
+ "label": "P33 with A=X^4, B=Y^4 (fourth roots), localizers 1, X, Y",
+ "meta": {
+  "n": 3,
+  "m": 3,
+  "ea": 4,
+  "eb": 4,
+  "lhs": "p",
+  "sub": null,
+  "rhs": [],
+  "localizers": [
+   "",
+   "x",
+   "y"
+  ]
+ },
+ "y": {
+  "xxxxxxxxxxxxyyyyyyyyyyyy": "1",
+  "xxxxxxxxyyyyxxxxyyyyyyyy": "-4/3",
+  "xxxxyyyyxxxxyyyyxxxxyyyy": "2"
+ }
+}

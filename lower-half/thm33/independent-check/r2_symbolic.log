@@ -1,0 +1,63 @@
+== chain rule for h ==
+  h_B ok: True   h_C ok: True   h_BC ok (both orders): True
+  G_B ok: True   G_C ok: True   G_BC ok: True
+== sympy diff vs hand chain rule (400 random points, 60 digits): max rel diff 2.87e-61
+== cleared forms in (B, C, P, Q), k = 5 ==
+  (I) denominator: C*Q*(P + Q)**3 ; numerator = a + b P + c Q + d PQ with polynomial a..d of degrees [3, None, None, 2]
+  (II) denominator: C*P*Q*(P + Q)**2 ; numerator = a + b P + c Q + d PQ with polynomial a..d of degrees [3, None, None, 2]
+  (III) denominator: C*P*Q**3*(P + Q)**3 ; numerator = a + b P + c Q + d PQ with polynomial a..d of degrees [None, 4, 4, None]
+== comparison with the printed N_I, N_II, N_III (q = p + v) ==
+  (I) referee rational function == printed N/den : True
+  (II) referee rational function == printed N/den : True
+  (III) referee rational function == printed N/den : True
+== referee numerators in (p, v), denominators as printed ==
+  N_I:
+     v^5: 3
+     v^4: 21*p
+     v^3: 58*p**2
+     v^2: 80*p**3
+     v^1: 40*(p**4 + 6*p**2 - 20)
+     v^0: 80*p*(p**4 - 6*p**2 + 10)
+  N_II:
+     v^5: 3*p
+     v^4: 21*p**2
+     v^3: 2*p*(29*p**2 + 20)
+     v^2: 40*(2*p**4 + 7*p**2 - 10)
+     v^1: 40*p*(p**2 - 2)*(p**2 + 20)
+     v^0: 80*(p**6 - 8*p**4 + 50*p**2 - 100)
+  N_III:
+     v^7: 9*p
+     v^6: 81*p**2
+     v^5: p*(301*p**2 + 40)
+     v^4: 35*p**2*(17*p**2 + 8)
+     v^3: 2*p**3*(343*p**2 + 340)
+     v^2: 40*(7*p**6 + 85*p**4 - 290*p**2 + 400)
+     v^1: -40*p*(p**6 - 86*p**4 + 320*p**2 - 400)
+     v^0: 80*p**2*(p**6 - 8*p**4 + 50*p**2 - 100)
+== sign arguments ==
+  N_I v^5: [3] (y = x-5)  all coefficients > 0: True
+  N_I v^4: p * [21] (y = x-5)  all coefficients > 0: True
+  N_I v^3: [58*y + 290] (y = x-5)  all coefficients > 0: True
+  N_I v^2: p * [80*y + 400] (y = x-5)  all coefficients > 0: True
+  N_I v^1: [40*y**2 + 640*y + 1400] (y = x-5)  all coefficients > 0: True
+  N_I v^0: p * [80*y**2 + 320*y + 400] (y = x-5)  all coefficients > 0: True
+  N_II v^5: p * [3] (y = x-5)  all coefficients > 0: True
+  N_II v^4: [21*y + 105] (y = x-5)  all coefficients > 0: True
+  N_II v^3: p * [58*y + 330] (y = x-5)  all coefficients > 0: True
+  N_II v^2: [80*y**2 + 1080*y + 3000] (y = x-5)  all coefficients > 0: True
+  N_II v^1: p * [40*y**2 + 1120*y + 3000] (y = x-5)  all coefficients > 0: True
+  N_II v^0: [80*y**3 + 560*y**2 + 3600*y + 6000] (y = x-5)  all coefficients > 0: True
+  N_III v^7: p * [9] (y = x-5)  all coefficients > 0: True
+  N_III v^6: [81*y + 405] (y = x-5)  all coefficients > 0: True
+  N_III v^5: p * [301*y + 1545] (y = x-5)  all coefficients > 0: True
+  N_III v^4: [595*y**2 + 6230*y + 16275] (y = x-5)  all coefficients > 0: True
+  N_III v^3: p * [686*y**2 + 7540*y + 20550] (y = x-5)  all coefficients > 0: True
+  N_III v^2: [280*y**3 + 7600*y**2 + 43400*y + 78000] (y = x-5)  all coefficients > 0: True
+  N_III v^1: p * [-40*y**3 + 2840*y**2 + 18600*y + 33000] (y = x-5)  all coefficients > 0: False
+  N_III v^0: [80*y**4 + 960*y**3 + 6400*y**2 + 24000*y + 30000] (y = x-5)  all coefficients > 0: True
+  c(x) at x = 5+y: y**3 + 7*y**2 + 45*y + 75   == y^3+7y^2+45y+75: True
+  c2/40 at x = 5+y: 7*y**3 + 190*y**2 + 1085*y + 1950   == 7y^3+190y^2+1085y+1950: True
+  4 c0 c2 - c1^2 = 1600*x*(55*x**6 + 404*x**5 - 12996*x**4 + 106000*x**3 - 380800*x**2 + 648000*x - 480000)
+  (4 c0 c2 - c1^2)/(1600 x) at x = 5+y: 55*y**6 + 2054*y**5 + 17729*y**4 + 84580*y**3 + 280425*y**2 + 585750*y + 489375
+  == printed polynomial: True   all coefficients > 0: True
+  real roots of x^3-86x^2+320x-400 (c1 < 0 beyond the largest): [82.1646304056]

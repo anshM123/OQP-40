@@ -1,9 +1,13 @@
 # The lower half of OQP 40: status
 
-**Status (2026-10-08): OPEN in general.** It is proved in these cases:
+**Status (2026-10-09): OPEN in general.** It is proved in these cases:
 - min(n, m) ≤ 2;
+- (n, m) = (3,3), (3,4), (4,3), (4,4), (4,6) and (6,4), in any dimension
+  ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md));
 - A or B has at most two distinct eigenvalues, in any dimension (Proposition 2.5);
-- B has nonnegative entries in some eigenbasis of A (Proposition 2.4). This includes every pair with d = 2.
+- B has nonnegative entries in some eigenbasis of A (Proposition 2.4). This includes every pair with d = 2; for d = 2
+  even every single word satisfies $\operatorname{Tr}W\ge\operatorname{Tr}(A^{n/m}B)^m$, by Theorem 2.2 of Furuichi,
+  Kuriyama and Yanagi (Linear Algebra Appl. 430 (2009)), so the case d = 2 was known.
 
 This note records:
 - what is proved (Sections 2–3);
@@ -161,10 +165,14 @@ No counterexample was found.
 - **Proved cases.** It holds:
   - for m ≤ 2 (Proposition 2.2);
   - for rank-one B (Proposition 2.3);
-  - when B is entrywise ≥ 0 in some eigenbasis of A, including every pair with d = 2 (Proposition 2.4);
-  - when A has at most two distinct eigenvalues (Proposition 2.5).
+  - when B is entrywise ≥ 0 in some eigenbasis of A, including every pair with d = 2 (Proposition 2.4; for d = 2 this
+    already follows from Furuichi–Kuriyama–Yanagi 2009, Theorem 2.2);
+  - when A has at most two distinct eigenvalues (Proposition 2.5);
+  - at (n, m) = (3,3), (3,4), (4,4) and (6,4), in every dimension
+    ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md), Theorems 1 and 2).
 
-  The version with the letters exchanged holds in the exchanged cases.
+  The version with the letters exchanged holds in the exchanged cases. At (4,3) and (4,6) only the version with the
+  letters exchanged is proved ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md), Corollary 3).
 - **Numerics.** It held in every test above, including the Cha–Lee family (min ratio 1.25) and large-d Haar position
   (min ratio 1.06).
 - **For n = m** it reads $\mathcal A_{n,n}(A,B)\ge\operatorname{Tr}(AB)^n$: the average over all words dominates the

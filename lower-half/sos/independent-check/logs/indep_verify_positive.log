@@ -1,0 +1,114 @@
+# run 2026-10-08 23:58:20  files: ['F44_11-xx-yy.json', 'F44_gram.json', 'D44_11-xx-yy.json', 'M44_11-xx-yy.json', 'F34m_11-xx-yy.json', 'D34m_11-xx-yy.json', 'M34m_11-xx-yy.json', 'F64_11-xx-yy.json', 'P44.json', 'F24_11-xx-yy.json', 'F42_11-xx-yy.json']
+== F44_11-xx-yy.json: CLAIM (F) p_{4,4}(A,B) >= tr((AB)^4), X=A^{1/2}, Y=B^{1/2}
+    target f built from the definition: 10 cyclic classes, total degree 16, bidegree (8, 8); meta block states the same target: True
+    f reversal-symmetric (needed only for the dihedral variant): True
+    explicit: 66 terms by localizer {'(1,1)': 42, '(x,x)': 12, '(y,y)': 12}, all weights > 0 (exact), half-word bidegrees [('1', (4, 4)), ('x', (3, 4)), ('y', (4, 3))], every g has coefficient sum 0: True, common denominator 119835 digits
+    exact identity SOS == lambda * f modulo plain cyclic rotation: True  (lambda = 1, 10 classes compared, 0 mismatches)
+    SOS side reversal-symmetric: True; dihedral comparison agrees: True
+    => VERIFIED  (2.0s)
+== F44_gram.json: CLAIM (F) p_{4,4}(A,B) >= tr((AB)^4), Gram form
+    target f built from the definition: 10 cyclic classes, total degree 16, bidegree (8, 8); meta block states the same target: True
+    f reversal-symmetric (needed only for the dihedral variant): True
+    block 0: P=Q=1 N=70 r=23 rank(T)=23 bideg=[(4, 4)] S exactly PD: True (LDL^T 23 pivots > 0, min pivot ~ 5.045e-03, max pivot size 5894 digits, 0.1s)
+    block 1: P=Q=1 N=70 r=19 rank(T)=19 bideg=[(4, 4)] S exactly PD: True (LDL^T 19 pivots > 0, min pivot ~ 5.644e-03, max pivot size 5407 digits, 0.0s)
+    block 2: P=Q=x N=35 r=6 rank(T)=6 bideg=[(3, 4)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 3.738e-03, max pivot size 1293 digits, 0.0s)
+    block 3: P=Q=x N=35 r=6 rank(T)=6 bideg=[(3, 4)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 7.854e-03, max pivot size 1183 digits, 0.0s)
+    block 4: P=Q=y N=35 r=6 rank(T)=6 bideg=[(4, 3)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 3.577e-03, max pivot size 1293 digits, 0.0s)
+    block 5: P=Q=y N=35 r=6 rank(T)=6 bideg=[(4, 3)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 8.240e-03, max pivot size 1188 digits, 0.0s)
+    exact identity SOS == lambda * f modulo plain cyclic rotation: True  (lambda = 1, 10 classes compared, 0 mismatches)
+    SOS side reversal-symmetric: True; dihedral comparison agrees: True
+    => VERIFIED  (0.1s)
+== D44_11-xx-yy.json: CLAIM (D) p_{4,4} >= p^mult_{4,4}, X=A^{1/2}, Y=B^{1/2}
+    target f built from the definition: 10 cyclic classes, total degree 16, bidegree (8, 8); meta block states the same target: True
+    f reversal-symmetric (needed only for the dihedral variant): True
+    block 0: P=Q=1 N=70 r=23 rank(T)=23 bideg=[(4, 4)] S exactly PD: True (LDL^T 23 pivots > 0, min pivot ~ 7.548e-04, max pivot size 5830 digits, 0.1s)
+    block 1: P=Q=1 N=70 r=19 rank(T)=19 bideg=[(4, 4)] S exactly PD: True (LDL^T 19 pivots > 0, min pivot ~ 7.546e-04, max pivot size 5341 digits, 0.0s)
+    block 2: P=Q=x N=35 r=6 rank(T)=6 bideg=[(3, 4)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 7.335e-04, max pivot size 1274 digits, 0.0s)
+    block 3: P=Q=x N=35 r=6 rank(T)=6 bideg=[(3, 4)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 7.342e-04, max pivot size 1166 digits, 0.0s)
+    block 4: P=Q=y N=35 r=6 rank(T)=6 bideg=[(4, 3)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 7.335e-04, max pivot size 1272 digits, 0.0s)
+    block 5: P=Q=y N=35 r=6 rank(T)=6 bideg=[(4, 3)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 7.335e-04, max pivot size 1167 digits, 0.0s)
+    exact identity SOS == lambda * f modulo plain cyclic rotation: True  (lambda = 1, 10 classes compared, 0 mismatches)
+    SOS side reversal-symmetric: True; dihedral comparison agrees: True
+    => VERIFIED  (0.1s)
+== M44_11-xx-yy.json: CLAIM (M) p^mult_{4,4} >= tr((AB)^4), X=A^{1/2}, Y=B^{1/2}
+    target f built from the definition: 10 cyclic classes, total degree 16, bidegree (8, 8); meta block states the same target: True
+    f reversal-symmetric (needed only for the dihedral variant): True
+    block 0: P=Q=1 N=70 r=23 rank(T)=23 bideg=[(4, 4)] S exactly PD: True (LDL^T 23 pivots > 0, min pivot ~ 4.574e-04, max pivot size 5801 digits, 0.1s)
+    block 1: P=Q=1 N=70 r=19 rank(T)=19 bideg=[(4, 4)] S exactly PD: True (LDL^T 19 pivots > 0, min pivot ~ 2.815e-04, max pivot size 5323 digits, 0.0s)
+    block 2: P=Q=x N=35 r=6 rank(T)=6 bideg=[(3, 4)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 1.366e-04, max pivot size 1260 digits, 0.0s)
+    block 3: P=Q=x N=35 r=6 rank(T)=6 bideg=[(3, 4)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 1.756e-04, max pivot size 1161 digits, 0.0s)
+    block 4: P=Q=y N=35 r=6 rank(T)=6 bideg=[(4, 3)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 1.366e-04, max pivot size 1265 digits, 0.0s)
+    block 5: P=Q=y N=35 r=6 rank(T)=6 bideg=[(4, 3)] S exactly PD: True (LDL^T 6 pivots > 0, min pivot ~ 1.886e-04, max pivot size 1163 digits, 0.0s)
+    exact identity SOS == lambda * f modulo plain cyclic rotation: True  (lambda = 1, 10 classes compared, 0 mismatches)
+    SOS side reversal-symmetric: True; dihedral comparison agrees: True
+    => VERIFIED  (0.1s)
+== F34m_11-xx-yy.json: CLAIM (F) p_{3,4}(A,B) >= tr((A^{3/4}B)^4), X=A^{1/4}, Y=B^{1/2}
+    target f built from the definition: 6 cyclic classes, total degree 20, bidegree (12, 8); meta block states the same target: True
+    f reversal-symmetric (needed only for the dihedral variant): True
+    block 0: P=Q=1 N=210 r=44 rank(T)=44 bideg=[(6, 4)] S exactly PD: True (LDL^T 44 pivots > 0, min pivot ~ 1.746e-03, max pivot size 20066 digits, 0.9s)
+    block 1: P=Q=1 N=210 r=38 rank(T)=38 bideg=[(6, 4)] S exactly PD: True (LDL^T 38 pivots > 0, min pivot ~ 1.895e-03, max pivot size 15387 digits, 0.3s)
+    block 2: P=Q=x N=126 r=31 rank(T)=31 bideg=[(5, 4)] S exactly PD: True (LDL^T 31 pivots > 0, min pivot ~ 1.712e-03, max pivot size 12697 digits, 0.2s)
+    block 3: P=Q=x N=126 r=27 rank(T)=27 bideg=[(5, 4)] S exactly PD: True (LDL^T 27 pivots > 0, min pivot ~ 1.750e-03, max pivot size 9363 digits, 0.1s)
+    block 4: P=Q=y N=84 r=15 rank(T)=15 bideg=[(6, 3)] S exactly PD: True (LDL^T 15 pivots > 0, min pivot ~ 1.788e-03, max pivot size 5341 digits, 0.0s)
+    block 5: P=Q=y N=84 r=13 rank(T)=13 bideg=[(6, 3)] S exactly PD: True (LDL^T 13 pivots > 0, min pivot ~ 1.999e-03, max pivot size 6026 digits, 0.0s)
+    exact identity SOS == lambda * f modulo plain cyclic rotation: True  (lambda = 1, 6 classes compared, 0 mismatches)
+    SOS side reversal-symmetric: True; dihedral comparison agrees: True
+    => VERIFIED  (1.7s)
+== D34m_11-xx-yy.json: CLAIM (D) p_{3,4} >= p^mult_{3,4}, X=A^{1/4}, Y=B^{1/2}
+    target f built from the definition: 5 cyclic classes, total degree 20, bidegree (12, 8); meta block states the same target: True
+    f reversal-symmetric (needed only for the dihedral variant): True
+    block 0: P=Q=1 N=210 r=44 rank(T)=44 bideg=[(6, 4)] S exactly PD: True (LDL^T 44 pivots > 0, min pivot ~ 9.426e-04, max pivot size 20070 digits, 0.9s)
+    block 1: P=Q=1 N=210 r=38 rank(T)=38 bideg=[(6, 4)] S exactly PD: True (LDL^T 38 pivots > 0, min pivot ~ 1.495e-03, max pivot size 15394 digits, 0.3s)
+    block 2: P=Q=x N=126 r=31 rank(T)=31 bideg=[(5, 4)] S exactly PD: True (LDL^T 31 pivots > 0, min pivot ~ 1.099e-03, max pivot size 12713 digits, 0.2s)
+    block 3: P=Q=x N=126 r=27 rank(T)=27 bideg=[(5, 4)] S exactly PD: True (LDL^T 27 pivots > 0, min pivot ~ 1.318e-03, max pivot size 9372 digits, 0.1s)
+    block 4: P=Q=y N=84 r=15 rank(T)=15 bideg=[(6, 3)] S exactly PD: True (LDL^T 15 pivots > 0, min pivot ~ 2.009e-03, max pivot size 5349 digits, 0.0s)
+    block 5: P=Q=y N=84 r=13 rank(T)=13 bideg=[(6, 3)] S exactly PD: True (LDL^T 13 pivots > 0, min pivot ~ 4.131e-03, max pivot size 6032 digits, 0.0s)
+    exact identity SOS == lambda * f modulo plain cyclic rotation: True  (lambda = 1, 5 classes compared, 0 mismatches)
+    SOS side reversal-symmetric: True; dihedral comparison agrees: True
+    => VERIFIED  (1.7s)
+== M34m_11-xx-yy.json: CLAIM (M) p^mult_{3,4} >= tr((A^{3/4}B)^4), X=A^{1/4}, Y=B^{1/2}
+    target f built from the definition: 6 cyclic classes, total degree 20, bidegree (12, 8); meta block states the same target: True
+    f reversal-symmetric (needed only for the dihedral variant): True
+    block 0: P=Q=1 N=210 r=44 rank(T)=44 bideg=[(6, 4)] S exactly PD: True (LDL^T 44 pivots > 0, min pivot ~ 4.709e-04, max pivot size 20053 digits, 1.1s)
+    block 1: P=Q=1 N=210 r=38 rank(T)=38 bideg=[(6, 4)] S exactly PD: True (LDL^T 38 pivots > 0, min pivot ~ 5.874e-04, max pivot size 15377 digits, 0.3s)
+    block 2: P=Q=x N=126 r=31 rank(T)=31 bideg=[(5, 4)] S exactly PD: True (LDL^T 31 pivots > 0, min pivot ~ 4.525e-04, max pivot size 12689 digits, 0.2s)
+    block 3: P=Q=x N=126 r=27 rank(T)=27 bideg=[(5, 4)] S exactly PD: True (LDL^T 27 pivots > 0, min pivot ~ 4.523e-04, max pivot size 9357 digits, 0.1s)
+    block 4: P=Q=y N=84 r=15 rank(T)=15 bideg=[(6, 3)] S exactly PD: True (LDL^T 15 pivots > 0, min pivot ~ 6.045e-04, max pivot size 5339 digits, 0.0s)
+    block 5: P=Q=y N=84 r=13 rank(T)=13 bideg=[(6, 3)] S exactly PD: True (LDL^T 13 pivots > 0, min pivot ~ 8.081e-04, max pivot size 6023 digits, 0.0s)
+    exact identity SOS == lambda * f modulo plain cyclic rotation: True  (lambda = 1, 6 classes compared, 0 mismatches)
+    SOS side reversal-symmetric: True; dihedral comparison agrees: True
+    => VERIFIED  (1.8s)
+== F64_11-xx-yy.json: CLAIM (F) p_{6,4}(A,B) >= tr((A^{3/2}B)^4), X=A^{1/2}, Y=B^{1/2}
+    target f built from the definition: 23 cyclic classes, total degree 20, bidegree (12, 8); meta block states the same target: True
+    f reversal-symmetric (needed only for the dihedral variant): True
+    block 0: P=Q=1 N=210 r=44 rank(T)=44 bideg=[(6, 4)] S exactly PD: True (LDL^T 44 pivots > 0, min pivot ~ 1.065e-03, max pivot size 63635 digits, 16.1s)
+    block 1: P=Q=1 N=210 r=38 rank(T)=38 bideg=[(6, 4)] S exactly PD: True (LDL^T 38 pivots > 0, min pivot ~ 9.878e-04, max pivot size 59123 digits, 9.0s)
+    block 2: P=Q=x N=126 r=31 rank(T)=31 bideg=[(5, 4)] S exactly PD: True (LDL^T 31 pivots > 0, min pivot ~ 9.766e-04, max pivot size 47845 digits, 4.6s)
+    block 3: P=Q=x N=126 r=27 rank(T)=27 bideg=[(5, 4)] S exactly PD: True (LDL^T 27 pivots > 0, min pivot ~ 9.811e-04, max pivot size 45348 digits, 2.2s)
+    block 4: P=Q=y N=84 r=15 rank(T)=15 bideg=[(6, 3)] S exactly PD: True (LDL^T 15 pivots > 0, min pivot ~ 1.141e-03, max pivot size 24869 digits, 0.1s)
+    block 5: P=Q=y N=84 r=13 rank(T)=13 bideg=[(6, 3)] S exactly PD: True (LDL^T 13 pivots > 0, min pivot ~ 9.756e-04, max pivot size 18609 digits, 0.1s)
+    exact identity SOS == lambda * f modulo plain cyclic rotation: True  (lambda = 1, 23 classes compared, 0 mismatches)
+    SOS side reversal-symmetric: True; dihedral comparison agrees: True
+    => VERIFIED  (33.0s)
+== P44.json: CLAIM sanity: p_{4,4}(X^2,Y^2) >= 0, pure cyclic SOS (BMV S_{8,4})
+    target f built from the definition: 10 cyclic classes, total degree 16, bidegree (8, 8); meta block states the same target: True
+    f reversal-symmetric (needed only for the dihedral variant): True
+    explicit: 50 terms by localizer {'(1,1)': 50}, all weights > 0 (exact), half-word bidegrees [('1', (4, 4))], every g has coefficient sum 0: False, common denominator 2626 digits
+    exact identity SOS == lambda * f modulo plain cyclic rotation: True  (lambda = 1, 10 classes compared, 0 mismatches)
+    SOS side reversal-symmetric: True; dihedral comparison agrees: True
+    => VERIFIED  (0.0s)
+== F24_11-xx-yy.json: CLAIM sanity: (F) p_{2,4}(A,B) >= tr((A^{1/2}B)^4)
+    target f built from the definition: 4 cyclic classes, total degree 12, bidegree (4, 8); meta block states the same target: True
+    f reversal-symmetric (needed only for the dihedral variant): True
+    explicit: 20 terms by localizer {'(1,1)': 11, '(x,x)': 3, '(y,y)': 6}, all weights > 0 (exact), half-word bidegrees [('1', (2, 4)), ('x', (1, 4)), ('y', (2, 3))], every g has coefficient sum 0: True, common denominator 785 digits
+    exact identity SOS == lambda * f modulo plain cyclic rotation: True  (lambda = 1, 4 classes compared, 0 mismatches)
+    SOS side reversal-symmetric: True; dihedral comparison agrees: True
+    => VERIFIED  (0.0s)
+== F42_11-xx-yy.json: CLAIM sanity: (F) p_{4,2}(A,B) >= tr((A^2B)^2)
+    target f built from the definition: 3 cyclic classes, total degree 12, bidegree (8, 4); meta block states the same target: True
+    f reversal-symmetric (needed only for the dihedral variant): True
+    explicit: 9 terms by localizer {'(1,1)': 5, '(x,x)': 3, '(y,y)': 1}, all weights > 0 (exact), half-word bidegrees [('1', (4, 2)), ('x', (3, 2)), ('y', (4, 1))], every g has coefficient sum 0: True, common denominator 84 digits
+    exact identity SOS == lambda * f modulo plain cyclic rotation: True  (lambda = 1, 3 classes compared, 0 mismatches)
+    SOS side reversal-symmetric: True; dihedral comparison agrees: True
+    => VERIFIED  (0.0s)
+SUMMARY: F44_11-xx-yy.json: OK, F44_gram.json: OK, D44_11-xx-yy.json: OK, M44_11-xx-yy.json: OK, F34m_11-xx-yy.json: OK, D34m_11-xx-yy.json: OK, M34m_11-xx-yy.json: OK, F64_11-xx-yy.json: OK, P44.json: OK, F24_11-xx-yy.json: OK, F42_11-xx-yy.json: OK

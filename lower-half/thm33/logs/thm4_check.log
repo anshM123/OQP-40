@@ -1,0 +1,2 @@
+(a) identity Phi = 3 sum <R,G>: max rel error 1.15e-14;  min normalised eigenvalue of apex matrices -2.472e-11
+(b) min p_33 / tr((AB)^3) over 2000 random pairs, d = 4..24: 1.001328

@@ -1,0 +1,23 @@
+{
+ "type": "nonexistence",
+ "label": "P33 with A=X^2, B=Y^4, localizers 1, X, Y",
+ "meta": {
+  "n": 3,
+  "m": 3,
+  "ea": 2,
+  "eb": 4,
+  "lhs": "p",
+  "sub": null,
+  "rhs": [],
+  "localizers": [
+   "",
+   "x",
+   "y"
+  ]
+ },
+ "y": {
+  "xxxxxxyyyyyyyyyyyy": "1",
+  "xxxxyyyyxxyyyyyyyy": "-4/3",
+  "xxyyyyxxyyyyxxyyyy": "2"
+ }
+}

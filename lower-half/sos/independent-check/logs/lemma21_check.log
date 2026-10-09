@@ -1,0 +1,5 @@
+(n,m)=(3,3) k=1: 20 half-words, 2 pairs hit (A^kB)^m, all diagonal: True; coefficient in f = -9/10 (Lemma: -9/10, equal: True)
+(n,m)=(6,3) k=2: 84 half-words, 2 pairs hit (A^kB)^m, all diagonal: True; coefficient in f = -27/28 (Lemma: -27/28, equal: True)
+(n,m)=(9,3) k=3: 220 half-words, 2 pairs hit (A^kB)^m, all diagonal: True; coefficient in f = -54/55 (Lemma: -54/55, equal: True)
+(n,m)=(12,3) k=4: 455 half-words, 2 pairs hit (A^kB)^m, all diagonal: True; coefficient in f = -90/91 (Lemma: -90/91, equal: True)
+(n,m)=(5,5) k=1: 252 half-words, 2 pairs hit (A^kB)^m, all diagonal: True; coefficient in f = -125/126 (Lemma: -125/126, equal: True)

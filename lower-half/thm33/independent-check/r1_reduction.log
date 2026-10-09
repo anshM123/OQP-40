@@ -1,0 +1,30 @@
+== A1. Kernel of p_{3,3} derived from the 20 words ==
+  M3 (word average kernel, S3-symmetrised) == h_3/10 : True
+  10*(M3 - xyz) == kappa : True
+  kappa(x,x,x) == 0 : True
+  kappa(x,y,y) == (x-y)^2 (x+4y) : True
+  rotation classes (rep: size): {'AAABBB': 6, 'AABABB': 6, 'AABBAB': 6, 'ABABAB': 2}
+== A2. Apex identity (6.1): kappa = sum_l (a-l)(b-l)(l+2a+2b) ==
+  identity holds: True
+  s_y = -(y-x)(z-y)(y+2x+2z): True
+== A3. Lemma 6 formula: kappa(1,1+B,1+C) - cap = B^2 C G(B,C), B <= C ==
+  identity (reduced mod p^2=C+5, q^2=C+4B+5) == 0 : True
+  E_1(b,b) = kappa(1,1+B,1+B) == B^2(4B+5) : True
+  formula at C=B gives the diagonal: True
+  kappa homogeneous deg 3: True
+== A4. Derivatives of F = sqrt(B/C) G for arbitrary smooth G ==
+  F_B formula: True   F_C formula: True   F_BC formula: True
+== B. Ball-arithmetic checks on random instances (256-bit) ==
+  120 instances, r = 1..7 distinct eigenvalues of A, multiplicities 1..3, complex B (spread spectrum)
+  max rel err |20 p33 - (6t1+12Re t2+2t3)| and |10(p33-t3) - 3f| : 8.37e-75
+  max rel err |Phi_B(kappa) - 3 f|            : 9.48e-75
+  max rel err |sum_l <R^(l),G^(l)> - f|      : 1.46e-62
+  max rel err |R^(l)_ab - R^(a)_lb|          : 1.10e-75
+  min normalised eigenvalue of R^(l) (real)   : 0.00027769
+  min normalised eigenvalue of S^(l) (complex Hermitian, no Re): 0.00027766
+  min normalised eigenvalue of certificate G^(l): -1.4037e-60
+  certificate structure (diag = (l-a)^2(l+4a), below block = u u^T) exact to 1e-40: True
+== B2. y^T R y = tr(W_l Y^2) for real y; complex y needs the Hermitian matrix S ==
+  real y: max rel |y^T R y - tr(W_l Y^2)| = 8.09e-51  (tr(W_l Y^2) real, >= 0)
+  off-diagonal tr(W_l W_a W_b) have imaginary parts up to 418.0 (so R needs Re to be a real symmetric matrix)
+  complex y: max rel |y^* S y - tr(W_l Z^*Z)| = 7.67e-51  (S = [tr(W_l W_a W_b)] is Hermitian PSD)

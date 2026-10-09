@@ -1,0 +1,5 @@
+400 point sets (k = 1..30; s = 1e-6..1e6; spreads up to 1e12 s; clusters down to 1e-12 s above s)
+  homogeneity E_s = s^3 E_1(./s, ./s): max rel err 4.52e-86
+  E_1(b,c) = B^1.5 C^1.5 F(B,C): max rel err 4.34e-86
+  min normalised eigenvalue of [E_s(b_i,b_j)]: 1.9981e-13  (worst: mode 2, k = 30)
+  Lemma 7: min mu_pq / (|F(x_p,x_q)|+1) = 3.4196e-24  (>= 0 expected);  telescoping reconstruction max rel err 1.45e-120

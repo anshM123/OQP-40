@@ -1,0 +1,24 @@
+{
+ "type": "nonexistence",
+ "label": "F33 pure SOS, A=X^2,B=Y^2, y = indicator of (AB)^3",
+ "meta": {
+  "n": 3,
+  "m": 3,
+  "ea": 2,
+  "eb": 2,
+  "lhs": "p",
+  "sub": null,
+  "rhs": [
+   [
+    "1",
+    "xxyyxxyyxxyy"
+   ]
+  ],
+  "localizers": [
+   ""
+  ]
+ },
+ "y": {
+  "xxyyxxyyxxyy": "1"
+ }
+}

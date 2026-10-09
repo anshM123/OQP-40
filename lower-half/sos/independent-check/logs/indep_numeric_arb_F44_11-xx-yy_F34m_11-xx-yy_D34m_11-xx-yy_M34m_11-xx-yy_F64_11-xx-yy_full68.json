@@ -1,0 +1,42 @@
+{
+ "F44_11-xx-yy.json": {
+  "samples": 18,
+  "ok": 18,
+  "worst_rel_diff": 2.5063166597069995e-179,
+  "min_f_over_scale": 2.0558182538717415e-12,
+  "min_part_over_scale": 5.955204641802196e-18,
+  "seconds": 5.6
+ },
+ "F34m_11-xx-yy.json": {
+  "samples": 18,
+  "ok": 18,
+  "worst_rel_diff": 8.772108308974498e-179,
+  "min_f_over_scale": 2.678155249774185e-12,
+  "min_part_over_scale": 4.381725865358749e-14,
+  "seconds": 36.7
+ },
+ "D34m_11-xx-yy.json": {
+  "samples": 18,
+  "ok": 18,
+  "worst_rel_diff": 6.169394854663383e-179,
+  "min_f_over_scale": 1.4430709852527787e-12,
+  "min_part_over_scale": 6.960050423667159e-14,
+  "seconds": 35.3
+ },
+ "M34m_11-xx-yy.json": {
+  "samples": 18,
+  "ok": 18,
+  "worst_rel_diff": 3.181094221935807e-179,
+  "min_f_over_scale": 4.907957359579862e-12,
+  "min_part_over_scale": 1.373331726038216e-14,
+  "seconds": 34.9
+ },
+ "F64_11-xx-yy.json": {
+  "samples": 18,
+  "ok": 18,
+  "worst_rel_diff": 1.4652312779825535e-178,
+  "min_f_over_scale": 3.006076875924593e-12,
+  "min_part_over_scale": 5.894251109555262e-14,
+  "seconds": 39.9
+ }
+}

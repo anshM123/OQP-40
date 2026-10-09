@@ -1,0 +1,21 @@
+{
+ "type": "nonexistence",
+ "label": "P33 = p_{3,3}(X^2,Y^2) pure SOS",
+ "meta": {
+  "n": 3,
+  "m": 3,
+  "ea": 2,
+  "eb": 2,
+  "lhs": "p",
+  "sub": null,
+  "rhs": [],
+  "localizers": [
+   ""
+  ]
+ },
+ "y": {
+  "xxxxxxyyyyyy": "1",
+  "xxxxyyxxyyyy": "-4/3",
+  "xxyyxxyyxxyy": "2"
+ }
+}

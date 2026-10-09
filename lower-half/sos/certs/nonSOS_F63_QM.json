@@ -1,0 +1,28 @@
+{
+ "type": "nonexistence",
+ "label": "F63 = p_{6,3} - tr(X^4 Y^2)^3 with localizers 1, X, Y",
+ "meta": {
+  "n": 6,
+  "m": 3,
+  "ea": 2,
+  "eb": 2,
+  "lhs": "p",
+  "sub": null,
+  "rhs": [
+   [
+    "1",
+    "xxxxyyxxxxyyxxxxyy"
+   ]
+  ],
+  "localizers": [
+   "",
+   "x",
+   "y"
+  ]
+ },
+ "y": {
+  "xxxxxxxxxxxxyyyyyy": "1",
+  "xxxxxxxxyyxxxxyyyy": "-4/3",
+  "xxxxyyxxxxyyxxxxyy": "2"
+ }
+}
