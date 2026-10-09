@@ -1,0 +1,8 @@
+n = 4: 15 random (A,B), r = 3..6, d <= 12: max rel. error of p - frac = Phi_B(K) = 3 sum<R,G>: 5.09e-38;  min normalised eigenvalue of all G^(l): -4.59e-41;  min p_n3/tr((A^(n/3)B)^3): 1.0043816
+n = 5: 15 random (A,B), r = 3..6, d <= 12: max rel. error of p - frac = Phi_B(K) = 3 sum<R,G>: 1.06e-38;  min normalised eigenvalue of all G^(l): -9.8e-41;  min p_n3/tr((A^(n/3)B)^3): 1.028747
+n = 6: 15 random (A,B), r = 3..6, d <= 12: max rel. error of p - frac = Phi_B(K) = 3 sum<R,G>: 1.85e-38;  min normalised eigenvalue of all G^(l): -1.04e-40;  min p_n3/tr((A^(n/3)B)^3): 1.0148192
+n = 7: 15 random (A,B), r = 3..6, d <= 12: max rel. error of p - frac = Phi_B(K) = 3 sum<R,G>: 5.16e-38;  min normalised eigenvalue of all G^(l): -1.27e-40;  min p_n3/tr((A^(n/3)B)^3): 1.0071019
+n = 8: 15 random (A,B), r = 3..6, d <= 12: max rel. error of p - frac = Phi_B(K) = 3 sum<R,G>: 1.57e-38;  min normalised eigenvalue of all G^(l): -1.16e-40;  min p_n3/tr((A^(n/3)B)^3): 1.0069106
+n = 10: 10 random (A,B), r = 3..6, d <= 12: max rel. error of p - frac = Phi_B(K) = 3 sum<R,G>: 1.17e-38;  min normalised eigenvalue of all G^(l): -4.59e-41;  min p_n3/tr((A^(n/3)B)^3): 1.0238882
+n = 12: 10 random (A,B), r = 3..6, d <= 12: max rel. error of p - frac = Phi_B(K) = 3 sum<R,G>: 6.46e-38;  min normalised eigenvalue of all G^(l): -9.18e-41;  min p_n3/tr((A^(n/3)B)^3): 1.0122472
+n = 15: 10 random (A,B), r = 3..6, d <= 12: max rel. error of p - frac = Phi_B(K) = 3 sum<R,G>: 2.6e-38;  min normalised eigenvalue of all G^(l): -9.18e-41;  min p_n3/tr((A^(n/3)B)^3): 1.0078004

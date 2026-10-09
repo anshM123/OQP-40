@@ -1,0 +1,10 @@
+Lemma 6 verification, n = 14, working variables cube roots of s,t
+  (P0) q1: degree 40, shifted terms 861, value at X = Y = 1: 119/2, OK = True
+  (P0) q2: degree 40, shifted terms 861, value at X = Y = 1: 119/2, OK = True
+  (P0) pt: degree 40, shifted terms 41, value at X = Y = 1: 119/2, OK = True
+  (P0) Dw: degree 41, shifted terms 41, value at X = Y = 1: 0, OK = True
+  C0: gcd factors (degree, mult) [] positive = True;  alpha': degree 42, 943 shifted terms, all >= 0: True;  Delta: degree 84, 3132 shifted terms, all >= 0: True
+  C1: gcd factors (degree, mult) [(1, 2)] positive = True;  beta': degree 80, 2577 shifted terms, all >= 0: True;  -Delta: degree 240, 23424 shifted terms, all >= 0: True
+  C2: gcd factors (degree, mult) [(1, 2)] positive = True;  beta': degree 120, 7378 shifted terms, all >= 0: True;  -Delta: degree 320, 50686 shifted terms, all >= 0: True
+  C3: gcd factors (degree, mult) [(1, 2), (1, 2)] positive = True;  alpha': degree 238, 27936 shifted terms, all >= 0: True;  Delta: degree 476, 107794 shifted terms, all >= 0: True
+RESULT n = 14: ALL OBLIGATIONS VERIFIED  (sha256 of proved polynomials 32f4f50f4f12b74a..., 44.4s)

@@ -4,6 +4,8 @@
 - min(n, m) ≤ 2;
 - (n, m) = (3,3), (3,4), (4,3), (4,4), (4,6) and (6,4), in any dimension
   ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md));
+- (n, 3) and (3, n) for n = 1, …, 24 and n = 27, 30, …, 60, in any dimension, by an exact computation for each n
+  ([`05-lower-half-m3.md`](05-lower-half-m3.md));
 - A or B has at most two distinct eigenvalues, in any dimension (Proposition 2.5);
 - B has nonnegative entries in some eigenbasis of A (Proposition 2.4). This includes every pair with d = 2; for d = 2
   even every single word satisfies $\operatorname{Tr}W\ge\operatorname{Tr}(A^{n/m}B)^m$, by Theorem 2.2 of Furuichi,
@@ -169,7 +171,9 @@ No counterexample was found.
     already follows from Furuichi–Kuriyama–Yanagi 2009, Theorem 2.2);
   - when A has at most two distinct eigenvalues (Proposition 2.5);
   - at (n, m) = (3,3), (3,4), (4,4) and (6,4), in every dimension
-    ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md), Theorems 1 and 2).
+    ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md), Theorems 1 and 2);
+  - at (n, 3) for n = 1, …, 24 and n = 27, 30, …, 60, in every dimension
+    ([`05-lower-half-m3.md`](05-lower-half-m3.md), Theorem 5).
 
   The version with the letters exchanged holds in the exchanged cases. At (4,3) and (4,6) only the version with the
   letters exchanged is proved ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md), Corollary 3).

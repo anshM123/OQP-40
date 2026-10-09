@@ -54,7 +54,9 @@ $N_j(J)=\#\{l:J_l=j\}$.
 - Conjecture F itself at (4,3) and (4,6), that is, $\mathcal A_{4,3}\ge\operatorname{Tr}(A^{4/3}B)^3$ and
   $\mathcal A_{4,6}\ge\operatorname{Tr}(A^{2/3}B)^6$, is not proved. Only the versions with the letters exchanged are.
 - At (6,4) the two intermediate steps through $p^{\rm mult}_{6,4}$ are not proved.
-- All other cases with min(n, m) ≥ 3, for example (3,5) and (5,5), remain open.
+- All other cases with min(n, m) ≥ 3 are not covered by this note. (Later: Conjecture F at (4,3), and the lower half
+  at (n, 3) and (3, n) for many more n, are proved in [`05-lower-half-m3.md`](05-lower-half-m3.md). Cases such as
+  (5,5) remain open.)
 
 ## 2. Proof of Theorem 1
 

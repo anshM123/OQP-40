@@ -1,0 +1,9 @@
+  q1: SP and positive on the closed region: True (3 terms)
+  q2: SP and positive on the closed region: True (3 terms)
+  pt: SP and positive on the closed region: True (2 terms)
+  Dw: SP and positive on the closed region: True (2 terms)
+  F >= 0: gcd positive True; route (a) True; route (b) False; deg Delta 6
+  F_X >= 0: gcd positive True; route (a) False; route (b) True; deg Delta 10
+  F_Y <= 0: gcd positive True; route (a) False; route (b) True; deg Delta 12
+  F_XY <= 0: gcd positive True; route (a) True; route (b) False; deg Delta 16
+RESULT n = 3: VERIFIED (1 s)

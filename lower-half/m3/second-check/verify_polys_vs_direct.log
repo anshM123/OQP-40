@@ -1,0 +1,8 @@
+RESULT n = 4: ALL OBLIGATIONS VERIFIED  (sha256 of proved polynomials 35310ded7cd7a83b..., 0.1s)
+n = 4: 10 random points, largest relative difference between verify_n.py's exact conditions and the direct computation: 3.96e-76
+RESULT n = 5: ALL OBLIGATIONS VERIFIED  (sha256 of proved polynomials fadf3cf5979b4d0e..., 0.4s)
+n = 5: 10 random points, largest relative difference between verify_n.py's exact conditions and the direct computation: 2.02e-75
+RESULT n = 7: ALL OBLIGATIONS VERIFIED  (sha256 of proved polynomials 4cded22c287198fa..., 1.6s)
+n = 7: 10 random points, largest relative difference between verify_n.py's exact conditions and the direct computation: 3.39e-74
+RESULT n = 6: ALL OBLIGATIONS VERIFIED  (sha256 of proved polynomials bfe4580490bb3eb6..., 0.0s)
+n = 6: 10 random points, largest relative difference between verify_n.py's exact conditions and the direct computation: 1.63e-77

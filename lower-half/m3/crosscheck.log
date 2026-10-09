@@ -1,0 +1,10 @@
+n = 3, weight std: max relative mismatch symbolic vs direct differentiation: {'C0': '5.18e-57', 'C1': '2.26e-56', 'C2': '4.06e-57', 'C3': '1.77e-56'}
+n = 3, weight diag: max relative mismatch symbolic vs direct differentiation: {'C0': '5.18e-57', 'C1': '9.11e-57', 'C2': '1.15e-56', 'C3': '7.54e-57'}
+n = 4, weight diag: max relative mismatch symbolic vs direct differentiation: {'C0': '1.21e-56', 'C1': '4.29e-57', 'C2': '3.46e-56', 'C3': '2.26e-56'}
+n = 5, weight diag: max relative mismatch symbolic vs direct differentiation: {'C0': '2.82e-56', 'C1': '1.98e-56', 'C2': '2.02e-56', 'C3': '2.73e-56'}
+n = 6, weight diag: max relative mismatch symbolic vs direct differentiation: {'C0': '4.35e-56', 'C1': '3.25e-56', 'C2': '5.04e-56', 'C3': '7.56e-56'}
+n = 4, weight std: max relative mismatch symbolic vs direct differentiation: {'C0': '1.21e-56', 'C1': '2.55e-56', 'C2': '1.59e-56', 'C3': '5.86e-56'}
+n = 6, weight std: max relative mismatch symbolic vs direct differentiation: {'C0': '4.35e-56', 'C1': '6.65e-56', 'C2': '8.0e-56', 'C3': '9.89e-56'}
+n = 7, weight diag: max relative mismatch symbolic vs direct differentiation: {'C0': '6.4e-56', 'C1': '2.52e-56', 'C2': '2.63e-55', 'C3': '1.12e-55'}
+n = 8, weight diag: max relative mismatch symbolic vs direct differentiation: {'C0': '1.97e-55', 'C1': '3.42e-55', 'C2': '1.1e-54', 'C3': '1.14e-54'}
+n = 9, weight diag: max relative mismatch symbolic vs direct differentiation: {'C0': '1.51e-54', 'C1': '2.93e-54', 'C2': '1.01e-54', 'C3': '7.36e-54'}

@@ -9,6 +9,8 @@ This folder holds the computations behind
   (3,3) and (6,3), and our exact verifier.
 - [`sos/independent-check/`](sos/independent-check/): an independent verifier for all 25 certificate files, with its
   own code.
+- [`m3/`](m3/README.md): Theorem 5 of [`../math/05-lower-half-m3.md`](../math/05-lower-half-m3.md), Conjecture F at
+  (n, 3) for many n: the exact verifier, its logs for every n, and the checks.
 
 Both checks are internal checks, made with newly written code. They are not external referee reports.
 

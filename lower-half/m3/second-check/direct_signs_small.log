@@ -1,0 +1,4 @@
+n = 3: 240 points; minima (scaled): F 1.7059e-6, F_s 0.013766, -F_t 8.3487e-7, -F_st 0.0068803; negative values: 0
+n = 4: 240 points; minima (scaled): F 1.2532e-6, F_s 0.0049577, -F_t 8.1461e-7, -F_st 0.0033038; negative values: 0
+n = 5: 240 points; minima (scaled): F 8.3805e-7, F_s 0.001615, -F_t 6.8414e-7, -F_st 0.0013455; negative values: 0
+n = 7: 240 points; minima (scaled): F 3.1641e-7, F_s 0.00014444, -F_t 3.6448e-7, -F_st 0.00016848; negative values: 0

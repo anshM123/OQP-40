@@ -1,0 +1,10 @@
+Lemma 6 verification, n = 51, working variables s,t
+  (P0) q1: degree 49, shifted terms 1275, value at X = Y = 1: 153/2, OK = True
+  (P0) q2: degree 49, shifted terms 1275, value at X = Y = 1: 153/2, OK = True
+  (P0) pt: degree 49, shifted terms 50, value at X = Y = 1: 153/2, OK = True
+  (P0) Dw: degree 50, shifted terms 50, value at X = Y = 1: 0, OK = True
+  C0: gcd factors (degree, mult) [] positive = True;  alpha': degree 51, 1375 shifted terms, all >= 0: True;  Delta: degree 102, 4620 shifted terms, all >= 0: True
+  C1: gcd factors (degree, mult) [] positive = True;  beta': degree 100, 3923 shifted terms, all >= 0: True;  -Delta: degree 298, 35735 shifted terms, all >= 0: True
+  C2: gcd factors (degree, mult) [] positive = True;  beta': degree 149, 11322 shifted terms, all >= 0: True;  -Delta: degree 396, 77679 shifted terms, all >= 0: True
+  C3: gcd factors (degree, mult) [] positive = True;  alpha': degree 296, 43025 shifted terms, all >= 0: True;  Delta: degree 592, 166418 shifted terms, all >= 0: True
+RESULT n = 51: ALL OBLIGATIONS VERIFIED  (sha256 of proved polynomials e2d4fc858fd8a19a..., 127.8s)
