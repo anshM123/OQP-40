@@ -11,8 +11,8 @@ python verify_n.py n
 
 This checks the obligations (P0), (Pg), (P1) and (P2) of Section 3 of the note exactly, over the rationals, and ends
 with `RESULT n = ...: ALL OBLIGATIONS VERIFIED` and a SHA-256 digest of the proved polynomials. Logs: `verify_n{n}.log`
-for n = 1, …, 24 and n = 27, 30, …, 60. Run times are in the table of Section 4 of the note (up to about 13 minutes,
-for n = 23).
+for n = 1, …, 30 and n = 33, 36, …, 60. Run times are in the table of Section 4 of the note (up to about 31 minutes,
+for n = 29).
 
 ## Checks (Section 6 of the note)
 

@@ -4,7 +4,7 @@
 - min(n, m) ≤ 2;
 - (n, m) = (3,3), (3,4), (4,3), (4,4), (4,6) and (6,4), in any dimension
   ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md));
-- (n, 3) and (3, n) for n = 1, …, 24 and n = 27, 30, …, 60, in any dimension, by an exact computation for each n
+- (n, 3) and (3, n) for n = 1, …, 30 and n = 33, 36, …, 60, in any dimension, by an exact computation for each n
   ([`05-lower-half-m3.md`](05-lower-half-m3.md));
 - A or B has at most two distinct eigenvalues, in any dimension (Proposition 2.5);
 - B has nonnegative entries in some eigenbasis of A (Proposition 2.4). This includes every pair with d = 2; for d = 2
@@ -148,6 +148,7 @@ All scripts are in `code/`, with logs in `logs/`.
 
 | Search | Scope | Result |
 |---|---|---|
+| Adversarial GPU hunt, `lh_hunt.py` | (n,m) = (4,5), (5,4), (5,5), (4,7), (7,4), (5,6), (6,5), (6,6), (5,7), (7,5), (7,7), (4,9), (9,4), (5,9), (8,8), (10,10); d = 3, 4, 5; starts generic, Cha–Lee-like (x down to 1e-4) and widely spread (eigenvalue ratios up to e¹⁶); command `lh_hunt.py d n m 384 2000 11`, log `logs/lh_hunt.log` | min log(𝒜/L) ≥ −1.7e-13, i.e. nothing below rounding; the minima are reached at nearly commuting pairs |
 | Gradient (Adam, GPU), `oqp40_torch.py` | d = 2..5; (n,m) up to (6,6), (3,7), (2,9); command `oqp40_torch.py d n m 384 2000 7` (384 starts, seed 7) | min log(𝒜/L) ≥ −2e-12, i.e. nothing below rounding; the optimizer drifts to large-scale, nearly commuting configurations |
 | Nelder–Mead, `oqp40_lower.py` | d = 2, 3; (3,3), (4,4), (3,5); three seeds, each run stopped by a time limit after these cases (logs end with `exit 124`) | min log-ratio ≈ −2e-13 (rounding) |
 | Near-commuting expansion, `oqp40_second_order.py` | coefficient of ε² is a sum of 2 × 2 pair terms; formula checked against a direct computation to 5–7 digits | every pair term ≥ 0. This is in fact a theorem: each pair term is the ε² coefficient of a 2 × 2 problem, and (LH) holds for d = 2 (Proposition 2.4). The (8,8) entry `-inf` in the log is a floating-point overflow; all endpoints are positive at 60 digits |
@@ -172,7 +173,7 @@ No counterexample was found.
   - when A has at most two distinct eigenvalues (Proposition 2.5);
   - at (n, m) = (3,3), (3,4), (4,4) and (6,4), in every dimension
     ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md), Theorems 1 and 2);
-  - at (n, 3) for n = 1, …, 24 and n = 27, 30, …, 60, in every dimension
+  - at (n, 3) for n = 1, …, 30 and n = 33, 36, …, 60, in every dimension
     ([`05-lower-half-m3.md`](05-lower-half-m3.md), Theorem 5).
 
   The version with the letters exchanged holds in the exchanged cases. At (4,3) and (4,6) only the version with the
