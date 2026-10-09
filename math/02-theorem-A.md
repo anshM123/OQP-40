@@ -9,7 +9,7 @@ for the difference between $\operatorname{Tr}e^{ag-tP}$ and its pinched version,
 - The split into atoms and a density, with atoms given by the pinching, goes back to H. Stahl's proof of the BMV
   conjecture (Acta Math. 211 (2013), Lemma 1 and Theorem 2).
 - For orthogonal projections P the identity is Theorem D of our OQP 27 paper (github.com/anshM123/IQOQI-OQP-27,
-  `papers/math/main.tex`). That theorem is formalized in Lean there. The remark with LaTeX label `RIgeneralB` in that
+  `papers/math/main.tex`). That theorem is formalized in Lean there. The remark with LaTeX label `rem:RIgeneralB` in that
   paper states the general case.
 - The proof below follows the projection case. Two lemmas are needed beyond it: high-frequency averaging (Lemma 4, a
   special case of the strong-coupling limit of Burgarth, Facchi, Nakazato, Pascazio and Yuasa, Quantum 3, 152 (2019))

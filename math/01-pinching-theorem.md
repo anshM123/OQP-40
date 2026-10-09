@@ -261,7 +261,7 @@ is not in the thesis.
   - The deep input: positivity of the explicit two-variable BMV density. The atoms and density are due to H. Stahl
     (Acta Math. 211 (2013)); the explicit |Im| form for simple spectrum to O. Heinävaara (thesis, 2024).
   - The identity (∗) for general Hermitian P is also stated in our earlier paper on OQP 27
-    (github.com/anshM123/IQOQI-OQP-27, `papers/math/main.tex`, the remark with LaTeX label `RIgeneralB`). It is proved
+    (github.com/anshM123/IQOQI-OQP-27, `papers/math/main.tex`, the remark with LaTeX label `rem:RIgeneralB`). It is proved
     in full in
     [`02-theorem-A.md`](02-theorem-A.md).
 - **New, as far as our searches show (arXiv, Semantic Scholar, Google Scholar, the Heinävaara and Cha author pages,
