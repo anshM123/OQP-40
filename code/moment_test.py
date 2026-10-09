@@ -1,8 +1,9 @@
 """Is n -> p_{n,m}(A,B) (fixed m) a Hausdorff/Stieltjes moment sequence?  Equivalently: is the 'A-marginal'
 pi'_m = sum_i beta(i) * (B-spline with knots alpha_{i_1..i_m}) a positive measure?
-Exact test for m = 3: evaluate the density of pi'_3 on a fine grid directly from the cycle expansion
-(B-spline of 3 knots = piecewise-linear 'hat' density), in A's eigenbasis.  Negative values => not a measure.
-Also Hankel PSD test from moments for m = 3, 4 (mpmath, 60 digits)."""
+Test for m = 3: evaluate the density of pi'_3 on a fine grid directly from the cycle expansion
+(B-spline of 3 knots = piecewise-linear 'hat' density), in A's eigenbasis, and report the minimum relative value.
+Theorem 6 of math/01-pinching-theorem.md proves that pi'_m is a positive measure, so the reported minimum should be
+>= 0; this script is a numerical illustration of that fact."""
 import itertools
 
 import mpmath as mp
@@ -48,4 +49,4 @@ for trial in range(300):
     m = dens.min() / max(dens.max(), 1e-300)
     worst = min(worst, m)
 print(f"m=3: min over 300 random cases of (min density / max density) of the continuous part of pi'_3 = {worst:.4e}")
-print("    (negative => pi'_3 is a signed measure, so n -> p_{n,3} is not a moment sequence in general)")
+print("    (expected >= 0 by Theorem 6: pi'_3 is a positive measure)")

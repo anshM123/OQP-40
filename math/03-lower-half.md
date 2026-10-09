@@ -59,7 +59,8 @@ holds with the letters exchanged.
 
 *Proof.*
 - **Reduction to scalars.** Every word, read cyclically from a B, is $BA^{N_1}BA^{N_2}\cdots BA^{N_m}$ with
-  $N_1+\dots+N_m=n$. A uniformly random word gives a uniformly random composition N. For rank-one B its trace is
+  $N_1+\dots+N_m=n$. A uniformly random word, read from a uniformly chosen letter B, gives a uniformly random
+  composition N. For rank-one B its trace is
   $\prod_j\psi(N_j)$, with $\psi(t)=\langle b,A^tb\rangle$.
 - **Log-convexity.** ψ is log-convex, so $\frac1m\sum_j\log\psi(N_j)\ge\log\psi(n/m)$ for **every** composition.
 - **Conclusion.** Hence every word trace is $\ge\psi(n/m)^m=F_{n,m}(A,B)$. ∎
@@ -76,8 +77,8 @@ where:
 - $M_n(x)=h_n(x)/\binom{n+m-1}{n}=\mathbb E_u(\sum_ju_jx_j)^n$, with $u\sim\mathrm{Dirichlet}(1,\dots,1)$;
 - $\bar x$ is the arithmetic mean and $G(x)=(x_1\cdots x_m)^{1/m}$ the geometric mean.
 
-The first identity holds because a uniformly random word gives a uniformly random composition
-$(N_1,\dots,N_m)$ of n, and averaging $\prod_jx_j^{N_j}$ over compositions gives $M_n$. Pointwise,
+The first identity holds because a uniformly random word, read from a uniformly chosen letter B, gives a uniformly
+random composition $(N_1,\dots,N_m)$ of n, and averaging $\prod_jx_j^{N_j}$ over compositions gives $M_n$. Pointwise,
 $M_n\ge\bar x^{\,n}\ge G^n$ (Jensen, then AM–GM).
 
 **Proposition 2.4.** Suppose some orthonormal eigenbasis of A has $\langle e_i,Be_j\rangle\ge0$ for all i, j. Then
@@ -141,14 +142,14 @@ All scripts are in `code/`, with logs in `logs/`.
 
 | Search | Scope | Result |
 |---|---|---|
-| Gradient (Adam, GPU), `oqp40_torch.py` | d = 2..5; (n,m) up to (6,6), (3,7), (2,9); 384 starts each | min log(𝒜/L) ≥ −2e-12, approached only at commuting pairs |
-| Nelder–Mead, `oqp40_lower.py` | d = 2, 3; (3,3), (4,4), (3,5) | min log-ratio ≈ −2e-13 (rounding) |
-| Near-commuting expansion, `oqp40_second_order.py` | coefficient of ε² is a sum of 2 × 2 pair terms; formula checked against a direct computation to 6 digits | every pair term ≥ 0, so no local counterexample |
-| Large d, Haar position, `freeregime.py` | d up to 120, spread spectra | min 𝒜/L = 1.086 |
-| Cha–Lee family, `chalee_family.py` | x down to 1e-3 | 𝒜/L up to 3·10⁷ (the bound is very loose there) |
+| Gradient (Adam, GPU), `oqp40_torch.py` | d = 2..5; (n,m) up to (6,6), (3,7), (2,9); command `oqp40_torch.py d n m 384 2000 7` (384 starts, seed 7) | min log(𝒜/L) ≥ −2e-12, i.e. nothing below rounding; the optimizer drifts to large-scale, nearly commuting configurations |
+| Nelder–Mead, `oqp40_lower.py` | d = 2, 3; (3,3), (4,4), (3,5); three seeds, each run stopped by a time limit after these cases (logs end with `exit 124`) | min log-ratio ≈ −2e-13 (rounding) |
+| Near-commuting expansion, `oqp40_second_order.py` | coefficient of ε² is a sum of 2 × 2 pair terms; formula checked against a direct computation to 5–7 digits | every pair term ≥ 0. This is in fact a theorem: each pair term is the ε² coefficient of a 2 × 2 problem, and (LH) holds for d = 2 (Proposition 2.4). The (8,8) entry `-inf` in the log is a floating-point overflow; all endpoints are positive at 60 digits |
+| Large d, Haar position, `freeregime.py` | d up to 120, spread spectra, 60 trials | min 𝒜/L = 1.086 |
+| Cha–Lee family, `chalee_family.py` | x down to 1e-3 | 𝒜/L up to 3.4·10⁷ (with L regularised at δ = 1e-30), so the bound is very loose there |
 | Singular / near-rank-one families, `chalee_frac.py` | 60 random families | min 𝒜/F = 1.26 |
-| Negative-word region, `negword_search.py` | pairs where the necklace AABABB has negative trace | min log(𝒜/L) ≈ −3e-10 (float noise) |
-| Real exponents, `icx_test.py` | m = 3, x ∈ [0.25, 6] | min ratio > 1.00005 |
+| Negative-word region, `negword_search.py` | pairs where the necklace AABABB has negative trace | min log(𝒜/L) ≈ −3e-10, consistent with float64 matrix-exponential error at norm 10 (not re-evaluated in high precision) |
+| Real exponents, `icx_test.py` | m = 3, x ∈ [0.25, 6]; p_{x,3} by Monte Carlo over the Dirichlet weights | min ratio > 1.00005 (exact Hermite–Genocchi values reproduce the minima to 6 digits) |
 
 No counterexample was found.
 
@@ -157,7 +158,13 @@ No counterexample was found.
 **Conjecture F.** For A, B ≥ 0 and m ≥ 1, $\mathcal A_{n,m}(A,B)\ge\operatorname{Tr}(A^{n/m}B)^m$.
 
 - **Relation to (LH).** By Lemma 2.1, Conjecture F implies (LH).
-- **Proved cases.** It holds for m ≤ 2 (Proposition 2.2) and for rank-one B (Proposition 2.3).
+- **Proved cases.** It holds:
+  - for m ≤ 2 (Proposition 2.2);
+  - for rank-one B (Proposition 2.3);
+  - when B is entrywise ≥ 0 in some eigenbasis of A, including every pair with d = 2 (Proposition 2.4);
+  - when A has at most two distinct eigenvalues (Proposition 2.5).
+
+  The version with the letters exchanged holds in the exchanged cases.
 - **Numerics.** It held in every test above, including the Cha–Lee family (min ratio 1.25) and large-d Haar position
   (min ratio 1.06).
 - **For n = m** it reads $\mathcal A_{n,n}(A,B)\ge\operatorname{Tr}(AB)^n$: the average over all words dominates the
@@ -169,7 +176,12 @@ No counterexample was found.
   through the Trotter limit. It is **false**: in the Cha–Lee family the ratio reaches 1.7·10⁸ at x = 1e-3,
   (n,m) = (5,5) (`logs/chalee_family.log`).
 - **Pinched bounds alone.** $\max(\operatorname{Tr}A^nE_A(B)^m,\operatorname{Tr}E_B(A)^nB^m)$ can be far below
-  $L_{n,m}$ (log-ratio −1.38).
+  $L_{n,m}$: log-ratio −1.38, `logs/oqp40_aux.log`, mode `pinch2`.
+- **An increasing-convex-order strengthening.** Natural candidates are $\pi_m\ge_{\rm icx}\nu_m$, or the same on the
+  log scale.
+  - They hold for generic random pairs.
+  - Both fail on PD shifts of the Cha–Lee family: A_x + δ, B_x + δ with x = 0.1 and δ = 1e-3, at m = 3.
+  - The Laplace order for real exponents x ≥ 0 still holds there. So this order is not the mechanism.
 - **Comparing only the continuous parts** of $\pi_m$ and $\nu_m$ fails near commuting pairs. The atomic surplus is
   essential.
 - **Per-composition (Schur-convexity) arguments** fail because single words can have negative trace.

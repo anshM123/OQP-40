@@ -9,10 +9,16 @@ for the difference between $\operatorname{Tr}e^{ag-tP}$ and its pinched version,
 - The split into atoms and a density, with atoms given by the pinching, goes back to H. Stahl's proof of the BMV
   conjecture (Acta Math. 211 (2013), Lemma 1 and Theorem 2).
 - For orthogonal projections P the identity is Theorem D of our OQP 27 paper (github.com/anshM123/IQOQI-OQP-27,
-  `papers/math/main.tex`). That theorem is formalized in Lean there; its Remark RIgeneralB states the general case.
-- The proof below follows the projection case. Two lemmas are new: high-frequency averaging (Lemma 4, a special case of
-  the strong-coupling limit of Burgarth, Facchi, Nakazato, Pascazio and Yuasa, Quantum 3, 152 (2019)) and Lemma 5.
-  Together they remove the singular parts on the interior lines.
+  `papers/math/main.tex`). That theorem is formalized in Lean there. The remark with LaTeX label `RIgeneralB` in that
+  paper states the general case.
+- The proof below follows the projection case. Two lemmas are needed beyond it: high-frequency averaging (Lemma 4, a
+  special case of the strong-coupling limit of Burgarth, Facchi, Nakazato, Pascazio and Yuasa, Quantum 3, 152 (2019))
+  and Lemma 5, a classical fact about exponential polynomials. Together they remove the singular parts on the interior
+  lines.
+- **Lean.** The identity for Hermitian P with spectrum in [0, 1] has a separate machine-checked proof by a different
+  route, the multi-line Radon identity (`theoremA` in our Lean development, standard axioms only). General P follows
+  by the affine rescaling of [`01-pinching-theorem.md`](01-pinching-theorem.md), Step 0, which is not formalized. The
+  distributional proof written below is not the one formalized.
 
 ## 1. Statement
 
@@ -120,12 +126,14 @@ spectral projections $Q_k$, and $X_d=\sum_kQ_kXQ_k$. Then, as θ → ±∞,
 
 $$\operatorname{Tr}e^{X-i\theta P}=\sum_ke^{-i\theta p_k}\operatorname{Tr}_{Q_k}e^{Q_kXQ_k}+O(1/|\theta|).$$
 
-*Proof.* Let $Y(r)=e^{i\theta rP}e^{r(X-i\theta P)}$. Then $Y'=X(r)Y$ and Y(0) = 1, with
+*Proof.* If P has only one eigenvalue there is nothing to prove, so let it have $r\ge2$ distinct eigenvalues. For
+$0\le\sigma\le1$ let $Y(\sigma)=e^{i\theta\sigma P}e^{\sigma(X-i\theta P)}$. Then $Y'=X(\sigma)Y$ and Y(0) = 1, with
 
-$$X(r)=e^{i\theta rP}Xe^{-i\theta rP}=X_d+X_o(r),\qquad X_o(r)=\sum_{j\ne k}e^{i\theta r(p_j-p_k)}Q_jXQ_k .$$
+$$X(\sigma)=e^{i\theta\sigma P}Xe^{-i\theta\sigma P}=X_d+X_o(\sigma),\qquad X_o(\sigma)=\sum_{j\ne k}e^{i\theta\sigma(p_j-p_k)}Q_jXQ_k .$$
 
-- **Antiderivative.** $X_o=Z'$ with $Z(r)=\sum_{j\ne k}\frac{e^{i\theta r(p_j-p_k)}}{i\theta(p_j-p_k)}Q_jXQ_k$, and
-  $\|Z\|\le r^2\|X\|/(|\theta|\delta)$, where δ is the smallest gap between eigenvalues of P.
+- **Antiderivative.** $X_o=Z'$ with
+  $Z(\sigma)=\sum_{j\ne k}\frac{e^{i\theta\sigma(p_j-p_k)}}{i\theta(p_j-p_k)}Q_jXQ_k$, and
+  $\|Z(\sigma)\|\le r^2\|X\|/(|\theta|\delta)$, where δ > 0 is the smallest gap between eigenvalues of P.
 - **Duhamel and integration by parts.** By Duhamel, $Y(1)-e^{X_d}=\int_0^1e^{(1-u)X_d}X_o(u)Y(u)\,du$. Integrating
   by parts with $X_o=Z'$ bounds this by $O(\|Z\|)$, with constants depending on $\|X\|$ only.
 - **Conclusion.** Hence $\operatorname{Tr}e^{X-i\theta P}=\operatorname{Tr}(e^{-i\theta P}Y(1))=\operatorname{Tr}(e^{-i\theta P}e^{X_d})+O(1/|\theta|)$.
@@ -201,6 +209,9 @@ $$\partial_a^2\operatorname{Tr}e^{ag-tP}\big|_{a=0}=\int_0^1\operatorname{Tr}\bi
 
 ## 4. Numerical checks
 
-The identity was checked by quadrature at real and complex (a, t), for projections and for P with interior
-eigenvalues. Agreement is about 1e-5 by plain quadrature and to 28–39 digits in the independent high-precision
-check. The slice formula of Step 3 matches to 6 digits.
+The moment content of the identity for (g, P) = (B, A) was checked to high precision in the independent check
+(`../independent-check/scripts/c2_quad_D1*.log`). That is the gap identity of
+[`01-pinching-theorem.md`](01-pinching-theorem.md), Theorem 1, for up to 66 moments per configuration. It agrees to 28–39
+significant digits in 8 configurations. The slice formula of Step 3 agrees to better than 1e-26 relative in the same
+runs. Lower-precision quadrature checks at individual points (a, t) were also made during development; we do not
+quote them because their logs were not kept.

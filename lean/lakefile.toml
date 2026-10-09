@@ -1,0 +1,68 @@
+name = "oqp40"
+defaultTargets = ["OQP27", "HarmonicMajorization", "OQP40"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.1"
+
+# The part of the OQP 27 formalisation (github.com/anshM123/IQOQI-OQP-27) that the proofs import.
+[[lean_lib]]
+name = "OQP27"
+globs = [
+  "OQP27.StripJensen",
+  "OQP27.StripPencil",
+  "OQP27.StripSlice",
+  "OQP27.StripBounds",
+  "OQP27.StripBMV",
+  "OQP27.StripKernel",
+  "OQP27.StripPoisson",
+  "OQP27.StripSpectral",
+  "OQP27.StripFromBMV",
+  "OQP27.StripRIContour",
+  "OQP27.StripRIPencil",
+  "OQP27.StripRISums",
+  "OQP27.StripRISmooth",
+  "OQP27.StripRIEnds",
+  "OQP27.StripRIBoundary",
+  "OQP27.StripRIAssembly",
+  "OQP27.StripRIMain",
+  "OQP27.StripTheorem2",
+  "OQP27.Statement",
+  "OQP27.CertDefs",
+  "OQP27.Skeleton",
+  "OQP27.StripSkeleton",
+  "OQP27.StripRIChain"
+]
+
+# Theorem A (the pinched two-variable BMV identity) for general 0 <= P <= 1 and the density it needs.
+[[lean_lib]]
+name = "HarmonicMajorization"
+globs = [
+  "HarmonicMajorization.SpecDecomp",
+  "HarmonicMajorization.PencilGen",
+  "HarmonicMajorization.RIG1",
+  "HarmonicMajorization.RIG2",
+  "HarmonicMajorization.RIG3a",
+  "HarmonicMajorization.RIG3b",
+  "HarmonicMajorization.RIG4a",
+  "HarmonicMajorization.TheoremAGen",
+  "HarmonicMajorization.RIG4b",
+  "HarmonicMajorization.Duhamel",
+  "HarmonicMajorization.MarginalGen",
+  "HarmonicMajorization.PoissonGen",
+  "HarmonicMajorization.TheoremBGen",
+  "HarmonicMajorization.MarginalProj",
+  "HarmonicMajorization.TheoremCProj",
+  "HarmonicMajorization.TheoremCGen",
+  "HarmonicMajorization.MainGen",
+  "HarmonicMajorization.DensityGen"
+]
+
+# OQP 40: the statement, its negative answer, and the pinching inequality for all word lengths.
+[[lean_lib]]
+name = "OQP40"
+globs = [
+  "OQP40.Statement",
+  "OQP40.Pinching"
+]

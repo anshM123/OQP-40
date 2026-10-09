@@ -1,0 +1,2 @@
+m=3: min over 300 random cases of (min density / max density) of the continuous part of pi'_3 = 4.9229e-04
+    (expected >= 0 by Theorem 6: pi'_3 is a positive measure)

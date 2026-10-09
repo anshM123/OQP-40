@@ -14,7 +14,7 @@ Construction of exact test pairs:
 Word sums: S_{n,m} = sum over all words with n letters A and m letters B of Tr W is the trace of the t^m
 coefficient of (A + tB)^{n+m}; checked against brute-force enumeration of all words for n + m <= 8.
 
-D1 for d = 2 (closed form derived in CHECK_DINH.md, Section 3.1): in the eigenbasis of A = diag(a1, a2),
+D1 for d = 2 (closed form derived in REPORT.md (this folder's report), Section 4): in the eigenbasis of A = diag(a1, a2),
 a1 < a2, with B = [[b11, b], [conj b, b22]], the density rho_{B,A}(., tau) is, for a1 < tau < a2, a semicircle
 in s with centre c(tau) = (b11 (a2 - tau) + b22 (tau - a1)) / (a2 - a1), squared radius
 R^2 = 4 (tau - a1)(a2 - tau)|b|^2 / (a2 - a1)^2 and mass |b|^2 / (a2 - a1). Hence

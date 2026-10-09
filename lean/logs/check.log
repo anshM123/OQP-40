@@ -1,0 +1,74 @@
+# bash check.sh, run 2026-10-08 on Lean v4.33.1 with Mathlib at the revision pinned in lake-manifest.json
+# (the Mathlib packages of that revision were reused from a local checkout instead of downloaded)
+== keyword scan (code lines only; docstrings mention 'no sorry') ==
+none
+OQP40.Statement                          exit=0    39s
+OQP27.StripJensen                        exit=0    17s
+OQP27.StripPencil                        exit=0    17s
+OQP27.StripSlice                         exit=0    14s
+OQP27.StripBounds                        exit=0    15s
+OQP27.StripBMV                           exit=0    15s
+HarmonicMajorization.SpecDecomp          exit=0    14s
+HarmonicMajorization.PencilGen           exit=0    14s
+OQP27.StripRIContour                     exit=0    16s
+OQP27.StripRIPencil                      exit=0    15s
+OQP27.StripRISums                        exit=0    14s
+OQP27.StripRISmooth                      exit=0    19s
+OQP27.StripRIEnds                        exit=0    17s
+OQP27.StripRIBoundary                    exit=0    17s
+OQP27.StripRIAssembly                    exit=0    17s
+OQP27.StripRIMain                        exit=0    15s
+HarmonicMajorization.RIG1                exit=0    17s
+HarmonicMajorization.RIG2                exit=0    16s
+HarmonicMajorization.RIG3a               exit=0    21s
+HarmonicMajorization.RIG3b               exit=0    33s
+HarmonicMajorization.RIG4a               exit=0    17s
+HarmonicMajorization.TheoremAGen         exit=0    15s
+HarmonicMajorization.RIG4b               exit=0    16s
+HarmonicMajorization.Duhamel             exit=0    14s
+HarmonicMajorization.MarginalGen         exit=0    15s
+OQP27.StripKernel                        exit=0    16s
+OQP27.StripPoisson                       exit=0    15s
+OQP27.StripSpectral                      exit=0    15s
+OQP27.StripFromBMV                       exit=0    16s
+HarmonicMajorization.PoissonGen          exit=0    13s
+HarmonicMajorization.TheoremBGen         exit=0    16s
+HarmonicMajorization.MarginalProj        exit=0    15s
+OQP27.StripTheorem2                      exit=0    12s
+OQP27.Statement                          exit=0    15s
+OQP27.CertDefs                           exit=0    12s
+OQP27.Skeleton                           exit=0    14s
+OQP27.StripSkeleton                      exit=0    14s
+OQP27.StripRIChain                       exit=0    13s
+HarmonicMajorization.TheoremCProj        exit=0    14s
+HarmonicMajorization.TheoremCGen         exit=0    14s
+HarmonicMajorization.MainGen             exit=0    13s
+HarmonicMajorization.DensityGen          exit=0    14s
+OQP40.Pinching                           exit=0    59s
+OQP40.Axioms                             exit=0    34s
+== axioms (every line below must end with [propext, Classical.choice, Quot.sound]) ==
+'OpenQuantumProblem40.refinedBMV' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.not_refinedBMV' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.not_upperHalf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLee_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLee_perturbed_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLee_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLee_wordAverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.wordSum_succ_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.wordAverage_of_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.wordAverage_one_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.wordAverage_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.trace_pow_mul_pow_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.trace_exp_log_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLeeA_add_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.chaLeeB_add_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.pinchingInequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.trace_pinching_le_wordAverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.wordAverage_eq_trace_pinching_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.gap_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.coeff_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.moment_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.pinchH_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OpenQuantumProblem40.pinching_eq_self_of_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+== nonstandard axiom lines (should be empty) ==
+none

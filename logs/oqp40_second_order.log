@@ -1,12 +1,12 @@
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:33: RuntimeWarning: overflow encountered in scalar multiply
+<path> LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:33: RuntimeWarning: overflow encountered in scalar multiply
   first = m * (ai ** n * bi ** (m - 1) * F(ki, kj) + aj ** n * bj ** (m - 1) * F(kj, ki))
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:22: RuntimeWarning: overflow encountered in exp
+<path> LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:22: RuntimeWarning: overflow encountered in exp
   return np.exp(x) if abs(x - y) < 1e-12 else (np.exp(x) - np.exp(y)) / (x - y)
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:38: RuntimeWarning: invalid value encountered in scalar subtract
+<path> LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:38: RuntimeWarning: invalid value encountered in scalar subtract
   return first + second - m * m * E(xi, xj)
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:36: RuntimeWarning: overflow encountered in scalar power
+<path> LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:36: RuntimeWarning: overflow encountered in scalar power
   second = m * (m - 1) * E(ki, kj) ** 2 * integ
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:36: RuntimeWarning: overflow encountered in scalar multiply
+<path> LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:36: RuntimeWarning: overflow encountered in scalar multiply
   second = m * (m - 1) * E(ki, kj) ** 2 * integ
 formula vs direct 2x2 (coefficient of eps^2 per unordered pair; |v|=1):
   (n,m)=(1,2) formula +9.900041e-03  direct +9.899948e-03
@@ -17,17 +17,17 @@ formula vs direct 2x2 (coefficient of eps^2 per unordered pair; |v|=1):
   (n,m)=(5,4) formula +1.074400e-02  direct +1.074399e-02
 minimise Delta / (m^2 E(x_i,x_j)) over pair data (scale-free):
   (n,m)=(1,2): min relative second-order gap -5.5636e-14
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:77: RuntimeWarning: invalid value encountered in scalar divide
+<path> LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:77: RuntimeWarning: invalid value encountered in scalar divide
   f = lambda x: delta(n, m, np.exp(x[0]), np.exp(x[1]), x[2], x[3]) / (
   (n,m)=(2,2): min relative second-order gap -5.7155e-14
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:33: RuntimeWarning: overflow encountered in scalar power
+<path> LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:33: RuntimeWarning: overflow encountered in scalar power
   first = m * (ai ** n * bi ** (m - 1) * F(ki, kj) + aj ** n * bj ** (m - 1) * F(kj, ki))
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:34: RuntimeWarning: overflow encountered in scalar power
+<path> LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:34: RuntimeWarning: overflow encountered in scalar power
   integ = quad(lambda th: (th * ai + (1 - th) * aj) ** n * (th * bi + (1 - th) * bj) ** (m - 2), 0, 1,
   (n,m)=(3,3): min relative second-order gap -6.3846e-14
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:37: RuntimeWarning: divide by zero encountered in log
+<path> LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:37: RuntimeWarning: divide by zero encountered in log
   xi, xj = n * np.log(ai) + m * ki, n * np.log(aj) + m * kj
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:34: RuntimeWarning: overflow encountered in scalar multiply
+<path> LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:34: RuntimeWarning: overflow encountered in scalar multiply
   integ = quad(lambda th: (th * ai + (1 - th) * aj) ** n * (th * bi + (1 - th) * bj) ** (m - 2), 0, 1,
   (n,m)=(2,5): min relative second-order gap -5.7307e-14
   (n,m)=(5,2): min relative second-order gap -3.6072e-14
@@ -35,8 +35,8 @@ C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorizati
   (n,m)=(5,5): min relative second-order gap -1.1711e-13
   (n,m)=(6,3): min relative second-order gap -1.1238e-13
   (n,m)=(3,6): min relative second-order gap -1.1398e-13
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:77: RuntimeWarning: divide by zero encountered in scalar divide
+<path> LE OPUS\iqoqi\programs\harmonic_majorization\dinh\oqp40_second_order.py:77: RuntimeWarning: divide by zero encountered in scalar divide
   f = lambda x: delta(n, m, np.exp(x[0]), np.exp(x[1]), x[2], x[3]) / (
-C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\.venv\Lib\site-packages\scipy\optimize\_optimize.py:870: RuntimeWarning: invalid value encountered in subtract
+<path> LE OPUS\.venv\Lib\site-packages\scipy\optimize\_optimize.py:870: RuntimeWarning: invalid value encountered in subtract
   np.max(np.abs(fsim[0] - fsim[1:])) <= fatol):
   (n,m)=(8,8): min relative second-order gap -inf

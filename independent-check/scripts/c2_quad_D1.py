@@ -17,7 +17,7 @@ Right side: nested composite Gauss-Legendre quadrature in arb arithmetic (python
 Convergence is shown by running N and 2N. Also checked through the same quadrature: the slice formula
 int rho(s,tau) ds = m(tau) at every tau node.
 
-usage: python c2_quad_D1.py CASE N   (CASE in 0..6)
+usage: python c2_quad_D1.py CASE N   (CASE in 0..7)
 """
 import sys
 import time

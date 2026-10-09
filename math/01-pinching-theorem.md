@@ -5,7 +5,8 @@ Bessis–Moussa–Villani (BMV) conjecture, IQOQI Open Quantum Problem 40. Dinh 
 
 **Attribution, up front.**
 - The inequality (Theorem 2) follows in a few lines from a published theorem: O. Heinävaara, *Tracial joint spectral
-  measures*, arXiv:2310.03227 (2023), Invent. Math. 239 (2025), **Corollary 1.2**. That corollary says the k-th
+  measures*, arXiv:2310.03227v1 (2023), **Corollary 1.2** (published in Invent. Math. 239 (2025); the numbering is
+  checked for arXiv v1). That corollary says the k-th
   derivative of t ↦ tr f(tA + B) is ≥ 0 when f⁽ᵏ⁾ ≥ 0 (A ≥ 0 for odd k).
 - This short derivation is in Section 4.0. We did not find the consequence stated anywhere, including in Dinh's paper,
   which does not cite Heinävaara.
@@ -93,10 +94,13 @@ that rectangle.
 
 How to read Theorem 5:
 - It is a noncommutative Jensen inequality with an explicit positive Peano kernel ρ.
-- It is an order between **linear functionals**, not between measures. For AB ≠ BA the word-average functional
-  $\tau^ns^m\mapsto\mathcal A_{n,m}(A,B)$ is not positive on squares, so no measure represents it.
+- It is an order between **linear functionals**, not between measures. In general, for AB ≠ BA, the word-average
+  functional $\tau^ns^m\mapsto\mathcal A_{n,m}(A,B)$ is not positive on squares, so no measure represents it.
   - Exact witness: A = [[2,−1],[−1,1]] and B = [[1,1],[1,5]], with a polynomial of bidegree (2,2) whose square has
     functional value −2.9165.
+  - **Why this holds for every non-commuting pair.** If the functional were positive, the moment bounds
+    $|\mathcal A_{n,m}|\le d\|A\|^n\|B\|^m$ would give a representing measure (multivariate Carleman condition). Theorem A
+    would then force the τ-slices of ρ to be convex with compact support, hence zero, which contradicts AB ≠ BA.
 
 **Theorem 6 (fixed number of B's: a positive measure).** Let B ≥ 0 and fix m. Then $n\mapsto\mathcal A_{n,m}(A,B)$
 is the moment sequence of the positive measure
@@ -170,7 +174,8 @@ $\partial_s^2(\tau^ns^m)=m(m-1)\tau^ns^{m-2}$. For power series, use the term-by
 - Theorem 1 says $\mathcal A_{n,m}(A,B)=\int\tau^n\,d\pi_m$. The density of $\pi_m$ is ≥ 0 because s ≥ 0 on supp ρ.
 - **Mass.** At n = 0, $\mathcal A_{0,m}=\operatorname{Tr}B^m$.
 - **Cycle expansion.** Write each word, read cyclically from a B, as $BA^{N_1}\cdots BA^{N_m}$ with
-  $N_1+\dots+N_m=n$. A uniformly random word gives a uniformly random composition N. Expanding in the eigenbasis of A,
+  $N_1+\dots+N_m=n$. A uniformly random word, read from a uniformly chosen letter B, gives a uniformly random
+  composition N; the trace does not depend on the starting B. Expanding in the eigenbasis of A,
   and averaging $\prod_jx_j^{N_j}$ over compositions, gives $h_n(x)/\binom{n+m-1}{n}=\mathbb E_u(\sum_ju_jx_j)^n$
   (Dirichlet(1,…,1)).
 
@@ -218,7 +223,9 @@ The inequality of Theorem 2 can also be derived directly from the explicit BMV m
      diagonal in that basis and distinct positive entries.
    - Then $E_{A_\varepsilon}(B)=E_A(B)$ for all small ε > 0: the off-diagonal entries of B inside each block vanish
      in that basis.
-   - Both sides of Theorem 2 are continuous in A, so letting ε → 0 proves Theorem 2 for every A ≥ 0.
+   - Along this path $E_{A_\varepsilon}(B)=E_A(B)$, so both sides of Theorem 2 are polynomials in ε. Letting ε → 0
+     proves Theorem 2 for every A ≥ 0. (In general the right side is not continuous in A: it jumps when eigenvalues
+     merge.)
 
 The exact identity of Theorem 1 for repeated eigenvalues, and Theorems 3–6, use Theorem A in its general form, which
 is not in the thesis.
@@ -232,7 +239,8 @@ is not in the thesis.
   - Theorem 3: worst relative violation 1.1e-14; equality at m = 2 to 1e-14.
   - Theorem 4: 7,500 indefinite cases with n, m even, no violation. At (n, m) = (1, 3), 152 of 300 random indefinite
     cases violate, which shows a sign condition is needed.
-  - Theorem 1 against direct quadrature of the integral: 15 cases, agreement to 5–6 digits.
+  - Theorem 1 against direct quadrature of the integral: 15 cases, agreement to 4–6 digits (worst relative difference
+    3.6e-5, quadrature error).
 - **Independent check** (`independent-check/`), written from scratch with exact rational and ball arithmetic:
   - Verdict: **no errors**.
   - Theorem 1 holds **exactly** (rational arithmetic) for d = 2, in 14,400 identities. For d = 2, ρ is a semicircle
@@ -240,20 +248,21 @@ is not in the thesis.
   - Theorem 1 holds to 28–39 significant digits for d = 3, 4, in 8 configurations: repeated and zero eigenvalues, a
     projection A, rank-one B, complex B, indefinite letters.
   - On the Cha–Lee pair it holds to 26 digits at x = 1/1000 and to 19 digits at x = 10⁻⁶.
-  - Theorems 2–6 hold in about 27,000 exact cases, with an adversarial search on top.
+  - Theorems 2–5 hold in about 27,000 exact cases, with an adversarial search on top.
   - On the whole Cha–Lee family, for 0 ≤ n, m ≤ 12, every gap polynomial has no root in (0, ∞), except at x = 1/2,
     where the pinching changes. That point was checked separately.
 
 ## 6. Credits and scope
 
 - **Not new:**
-  - The inequality of Theorem 2 as a mathematical fact. It follows from Heinävaara's Corollary 1.2 (arXiv:2310.03227,
+  - The inequality of Theorem 2 as a mathematical fact. It follows from Heinävaara's Corollary 1.2 (arXiv:2310.03227v1,
     2023; Invent. Math. 239 (2025)) by the short argument of Section 4.0.
   - The positivity of the fixed-m measure in Theorem 6, which is equivalent to that corollary.
   - The deep input: positivity of the explicit two-variable BMV density. The atoms and density are due to H. Stahl
     (Acta Math. 211 (2013)); the explicit |Im| form for simple spectrum to O. Heinävaara (thesis, 2024).
   - The identity (∗) for general Hermitian P is also stated in our earlier paper on OQP 27
-    (github.com/anshM123/IQOQI-OQP-27, `papers/math/main.tex`, Remark RIgeneralB). It is proved in full in
+    (github.com/anshM123/IQOQI-OQP-27, `papers/math/main.tex`, the remark with LaTeX label `RIgeneralB`). It is proved
+    in full in
     [`02-theorem-A.md`](02-theorem-A.md).
 - **New, as far as our searches show (arXiv, Semantic Scholar, Google Scholar, the Heinävaara and Cha author pages,
   2026-10-08):**
@@ -264,4 +273,5 @@ is not in the thesis.
 - **How hard it is.** Theorem 2 is short once Heinävaara's Corollary 1.2 (or the explicit density) is available.
   - It is not a soft consequence of convexity: $B\mapsto\mathcal A_{n,m}(A,B)$ is not convex on positive
     semidefinite matrices (exact witnesses in the independent check).
-  - Nor does it follow from Stahl's one-variable theorem alone.
+  - It is not an immediate consequence of Stahl's one-variable theorem; the derivative form (Heinävaara's
+    Corollary 1.2) is what makes it short.

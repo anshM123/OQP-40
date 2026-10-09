@@ -10,6 +10,16 @@
 >   [`scripts/`](scripts/).
 >
 > All suggested edits in Section 7 were made before publication.
+>
+> **Erratum (added later on 2026-10-08).** The priority assessment in Sections 1 and 5 is superseded. Those sections
+> say the inequality is not an immediate consequence of what is on arXiv, and that it needs joint positivity in
+> (s, τ). In fact the inequality (D2 = Theorem 2) follows in a few lines from Corollary 1.2 of O. Heinävaara,
+> arXiv:2310.03227v1 (2023), a statement about higher derivatives of trace functions; see
+> [`../math/01-pinching-theorem.md`](../math/01-pinching-theorem.md), Section 4.0. The mathematical checks in this
+> report are unaffected.
+>
+> **Edits made for publication.** One paragraph was removed: a side note about an unrelated paper (arXiv:2610.10158)
+> and its bearing on other, unpublished work. In the scripts, "CHECK_DINH.md" refers to this report.
 
 # Independent check of DINH.md: Dinh's pinching conjecture for all word lengths
 
@@ -254,7 +264,7 @@ follows from rho >= 0 and the support. **Correct.** See issues 1 and 2 for the w
 - The 12 Semantic Scholar citers of Heinävaara's Inventiones paper were screened. Cha–Lee cite it only as a reference
   for the trace-exponential form of BMV, with no pinching or lower bound. The abstracts of the other citers do not
   touch word averages or pinching.
-- The `openai/math` CONTENTS.md index (638 kB), searched with grep: no BMV, Stahl, pinching or word-average entries.
+- The index of a public collection of recent preprints (github.com/openai/math, CONTENTS.md, 638 kB), searched with grep: no BMV, Stahl, pinching or word-average entries.
   The only hit is "Villani's conjecture", which is optimal transport and unrelated.
 
 **Verdict on novelty and "immediate consequence":**
