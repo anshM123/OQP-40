@@ -1,0 +1,8 @@
+real d=3: phase 1 min Re tr(A^2BAB^2)/tr(A^3B^3) = -4.6433e-04, negative in 23/512
+real d=3: phase 2 min log(p33/L) = -2.7208e-10
+complex d=3: phase 1 min Re tr(A^2BAB^2)/tr(A^3B^3) = -4.4881e-04, negative in 3/512
+complex d=3: phase 2 min log(p33/L) = -2.6096e-10
+real d=4: phase 1 min Re tr(A^2BAB^2)/tr(A^3B^3) = -4.4850e-04, negative in 29/512
+real d=4: phase 2 min log(p33/L) = -2.4869e-14
+complex d=4: phase 1 min Re tr(A^2BAB^2)/tr(A^3B^3) = -4.3634e-04, negative in 3/512
+complex d=4: phase 2 min log(p33/L) = -2.8422e-14

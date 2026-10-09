@@ -1,0 +1,15 @@
+{
+  "title": "Open Quantum Problem 40: the pinching inequality for word averages for all word lengths, and the status of the refined BMV lower bound",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "IQOQI Vienna Open Quantum Problem 40 (Hagele) asks whether tr(A^n B^m) >= p_{n,m}(A,B) >= tr exp(n log A + m log B) for positive matrices A, B, where p_{n,m} is the average trace of all words with n letters A and m letters B. The upper half is false (Cha and Lee, 2026). We prove, for all word lengths, the pinching inequality p_{n,m}(A,B) >= tr(A^n E_A(B)^m) conjectured by T. H. Dinh (2026), who proved the case m = 2. The proof is an exact gap identity, p_{n,m}(A,B) - tr(A^n E_A(B)^m) = m(m-1) int int s^{m-2} tau^n rho(s,tau) ds dtau, with an explicit nonnegative density rho built from the roots of the pencil det(B - s - xi(A - tau)). It yields strictness iff AB != BA, a two-sided corrected bound (exact for m = 2), sign-condition variants, a Jensen form, and a positive moment measure for each fixed m. The identity is a pinched two-variable form of Stahl's theorem (the explicit BMV measure of Heinavaara), proved in full for arbitrary multiplicities. The lower half remains open; we prove it when min(n,m) <= 2, prove a stronger form for rank-one letters, document extensive numerical evidence, and list routes that provably fail. The repository contains the proofs, an independent check with exact arithmetic, code and logs.",
+  "creators": [
+    {"name": "Mishra, Ansh"},
+    {"name": "Senthilkumar, Aryan"}
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": ["Bessis-Moussa-Villani conjecture", "trace inequalities", "word averages", "pinching", "Stahl's theorem", "open quantum problems"],
+  "version": "1.0",
+  "language": "eng"
+}

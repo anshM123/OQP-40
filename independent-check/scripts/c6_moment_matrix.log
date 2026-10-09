@@ -1,0 +1,4 @@
+smallest eigenvalue / largest eigenvalue of the (bidegree<=2) moment matrix over 3000 integer PSD pairs: -1.494e-03
+exact L(p^2) for the rationalised eigenvector p: -2.916530e+00  (negative => L is not a positive functional)
+A = [[2, -1], [-1, 1]]  B = [[1, 1], [1, 5]]
+p coefficients over monomials tau^n s^m [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)] = ['-13537/125000', '-50717/125000', '112891/500000', '-62511/1000000', '-118343/200000', '-340637/1000000', '172777/500000', '-64873/200000', '279259/1000000']

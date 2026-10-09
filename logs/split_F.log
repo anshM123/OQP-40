@@ -1,0 +1,11 @@
+P_cont: Cauchy-FFT vs Monte Carlo: 22.788501310028245 22.789304769991563
+random PD (400 cases): min p/P_cont = 1.000131   min P_cont/frac = 1.000130
+Cha-Lee x=0.3 (n,m)=(3,3): p=1.8017e-01  P_cont=1.4747e-01  frac=1.4221e-01  p/P_cont=1.2218  P_cont/frac=1.0370
+Cha-Lee x=0.3 (n,m)=(5,5): p=4.6563e-02  P_cont=3.9586e-02  frac=3.6519e-02  p/P_cont=1.1763  P_cont/frac=1.0840
+Cha-Lee x=0.3 (n,m)=(4,6): p=5.2241e-02  P_cont=3.9318e-02  frac=3.7204e-02  p/P_cont=1.3287  P_cont/frac=1.0568
+Cha-Lee x=0.1 (n,m)=(3,3): p=5.3913e-03  P_cont=3.5553e-03  frac=2.9610e-03  p/P_cont=1.5164  P_cont/frac=1.2007
+Cha-Lee x=0.1 (n,m)=(5,5): p=1.3304e-04  P_cont=9.6425e-05  frac=5.0360e-05  p/P_cont=1.3797  P_cont/frac=1.9147
+Cha-Lee x=0.1 (n,m)=(4,6): p=3.3890e-04  P_cont=1.0861e-04  frac=7.3411e-05  p/P_cont=3.1204  P_cont/frac=1.4795
+Cha-Lee x=0.03 (n,m)=(3,3): p=1.3781e-04  P_cont=8.4017e-05  frac=6.1437e-05  p/P_cont=1.6403  P_cont/frac=1.3675
+Cha-Lee x=0.03 (n,m)=(5,5): p=3.1665e-07  P_cont=3.9480e-07  frac=6.7942e-08  p/P_cont=0.8020  P_cont/frac=5.8109
+Cha-Lee x=0.03 (n,m)=(4,6): p=2.4478e-06  P_cont=5.4107e-07  frac=2.6868e-07  p/P_cont=4.5240  P_cont/frac=2.0138

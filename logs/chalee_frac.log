@@ -1,0 +1,66 @@
+Cha-Lee x=0.3: min over (n,m) of p / max-side frac bound = 1.252802577
+Cha-Lee x=0.1: min over (n,m) of p / max-side frac bound = 1.82077001
+Cha-Lee x=0.01: min over (n,m) of p / max-side frac bound = 1.86585119
+Cha-Lee x=0.001: min over (n,m) of p / max-side frac bound = 1.858098012
+Cha-Lee x=1.0e-5: min over (n,m) of p / max-side frac bound = 1.857152499
+trial 0 d=3 eps=0.01: min over (n,m) of p / max-side frac bound = 4.423887257
+trial 1 d=3 eps=0.001: min over (n,m) of p / max-side frac bound = 30.26446691
+trial 2 d=4 eps=0.0001: min over (n,m) of p / max-side frac bound = 5.522219173
+trial 3 d=4 eps=0.1: min over (n,m) of p / max-side frac bound = 5.74620378
+trial 4 d=4 eps=0.001: min over (n,m) of p / max-side frac bound = 3.390583519
+trial 5 d=3 eps=0.0001: min over (n,m) of p / max-side frac bound = 1.305064673
+trial 6 d=4 eps=0.001: min over (n,m) of p / max-side frac bound = 5.983913064
+trial 7 d=4 eps=0.1: min over (n,m) of p / max-side frac bound = 1.706198421
+trial 8 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 7.584359375
+trial 9 d=4 eps=0.0001: min over (n,m) of p / max-side frac bound = 5.161610447
+trial 10 d=3 eps=0.1: min over (n,m) of p / max-side frac bound = 1.479347861
+trial 11 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 1.786033813
+trial 12 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 6.830633063
+trial 13 d=4 eps=0.1: min over (n,m) of p / max-side frac bound = 10.17421482
+trial 14 d=3 eps=0.0001: min over (n,m) of p / max-side frac bound = 4.962057324
+trial 15 d=3 eps=0.001: min over (n,m) of p / max-side frac bound = 168.7794128
+trial 16 d=3 eps=0.0001: min over (n,m) of p / max-side frac bound = 1.342042438
+trial 17 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 27.25668782
+trial 18 d=4 eps=0.1: min over (n,m) of p / max-side frac bound = 3.244117136
+trial 19 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 13.8917965
+trial 20 d=4 eps=0.001: min over (n,m) of p / max-side frac bound = 7.634082524
+trial 21 d=3 eps=0.01: min over (n,m) of p / max-side frac bound = 2.70551241
+trial 22 d=3 eps=0.0001: min over (n,m) of p / max-side frac bound = 3.265240992
+trial 23 d=4 eps=0.0001: min over (n,m) of p / max-side frac bound = 3.939845423
+trial 24 d=3 eps=0.0001: min over (n,m) of p / max-side frac bound = 2.164954703
+trial 25 d=3 eps=0.1: min over (n,m) of p / max-side frac bound = 6.380346155
+trial 26 d=3 eps=0.0001: min over (n,m) of p / max-side frac bound = 12.20084674
+trial 27 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 1.690157911
+trial 28 d=4 eps=0.1: min over (n,m) of p / max-side frac bound = 8.853721889
+trial 29 d=4 eps=0.0001: min over (n,m) of p / max-side frac bound = 11.29599397
+trial 30 d=3 eps=0.001: min over (n,m) of p / max-side frac bound = 5000.240398
+trial 31 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 4.489609211
+trial 32 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 5.320203522
+trial 33 d=3 eps=0.1: min over (n,m) of p / max-side frac bound = 14.73739065
+trial 34 d=3 eps=0.0001: min over (n,m) of p / max-side frac bound = 1.275170433
+trial 35 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 2.369457787
+trial 36 d=3 eps=0.0001: min over (n,m) of p / max-side frac bound = 11.09245092
+trial 37 d=3 eps=0.001: min over (n,m) of p / max-side frac bound = 1.273022012
+trial 38 d=3 eps=0.1: min over (n,m) of p / max-side frac bound = 1.261428209
+trial 39 d=4 eps=0.0001: min over (n,m) of p / max-side frac bound = 1009.754123
+trial 40 d=4 eps=0.1: min over (n,m) of p / max-side frac bound = 1.334467352
+trial 41 d=4 eps=0.0001: min over (n,m) of p / max-side frac bound = 5.158168336
+trial 42 d=4 eps=0.001: min over (n,m) of p / max-side frac bound = 11.35423541
+trial 43 d=3 eps=0.001: min over (n,m) of p / max-side frac bound = 6.705291974
+trial 44 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 1.686785767
+trial 45 d=4 eps=0.1: min over (n,m) of p / max-side frac bound = 1.575342212
+trial 46 d=3 eps=0.01: min over (n,m) of p / max-side frac bound = 187.860696
+trial 47 d=3 eps=0.1: min over (n,m) of p / max-side frac bound = 5.662382239
+trial 48 d=3 eps=0.001: min over (n,m) of p / max-side frac bound = 5.946441645
+trial 49 d=3 eps=0.001: min over (n,m) of p / max-side frac bound = 3.181089358
+trial 50 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 3.981702329
+trial 51 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 5.396141161
+trial 52 d=4 eps=0.1: min over (n,m) of p / max-side frac bound = 8.363047556
+trial 53 d=4 eps=0.001: min over (n,m) of p / max-side frac bound = 30.20386262
+trial 54 d=3 eps=0.1: min over (n,m) of p / max-side frac bound = 2.937644093
+trial 55 d=3 eps=0.0001: min over (n,m) of p / max-side frac bound = 11.86927335
+trial 56 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 2.392262333
+trial 57 d=4 eps=0.01: min over (n,m) of p / max-side frac bound = 5.902345754
+trial 58 d=4 eps=0.001: min over (n,m) of p / max-side frac bound = 1.846188575
+trial 59 d=4 eps=0.0001: min over (n,m) of p / max-side frac bound = 9.626144187
+overall min ratio (random singular families): 1.261428209

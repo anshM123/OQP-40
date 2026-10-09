@@ -1,0 +1,8 @@
+trial 52 d=20 bimodal/flat: running min p/L = 1.085628, p/frac = 1.061210
+trial 53 d=80 flat/power: running min p/L = 1.085628, p/frac = 1.061210
+trial 54 d=40 flat/bimodal: running min p/L = 1.085628, p/frac = 1.061210
+trial 55 d=120 flat/flat: running min p/L = 1.085628, p/frac = 1.061210
+trial 56 d=120 power/flat: running min p/L = 1.085628, p/frac = 1.061210
+trial 57 d=20 power/flat: running min p/L = 1.085628, p/frac = 1.061210
+trial 58 d=40 flat/flat: running min p/L = 1.085628, p/frac = 1.061210
+trial 59 d=120 power/bimodal: running min p/L = 1.085628, p/frac = 1.061210

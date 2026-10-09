@@ -1,0 +1,172 @@
+case 4: d=4 A=diag(0,1/3,1/3,1), PSD rank-3 B; N = 24 nodes per piece; prec = 160 bits
+  A = diag('0', '1/3', '1/3', '1'); B = [[5/4, 1/4, 0, 1/2], [1/4, 3/4, -1/2, 1/2], [0, -1/2, 3/2, 0], [1/2, 1/2, 0, 1/2]]
+  disc_xi(p) factors (deg_s, deg_tau, mult): [(10, 10, 1), (0, 1, 2)]
+  tau: 44 pieces; real singular tau inside spectrum hull: [0.2, 0.203033, 0.333333, 0.333355, 0.34849, 0.357705, 0.467179]
+  rho evaluations: 488184; time 90.3s; mpmath root fallbacks: 1647
+  slice formula: max over tau nodes of |int rho ds - m(tau)| = 3.366e-15
+   (n,m)=( 0, 2)  exact gap =  1.1250000000000000e+00   m(m-1)*integral = 1.125000000000000186578   rel.err 1.7e-16
+   (n,m)=( 0, 7)  exact gap =  5.5283935546875000e+01   m(m-1)*integral = 55.28393554687499892211   rel.err 1.9e-17
+   (n,m)=( 0,12)  exact gap =  1.6687945107221603e+03   m(m-1)*integral = 1668.794510722160363993   rel.err 1.5e-17
+   (n,m)=( 1, 6)  exact gap =  1.0117757161458334e+01   m(m-1)*integral = 10.11775716145833271835   rel.err 6.1e-17
+   (n,m)=( 1,11)  exact gap =  2.9254339671134949e+02   m(m-1)*integral = 292.5433967113494869175   rel.err 1.3e-18
+   (n,m)=( 2, 6)  exact gap =  5.0086999317956353e+00   m(m-1)*integral = 5.008699931795634331406   rel.err 1.2e-16
+   (n,m)=( 3, 2)  exact gap =  3.1134259259259262e-01   m(m-1)*integral = 0.3113425925925927059876   rel.err 3.6e-16
+   (n,m)=( 3, 7)  exact gap =  5.0534645363136574e+00   m(m-1)*integral = 5.053464536313656034334   rel.err 2.7e-16
+   (n,m)=( 4, 4)  exact gap =  7.5432925485008817e-01   m(m-1)*integral = 0.7543292548500884046027   rel.err 2.9e-16
+   (n,m)=( 5, 2)  exact gap =  2.0824759945130317e-01   m(m-1)*integral = 0.2082475994513032372279   rel.err 3.9e-16
+   (n,m)=( 5, 7)  exact gap =  2.0220621196776798e+00   m(m-1)*integral = 2.022062119677678561396   rel.err 5.0e-16
+   (n,m)=( 6, 6)  exact gap =  9.5123297068434753e-01   m(m-1)*integral = 0.9512329706843471928728   rel.err 3.4e-16
+   (n,m)=( 8, 2)  exact gap =  1.3888677200291283e-01   m(m-1)*integral = 0.1388867720029128857797   rel.err 3.6e-16
+   (n,m)=(10, 2)  exact gap =  1.1363617119218400e-01   m(m-1)*integral = 0.1136361711921840318652   rel.err 3.2e-16
+  D1: worst relative error over 66 pairs (n,m), 2 <= m, n+m <= 12: 5.005e-16
+  total time 90.3s
+case 4: d=4 A=diag(0,1/3,1/3,1), PSD rank-3 B; N = 48 nodes per piece; prec = 160 bits
+  A = diag('0', '1/3', '1/3', '1'); B = [[5/4, 1/4, 0, 1/2], [1/4, 3/4, -1/2, 1/2], [0, -1/2, 3/2, 0], [1/2, 1/2, 0, 1/2]]
+  disc_xi(p) factors (deg_s, deg_tau, mult): [(10, 10, 1), (0, 1, 2)]
+  tau: 44 pieces; real singular tau inside spectrum hull: [0.2, 0.203033, 0.333333, 0.333355, 0.34849, 0.357705, 0.467179]
+  rho evaluations: 1960416; time 421.1s; mpmath root fallbacks: 6741
+  slice formula: max over tau nodes of |int rho ds - m(tau)| = 8.752e-27
+   (n,m)=( 0, 2)  exact gap =  1.1250000000000000e+00   m(m-1)*integral = 1.125000000000000000000   rel.err 3.7e-29
+   (n,m)=( 0, 7)  exact gap =  5.5283935546875000e+01   m(m-1)*integral = 55.28393554687500000000   rel.err 3.1e-30
+   (n,m)=( 0,12)  exact gap =  1.6687945107221603e+03   m(m-1)*integral = 1668.794510722160339355   rel.err 2.3e-29
+   (n,m)=( 1, 6)  exact gap =  1.0117757161458334e+01   m(m-1)*integral = 10.11775716145833333333   rel.err 3.0e-29
+   (n,m)=( 1,11)  exact gap =  2.9254339671134949e+02   m(m-1)*integral = 292.5433967113494873047   rel.err 5.8e-30
+   (n,m)=( 2, 6)  exact gap =  5.0086999317956353e+00   m(m-1)*integral = 5.008699931795634920635   rel.err 5.6e-29
+   (n,m)=( 3, 2)  exact gap =  3.1134259259259262e-01   m(m-1)*integral = 0.3113425925925925925926   rel.err 1.4e-29
+   (n,m)=( 3, 7)  exact gap =  5.0534645363136574e+00   m(m-1)*integral = 5.053464536313657407407   rel.err 7.0e-29
+   (n,m)=( 4, 4)  exact gap =  7.5432925485008817e-01   m(m-1)*integral = 0.7543292548500881834215   rel.err 6.5e-29
+   (n,m)=( 5, 2)  exact gap =  2.0824759945130317e-01   m(m-1)*integral = 0.2082475994513031550069   rel.err 1.2e-29
+   (n,m)=( 5, 7)  exact gap =  2.0220621196776798e+00   m(m-1)*integral = 2.022062119677679573513   rel.err 1.3e-28
+   (n,m)=( 6, 6)  exact gap =  9.5123297068434753e-01   m(m-1)*integral = 0.9512329706843475169092   rel.err 1.7e-28
+   (n,m)=( 8, 2)  exact gap =  1.3888677200291283e-01   m(m-1)*integral = 0.1388867720029128351031   rel.err 9.9e-30
+   (n,m)=(10, 2)  exact gap =  1.1363617119218400e-01   m(m-1)*integral = 0.1136361711921839951104   rel.err 8.4e-30
+  D1: worst relative error over 66 pairs (n,m), 2 <= m, n+m <= 12: 1.701e-28
+  total time 421.1s
+case 5: d=3 complex Hermitian B, A=diag(0,2/5,1); N = 24 nodes per piece; prec = 160 bits
+  A = diag('0', '2/5', '1'); B = [[(1/2 - I/2)*(1/2 + I/2) + 5/4, 1/2 + 3*I/4, -1/2 - I*(1/2 - I/2)/2 - I*(1/2 + I/2)/2], [1/2 - 3*I/4, 1/4 + (1/2 - I)*(1/2 + I), I/4], [-1/2 + I*(1/2 + I/2)/2 + I*(1/2 - I/2)/2, -I/4, 1/2 + (1/2 - I/2)*(1/2 + I/2)]]
+Traceback (most recent call last):
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\check\c2_quad_D1.py", line 380, in <module>
+    main()
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\check\c2_quad_D1.py", line 302, in main
+    gaps, alphas, w = exact_gaps(levels, Bsym, cplx, Nmax)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\check\c2_quad_D1.py", line 92, in exact_gaps
+    re, im = q_of(sp.re(Bsym[i, j])), q_of(sp.im(Bsym[i, j]))
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\check\c2_quad_D1.py", line 74, in q_of
+    x = sp.Rational(x)
+        ^^^^^^^^^^^^^^
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\.venv\Lib\site-packages\sympy\core\cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\.venv\Lib\site-packages\sympy\core\numbers.py", line 1341, in __new__
+    raise TypeError('invalid input: %s' % p)
+TypeError: invalid input: (1/2 - I/2)*(1/2 + I/2) + 5/4
+case 5: d=3 complex Hermitian B, A=diag(0,2/5,1); N = 48 nodes per piece; prec = 160 bits
+  A = diag('0', '2/5', '1'); B = [[(1/2 - I/2)*(1/2 + I/2) + 5/4, 1/2 + 3*I/4, -1/2 - I*(1/2 - I/2)/2 - I*(1/2 + I/2)/2], [1/2 - 3*I/4, 1/4 + (1/2 - I)*(1/2 + I), I/4], [-1/2 + I*(1/2 + I/2)/2 + I*(1/2 - I/2)/2, -I/4, 1/2 + (1/2 - I/2)*(1/2 + I/2)]]
+Traceback (most recent call last):
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\check\c2_quad_D1.py", line 380, in <module>
+    main()
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\check\c2_quad_D1.py", line 302, in main
+    gaps, alphas, w = exact_gaps(levels, Bsym, cplx, Nmax)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\check\c2_quad_D1.py", line 92, in exact_gaps
+    re, im = q_of(sp.re(Bsym[i, j])), q_of(sp.im(Bsym[i, j]))
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\iqoqi\programs\harmonic_majorization\dinh\check\c2_quad_D1.py", line 74, in q_of
+    x = sp.Rational(x)
+        ^^^^^^^^^^^^^^
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\.venv\Lib\site-packages\sympy\core\cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anshm\Downloads\BREAKTHROUGH LE OPUS\.venv\Lib\site-packages\sympy\core\numbers.py", line 1341, in __new__
+    raise TypeError('invalid input: %s' % p)
+TypeError: invalid input: (1/2 - I/2)*(1/2 + I/2) + 5/4
+case 6: d=4 projection A=diag(0,0,1,1), PSD B; N = 24 nodes per piece; prec = 160 bits
+  A = diag('0', '0', '1', '1'); B = [[3/2, 1/4, 1/4, 0], [1/4, 3/4, -1/2, 1/2], [1/4, -1/2, 7/4, -1/2], [0, 1/2, -1/2, 3/2]]
+  disc_xi(p) factors (deg_s, deg_tau, mult): [(8, 8, 1), (0, 1, 2), (0, 1, 2)]
+  tau: 20 pieces; real singular tau inside spectrum hull: [0.020463, 0.141438, 0.225506, 0.417624, 0.554613, 0.724242, 0.822756, 0.96272]
+  rho evaluations: 146928; time 15.7s; mpmath root fallbacks: 5
+  slice formula: max over tau nodes of |int rho ds - m(tau)| = 1.310e-17
+   (n,m)=( 0, 2)  exact gap =  1.1250000000000000e+00   m(m-1)*integral = 1.125000000000000000030   rel.err 2.6e-20
+   (n,m)=( 0, 7)  exact gap =  3.1733618164062500e+02   m(m-1)*integral = 317.3361816406250000043   rel.err 1.3e-20
+   (n,m)=( 0,12)  exact gap =  3.5732551969468594e+04   m(m-1)*integral = 35732.55196946859359841   rel.err 2.8e-20
+   (n,m)=( 1, 6)  exact gap =  8.5990478515625000e+01   m(m-1)*integral = 85.99047851562500000096   rel.err 1.1e-20
+   (n,m)=( 1,11)  exact gap =  1.1394335506439209e+04   m(m-1)*integral = 11394.33550643920898462   rel.err 2.1e-20
+   (n,m)=( 2, 6)  exact gap =  6.8018973214285708e+01   m(m-1)*integral = 68.01897321428571428638   rel.err 9.8e-21
+   (n,m)=( 3, 2)  exact gap =  2.8125000000000000e-01   m(m-1)*integral = 0.2812500000000000000040   rel.err 1.4e-20
+   (n,m)=( 3, 7)  exact gap =  1.6082756042480469e+02   m(m-1)*integral = 160.8275604248046875014   rel.err 8.9e-21
+   (n,m)=( 4, 4)  exact gap =  4.8252232142857139e+00   m(m-1)*integral = 4.825223214285714285749   rel.err 7.3e-21
+   (n,m)=( 5, 2)  exact gap =  1.8750000000000000e-01   m(m-1)*integral = 0.1875000000000000000024   rel.err 1.3e-20
+   (n,m)=( 5, 7)  exact gap =  1.2170900287050189e+02   m(m-1)*integral = 121.7090028705018939401   rel.err 5.5e-21
+   (n,m)=( 6, 6)  exact gap =  3.7396579494724023e+01   m(m-1)*integral = 37.39657949472402597419   rel.err 4.4e-21
+   (n,m)=( 8, 2)  exact gap =  1.2500000000000000e-01   m(m-1)*integral = 0.1250000000000000000019   rel.err 1.5e-20
+   (n,m)=(10, 2)  exact gap =  1.0227272727272728e-01   m(m-1)*integral = 0.1022727272727272727290   rel.err 1.7e-20
+  D1: worst relative error over 66 pairs (n,m), 2 <= m, n+m <= 12: 2.801e-20
+  total time 15.7s
+case 6: d=4 projection A=diag(0,0,1,1), PSD B; N = 48 nodes per piece; prec = 160 bits
+  A = diag('0', '0', '1', '1'); B = [[3/2, 1/4, 1/4, 0], [1/4, 3/4, -1/2, 1/2], [1/4, -1/2, 7/4, -1/2], [0, 1/2, -1/2, 3/2]]
+  disc_xi(p) factors (deg_s, deg_tau, mult): [(8, 8, 1), (0, 1, 2), (0, 1, 2)]
+  tau: 20 pieces; real singular tau inside spectrum hull: [0.020463, 0.141438, 0.225506, 0.417624, 0.554613, 0.724242, 0.822756, 0.96272]
+  rho evaluations: 596976; time 63.0s; mpmath root fallbacks: 108
+  slice formula: max over tau nodes of |int rho ds - m(tau)| = 1.851e-29
+   (n,m)=( 0, 2)  exact gap =  1.1250000000000000e+00   m(m-1)*integral = 1.125000000000000000000   rel.err 1.7e-32
+   (n,m)=( 0, 7)  exact gap =  3.1733618164062500e+02   m(m-1)*integral = 317.3361816406250000000   rel.err 1.5e-31
+   (n,m)=( 0,12)  exact gap =  3.5732551969468594e+04   m(m-1)*integral = 35732.55196946859359741   rel.err 2.5e-31
+   (n,m)=( 1, 6)  exact gap =  8.5990478515625000e+01   m(m-1)*integral = 85.99047851562500000000   rel.err 1.1e-31
+   (n,m)=( 1,11)  exact gap =  1.1394335506439209e+04   m(m-1)*integral = 11394.33550643920898437   rel.err 1.8e-31
+   (n,m)=( 2, 6)  exact gap =  6.8018973214285708e+01   m(m-1)*integral = 68.01897321428571428571   rel.err 8.0e-32
+   (n,m)=( 3, 2)  exact gap =  2.8125000000000000e-01   m(m-1)*integral = 0.2812500000000000000000   rel.err 1.6e-32
+   (n,m)=( 3, 7)  exact gap =  1.6082756042480469e+02   m(m-1)*integral = 160.8275604248046875000   rel.err 6.5e-32
+   (n,m)=( 4, 4)  exact gap =  4.8252232142857139e+00   m(m-1)*integral = 4.825223214285714285714   rel.err 2.9e-32
+   (n,m)=( 5, 2)  exact gap =  1.8750000000000000e-01   m(m-1)*integral = 0.1875000000000000000000   rel.err 3.8e-33
+   (n,m)=( 5, 7)  exact gap =  1.2170900287050189e+02   m(m-1)*integral = 121.7090028705018939394   rel.err 3.1e-32
+   (n,m)=( 6, 6)  exact gap =  3.7396579494724023e+01   m(m-1)*integral = 37.39657949472402597403   rel.err 1.8e-32
+   (n,m)=( 8, 2)  exact gap =  1.2500000000000000e-01   m(m-1)*integral = 0.1250000000000000000000   rel.err 1.1e-32
+   (n,m)=(10, 2)  exact gap =  1.0227272727272728e-01   m(m-1)*integral = 0.1022727272727272727273   rel.err 1.7e-32
+  D1: worst relative error over 66 pairs (n,m), 2 <= m, n+m <= 12: 2.538e-31
+  total time 63.0s
+case 7: d=4 generic A=diag(0,1/4,3/5,1), PSD B; N = 24 nodes per piece; prec = 160 bits
+  A = diag('0', '1/4', '3/5', '1'); B = [[3/2, 1/4, 1/4, 0], [1/4, 3/4, -1/2, 1/2], [1/4, -1/2, 7/4, -1/2], [0, 1/2, -1/2, 3/2]]
+  disc_xi(p) factors (deg_s, deg_tau, mult): [(12, 12, 1)]
+  tau: 63 pieces; real singular tau inside spectrum hull: [0.047512, 0.072006, 0.25, 0.25095, 0.290748, 0.337168, 0.395217, 0.52676, 0.531705, 0.57175, 0.599986, 0.6, 0.715709, 0.789469]
+  rho evaluations: 487248; time 56.6s; mpmath root fallbacks: 2
+  slice formula: max over tau nodes of |int rho ds - m(tau)| = 1.203e-14
+   (n,m)=( 0, 2)  exact gap =  1.7500000000000000e+00   m(m-1)*integral = 1.750000000000000016529   rel.err 9.4e-18
+   (n,m)=( 0, 7)  exact gap =  4.6481726074218750e+02   m(m-1)*integral = 464.8172607421874991350   rel.err 1.9e-18
+   (n,m)=( 0,12)  exact gap =  4.4130833997726440e+04   m(m-1)*integral = 44130.83399772643946948   rel.err 2.2e-17
+   (n,m)=( 1, 6)  exact gap =  1.1847432861328124e+02   m(m-1)*integral = 118.4743286132812503447   rel.err 2.9e-18
+   (n,m)=( 1,11)  exact gap =  1.2165380416631699e+04   m(m-1)*integral = 12165.38041663169838511   rel.err 1.8e-17
+   (n,m)=( 2, 6)  exact gap =  8.4465571986607145e+01   m(m-1)*integral = 84.46557198660714301696   rel.err 1.9e-18
+   (n,m)=( 3, 2)  exact gap =  4.9014453125000002e-01   m(m-1)*integral = 0.4901445312500000014203   rel.err 2.9e-18
+   (n,m)=( 3, 7)  exact gap =  1.6412884720929463e+02   m(m-1)*integral = 164.1288472092946366466   rel.err 2.4e-18
+   (n,m)=( 4, 4)  exact gap =  6.3614108272879468e+00   m(m-1)*integral = 6.361410827287946443495   rel.err 2.3e-18
+   (n,m)=( 5, 2)  exact gap =  3.2238810546875002e-01   m(m-1)*integral = 0.3223881054687499987085   rel.err 4.0e-18
+   (n,m)=( 5, 7)  exact gap =  1.0138258399791486e+02   m(m-1)*integral = 101.3825839979148631141   rel.err 2.4e-18
+   (n,m)=( 6, 6)  exact gap =  3.2969908541565637e+01   m(m-1)*integral = 32.96990854156563494304   rel.err 1.4e-18
+   (n,m)=( 8, 2)  exact gap =  2.1339552109863280e-01   m(m-1)*integral = 0.2133955210986328105146   rel.err 9.3e-18
+   (n,m)=(10, 2)  exact gap =  1.7436999685618010e-01   m(m-1)*integral = 0.1743699968561800851846   rel.err 1.0e-17
+  D1: worst relative error over 66 pairs (n,m), 2 <= m, n+m <= 12: 2.176e-17
+  total time 56.6s
+case 7: d=4 generic A=diag(0,1/4,3/5,1), PSD B; N = 48 nodes per piece; prec = 160 bits
+  A = diag('0', '1/4', '3/5', '1'); B = [[3/2, 1/4, 1/4, 0], [1/4, 3/4, -1/2, 1/2], [1/4, -1/2, 7/4, -1/2], [0, 1/2, -1/2, 3/2]]
+  disc_xi(p) factors (deg_s, deg_tau, mult): [(12, 12, 1)]
+  tau: 63 pieces; real singular tau inside spectrum hull: [0.047512, 0.072006, 0.25, 0.25095, 0.290748, 0.337168, 0.395217, 0.52676, 0.531705, 0.57175, 0.599986, 0.6, 0.715709, 0.789469]
+  rho evaluations: 1964400; time 211.9s; mpmath root fallbacks: 660
+  slice formula: max over tau nodes of |int rho ds - m(tau)| = 2.395e-26
+   (n,m)=( 0, 2)  exact gap =  1.7500000000000000e+00   m(m-1)*integral = 1.750000000000000000000   rel.err 1.2e-29
+   (n,m)=( 0, 7)  exact gap =  4.6481726074218750e+02   m(m-1)*integral = 464.8172607421875000000   rel.err 2.9e-29
+   (n,m)=( 0,12)  exact gap =  4.4130833997726440e+04   m(m-1)*integral = 44130.83399772644042969   rel.err 2.4e-29
+   (n,m)=( 1, 6)  exact gap =  1.1847432861328124e+02   m(m-1)*integral = 118.4743286132812500000   rel.err 2.5e-29
+   (n,m)=( 1,11)  exact gap =  1.2165380416631699e+04   m(m-1)*integral = 12165.38041663169860840   rel.err 2.4e-29
+   (n,m)=( 2, 6)  exact gap =  8.4465571986607145e+01   m(m-1)*integral = 84.46557198660714285714   rel.err 2.2e-29
+   (n,m)=( 3, 2)  exact gap =  4.9014453125000002e-01   m(m-1)*integral = 0.4901445312500000000000   rel.err 1.2e-29
+   (n,m)=( 3, 7)  exact gap =  1.6412884720929463e+02   m(m-1)*integral = 164.1288472092946370443   rel.err 1.9e-29
+   (n,m)=( 4, 4)  exact gap =  6.3614108272879468e+00   m(m-1)*integral = 6.361410827287946428571   rel.err 1.2e-29
+   (n,m)=( 5, 2)  exact gap =  3.2238810546875002e-01   m(m-1)*integral = 0.3223881054687500000000   rel.err 8.2e-30
+   (n,m)=( 5, 7)  exact gap =  1.0138258399791486e+02   m(m-1)*integral = 101.3825839979148633552   rel.err 1.2e-29
+   (n,m)=( 6, 6)  exact gap =  3.2969908541565637e+01   m(m-1)*integral = 32.96990854156563498757   rel.err 8.7e-30
+   (n,m)=( 8, 2)  exact gap =  2.1339552109863280e-01   m(m-1)*integral = 0.2133955210986328125000   rel.err 4.6e-30
+   (n,m)=(10, 2)  exact gap =  1.7436999685618010e-01   m(m-1)*integral = 0.1743699968561800870028   rel.err 3.4e-30
+  D1: worst relative error over 66 pairs (n,m), 2 <= m, n+m <= 12: 2.929e-29
+  total time 211.9s

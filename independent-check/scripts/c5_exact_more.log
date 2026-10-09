@@ -1,0 +1,5 @@
+[F1] D5: 48 random (pair, f) cases (d=2..4; PSD and Hermitian letters; repeated eigenvalues); f negative somewhere on R in 32, non-monotone in s on R in 26, not convex outside R in 45; violations of T_f >= Tr f(A,E_A(B)): 0; smallest relative excess 1.968e-03
+[F2] f = tau^n (s - s*)^5/20 (convex in s only for s > s*, s* inside (l_min, l_max)): T_f < Tr f(A,E_A(B)) in 97/200 random PSD pairs -> the convexity hypothesis on the whole s-range is needed
+[F3] near-degenerate A (eigenvalue gap 1e-2 ... 1e-12, fine pinching): 1485 (pair,n,m) cases with m>=2: failures of gap>0 or of D3 (60 digits) = 0; min gap/(D3 lower bound) = 1.0
+[F4] d=3, singular A, all (n,m) with n+m=30, m>=2: non-positive gaps = 0 of 29
+[F4] d=6, A multiplicities (3,2,1) incl. kernel of dim 3, rank-2 B, n+m<=14, m>=2: non-positive gaps = 0 of 91

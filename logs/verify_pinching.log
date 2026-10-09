@@ -1,0 +1,22 @@
+[0] recursion vs brute-force word listing: max rel. diff 6.01e-16
+[1] PSD cases: 40500; most negative relative gap -1.13e-14; max |Im A_nm|/scale 6.5e-16
+[2] two-sided bound: worst relative violation 1.13e-14; m=2 equality error 9.70e-15
+[3] Hermitian, n and m even: 7500 cases; most negative relative gap -9.31e-15
+[3b] Hermitian (n,m)=(1,3): negative gap in 152/300 random cases (sign condition is needed)
+[4] integral formula (quadrature):
+   d=3 levels=[np.float64(0.1), np.float64(0.5), np.float64(0.5)] (n,m)=(0,2): gap +2.057829  integral +2.057754
+   d=3 levels=[np.float64(0.1), np.float64(0.5), np.float64(0.5)] (n,m)=(3,2): gap +0.080255  integral +0.080252
+   d=3 levels=[np.float64(0.1), np.float64(0.5), np.float64(0.5)] (n,m)=(2,3): gap +1.965701  integral +1.965696
+   d=3 levels=[np.float64(0.1), np.float64(0.5), np.float64(0.5)] (n,m)=(4,4): gap +2.621678  integral +2.621754
+   d=3 levels=[np.float64(0.1), np.float64(0.5), np.float64(0.5)] (n,m)=(5,3): gap +0.142530  integral +0.142533
+   d=3 levels=[np.float64(0.0), np.float64(0.3), np.float64(0.9)] (n,m)=(0,2): gap +4.705631  integral +4.705654
+   d=3 levels=[np.float64(0.0), np.float64(0.3), np.float64(0.9)] (n,m)=(3,2): gap +0.556819  integral +0.556825
+   d=3 levels=[np.float64(0.0), np.float64(0.3), np.float64(0.9)] (n,m)=(2,3): gap +3.216729  integral +3.216746
+   d=3 levels=[np.float64(0.0), np.float64(0.3), np.float64(0.9)] (n,m)=(4,4): gap +3.273483  integral +3.273485
+   d=3 levels=[np.float64(0.0), np.float64(0.3), np.float64(0.9)] (n,m)=(5,3): gap +0.862405  integral +0.862415
+   d=4 levels=[np.float64(0.2), np.float64(0.2), np.float64(0.6), np.float64(1.0)] (n,m)=(0,2): gap +7.742343  integral +7.742449
+   d=4 levels=[np.float64(0.2), np.float64(0.2), np.float64(0.6), np.float64(1.0)] (n,m)=(3,2): gap +2.214298  integral +2.214317
+   d=4 levels=[np.float64(0.2), np.float64(0.2), np.float64(0.6), np.float64(1.0)] (n,m)=(2,3): gap +18.319088  integral +18.319153
+   d=4 levels=[np.float64(0.2), np.float64(0.2), np.float64(0.6), np.float64(1.0)] (n,m)=(4,4): gap +49.309017  integral +49.308811
+   d=4 levels=[np.float64(0.2), np.float64(0.2), np.float64(0.6), np.float64(1.0)] (n,m)=(5,3): gap +8.975747  integral +8.975780
+exit 0

@@ -1,0 +1,32 @@
+seed 1: 774 optimisation rounds in 1501s
+rounds ending with a negative double-precision objective: 95
+  suspect d3_low generic d=2 r=2 (n,m)=(8,4): double -1.666e+00 -> 50-digit 4.718126e-6 (gap 6.8341582e-15, ||B-E||^2 1.025e-14)
+  suspect d3_up lowrank_B d=2 r=1 (n,m)=(6,3): double -1.596e+00 -> 50-digit 0.12500003 (gap 3.8542419e-15, ||B-E||^2 1.028e-14)
+  suspect d3_low sing_A d=2 r=2 (n,m)=(6,3): double -1.479e+00 -> 50-digit 1.0563013e-5 (gap 4.6331623e-15, ||B-E||^2 1.081e-14)
+  suspect d3_low generic d=2 r=2 (n,m)=(6,3): double -1.436e+00 -> 50-digit 2.4861159e-5 (gap 4.3286943e-15, ||B-E||^2 1.01e-14)
+  suspect d3_up lowrank_B d=2 r=1 (n,m)=(6,3): double -1.330e+00 -> 50-digit 0.12500001 (gap 3.7516687e-15, ||B-E||^2 1.0e-14)
+  suspect d3_up generic d=2 r=2 (n,m)=(8,4): double -1.283e+00 -> 50-digit 1.0386305e-5 (gap 6.8578341e-15, ||B-E||^2 1.02e-14)
+  suspect d3_up lowrank_B d=2 r=1 (n,m)=(8,4): double -1.079e+00 -> 50-digit 0.18181818 (gap 5.5043416e-15, ||B-E||^2 1.009e-14)
+  suspect d3_up lowrank_B d=2 r=1 (n,m)=(8,4): double -1.058e+00 -> 50-digit 0.18181823 (gap 5.5609764e-15, ||B-E||^2 1.02e-14)
+  suspect d3_up lowrank_B d=3 r=1 (n,m)=(3,3): double -1.026e+00 -> 50-digit 0.2 (gap 6.0940028e-15, ||B-E||^2 1.016e-14)
+  suspect d3_up generic d=2 r=2 (n,m)=(6,3): double -9.243e-01 -> 50-digit 5.3756661e-6 (gap 4.5002819e-15, ||B-E||^2 1.048e-14)
+  suspect d3_low generic d=2 r=2 (n,m)=(8,4): double -9.039e-01 -> 50-digit 2.3607817e-6 (gap 6.9334841e-15, ||B-E||^2 1.037e-14)
+  suspect d3_low generic d=2 r=2 (n,m)=(8,4): double -8.737e-01 -> 50-digit 7.778228e-6 (gap 7.0303446e-15, ||B-E||^2 1.028e-14)
+  suspect d3_up lowrank_B d=2 r=1 (n,m)=(6,3): double -8.167e-01 -> 50-digit 0.125 (gap 4.1707857e-15, ||B-E||^2 1.112e-14)
+  suspect d3_low sing_A d=2 r=2 (n,m)=(3,3): double -8.040e-01 -> 50-digit 1.1196522e-5 (gap 7.9314993e-15, ||B-E||^2 1.058e-14)
+  suspect d3_up generic d=2 r=2 (n,m)=(5,5): double -7.892e-01 -> 50-digit 1.5007028e-5 (gap 1.7001413e-14, ||B-E||^2 1.02e-14)
+best (smallest) objective values found, re-evaluated in 50-digit arithmetic:
+  d3_low   exact_deg d=3 r=3 (n,m)=(0,3): double  3.074e-04  50-digit  0.000307398  gap 2.22688e-7  ||B-E||^2 8.142e-8  l_min(B) 0.911  min gap of A-spectrum 0.0e+00
+  d3_low   generic   d=2 r=2 (n,m)=(8,4): double -1.666e+00  50-digit   4.71813e-6  gap 6.83416e-15  ||B-E||^2 1.025e-14  l_min(B) 1.0  min gap of A-spectrum 1.0e+00
+  d3_low   near_deg  d=3 r=3 (n,m)=(1,7): double  4.263e-05  50-digit   4.94528e-5  gap 1.112e-9  ||B-E||^2 6.883e-9  l_min(B) 1.0  min gap of A-spectrum 3.7e-09
+  d3_low   sing_A    d=2 r=2 (n,m)=(6,3): double -1.479e+00  50-digit    1.0563e-5  gap 4.63316e-15  ||B-E||^2 1.081e-14  l_min(B) 1.0  min gap of A-spectrum 1.0e+00
+  d3_up    exact_deg d=3 r=3 (n,m)=(3,3): double  1.163e-04  50-digit  0.000116356  gap 2.2971e-8  ||B-E||^2 3.063e-8  l_min(B) 0.0262  min gap of A-spectrum 0.0e+00
+  d3_up    generic   d=2 r=2 (n,m)=(8,4): double -1.283e+00  50-digit   1.03863e-5  gap 6.85783e-15  ||B-E||^2 1.02e-14  l_min(B) 1.0  min gap of A-spectrum 9.9e-01
+  d3_up    lowrank_B d=2 r=1 (n,m)=(6,3): double -1.596e+00  50-digit        0.125  gap 3.85424e-15  ||B-E||^2 1.028e-14  l_min(B) 3.0e-53  min gap of A-spectrum 1.0e+00
+  d3_up    near_deg  d=3 r=3 (n,m)=(3,3): double  7.024e-04  50-digit  0.000702381  gap 2.60988e-6  ||B-E||^2 8.719e-7  l_min(B) 0.294  min gap of A-spectrum 1.0e-03
+  d3_up    sing_A    d=2 r=2 (n,m)=(3,3): double -5.633e-01  50-digit   5.45792e-6  gap 7.59905e-15  ||B-E||^2 1.013e-14  l_min(B) 1.0  min gap of A-spectrum 1.0e+00
+  gap_norm exact_deg d=4 r=4 (n,m)=(5,5): double  2.661e-07  50-digit   2.66088e-7  gap 1.14518e-7  ||B-E||^2 0.4304  l_min(B) 0.00846  min gap of A-spectrum 0.0e+00
+  gap_norm generic   d=4 r=4 (n,m)=(6,3): double  1.908e-13  50-digit  1.94506e-13  gap 8.67949e-14  ||B-E||^2 0.4462  l_min(B) 0.0663  min gap of A-spectrum 3.3e-11
+  gap_norm lowrank_B d=2 r=1 (n,m)=(8,4): double -7.334e-04  50-digit    0.0121212  gap 1.39173e-16  ||B-E||^2 1.148e-14  l_min(B) 2.84e-52  min gap of A-spectrum 1.0e+00
+  gap_norm near_deg  d=3 r=3 (n,m)=(2,4): double -4.225e-12  50-digit   2.0586e-13  gap 3.89527e-16  ||B-E||^2 0.001892  l_min(B) 0.000906  min gap of A-spectrum 2.2e-07
+  gap_norm sing_A    d=3 r=3 (n,m)=(2,3): double -6.889e-16  50-digit  1.42932e-16  gap 5.18246e-17  ||B-E||^2 0.3626  l_min(B) 0.0377  min gap of A-spectrum 2.1e-09

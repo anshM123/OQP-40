@@ -1,0 +1,6 @@
+d=2 (n,m)=(3,3): min log-ratio -1.563e-13
+d=3 (n,m)=(3,3): min log-ratio -1.279e-13
+d=2 (n,m)=(4,4): min log-ratio -2.416e-13
+d=3 (n,m)=(4,4): min log-ratio -9.948e-14
+d=3 (n,m)=(3,5): min log-ratio -2.274e-13
+exit 124
