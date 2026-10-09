@@ -1,6 +1,6 @@
 # Open Quantum Problem 40: the refined BMV inequality
 
-**Authors:** Ansh Mishra, Aryan Senthilkumar. **License:** MIT. **Date:** 2026-10-08.
+**Authors:** Ansh Mishra, Aryan Senthilkumar. **License:** MIT. **Started:** 2026-10-08; **updated:** 2026-10-09.
 
 This repository concerns **IQOQI Vienna Open Quantum Problem 40**, "Refinement of the Bessis–Moussa–Villani
 conjecture". The problem is due to D. Hägele, communicated by R. F. Werner, and is also listed as
@@ -12,6 +12,18 @@ $t^m$ in $\operatorname{Tr}(A+tB)^{n+m}$, divided by $\binom{n+m}{n}$. The probl
 
 $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log A+m\log B).$$
 
+## Summary
+
+- **The answer to OQP 40 is no.** The upper half fails (Cha and Lee); we machine-checked the counterexample in Lean,
+  also for positive definite matrices.
+- **The pinching inequality** that repairs the upper half (Dinh's conjecture) holds for all word lengths, with an
+  exact formula for the gap; machine-checked in Lean.
+- **The lower half is open in general.** We prove it in many new cases in every dimension, including (3,3) (the key
+  inequality machine-checked in Lean), five cases with m = 4 or n = 4, and (n, 3), (3, n) for n ≤ 30 and n = 33,
+  36, …, 60. Extensive searches found no counterexample.
+- Nothing here has been refereed externally. The Lean proofs use only the standard axioms; the other new proofs
+  were checked internally with independent code.
+
 ## Results
 
 | Statement | Status | Where |
@@ -22,7 +34,7 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
 | **Corrected upper bound:** $p_{n,m}\le\operatorname{Tr}(A^nE_A(B)^m)+m(m-1)\|B\|^{m-2}S_n$, with a matching lower bound (equality for m = 2) | **Proved here** | same note, Theorem 3 |
 | Variants: indefinite letters under sign conditions; a Jensen form for functions convex in the B-variable; for fixed m, $n\mapsto p_{n,m}$ is the moment sequence of an explicit positive measure | **Proved here** | same note, Theorems 4–6 |
 | The identity behind all of this: the pinched two-variable BMV identity (Theorem A) | **Proved** (full proof); **machine-checked in Lean** for P with spectrum in [0, 1], which is all that the results above need. The generic case is Heinävaara's explicit BMV measure; the general-multiplicity form was stated in our OQP 27 paper | [`math/02-theorem-A.md`](math/02-theorem-A.md), [`lean/`](lean/) |
-| **Lower half:** $p_{n,m}(A,B)\ge\operatorname{Tr}\exp(n\log A+m\log B)$ | **Open in general.** Proved when min(n, m) ≤ 2; when (n, m) is (3,3), (3,4), (4,3), (4,4), (4,6) or (6,4), in every dimension; at (n, 3) and (3, n) for n = 1, …, 30 and n = 33, 36, …, 60, in every dimension (computer-assisted, exact); when A or B has at most two distinct eigenvalues (any dimension; this uses Stahl's theorem); and when B is entrywise nonnegative in some eigenbasis of A, which covers all d = 2. The (3,3) case, $\operatorname{Tr}(A^3B^3)+2\operatorname{Re}\operatorname{Tr}(A^2BAB^2)\ge3\operatorname{Tr}((AB)^3)$, has an elementary proof, machine-checked in Lean for positive semidefinite A, B of every size (`lean/OQP40/Thm33.lean`; the classical Araki–Lieb–Thirring step to the lower bound is not formalized); its single-word version is false. The other five new cases rest on exact rational sum-of-squares certificates. In all these cases a stronger form also holds: $p_{n,m}\ge\operatorname{Tr}(A^{n/m}B)^m$, or its version with the letters exchanged. The new cases were checked internally with independent code; they have not been refereed externally. No counterexample in extensive searches. | [`math/03-lower-half.md`](math/03-lower-half.md), [`math/04-lower-half-new-cases.md`](math/04-lower-half-new-cases.md), [`math/05-lower-half-m3.md`](math/05-lower-half-m3.md), [`lower-half/`](lower-half/README.md) |
+| **Lower half:** $p_{n,m}(A,B)\ge\operatorname{Tr}\exp(n\log A+m\log B)$ | **Open in general.** Proved when min(n, m) ≤ 2; when (n, m) is (3,3), (3,4), (4,3), (4,4), (4,6) or (6,4), in every dimension; at (n, 3) and (3, n) for n = 1, …, 30 and n = 33, 36, …, 60, in every dimension (computer-assisted, exact); when A or B has at most two distinct eigenvalues (any dimension; this uses Stahl's theorem); and when B is entrywise nonnegative in some eigenbasis of A, which covers all d = 2. The (3,3) case, $\operatorname{Tr}(A^3B^3)+2\operatorname{Re}\operatorname{Tr}(A^2BAB^2)\ge3\operatorname{Tr}((AB)^3)$, has an elementary proof, machine-checked in Lean for positive semidefinite A, B of every size (`lean/OQP40/Thm33.lean`; the classical Araki–Lieb–Thirring step to the lower bound is not formalized); its single-word version is false. The cases (3,4), (4,3), (4,4), (4,6) and (6,4) rest on exact rational sum-of-squares certificates, and the cases (n,3), (3,n) on an exact computation for each n. In all these cases a stronger form also holds: $p_{n,m}\ge\operatorname{Tr}(A^{n/m}B)^m$, or its version with the letters exchanged. The new cases were checked internally with independent code; they have not been refereed externally. No counterexample in extensive searches. | [`math/03-lower-half.md`](math/03-lower-half.md), [`math/04-lower-half-new-cases.md`](math/04-lower-half-new-cases.md), [`math/05-lower-half-m3.md`](math/05-lower-half-m3.md), [`lower-half/`](lower-half/README.md) |
 
 ### In words
 
