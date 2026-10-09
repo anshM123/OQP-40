@@ -1,0 +1,17 @@
+n=6 qd=2: share identity checked on 455 monomials, mismatches: 0
+nonzero rows: [0, 1, 2, 3, 4, 5, 6]
+  minor 1: degree 12, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 2: degree 18, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 3: degree 24, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 4: degree 30, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 5: degree 34, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 6: degree 36, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 7: degree 36, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+KERNEL CONDITION (P): PROVED
+  trial 0: d=3, direct sum = 1.79018595438e+12, certificate sum = 1.79018595438e+12
+  trial 1: d=3, direct sum = 6.93554496918e+12, certificate sum = 6.93554496918e+12
+  trial 2: d=4, direct sum = 65606106309.4, certificate sum = 65606106309.4
+  trial 3: d=4, direct sum = 5.50015936088e+13, certificate sum = 5.50015936088e+13
+end-to-end: max relative identity error 2.7623e-60; min normalised eigenvalue of G^ab -5.8165e-60
+RESULT: ALL CHECKS PASSED
+exit 0 time 3s

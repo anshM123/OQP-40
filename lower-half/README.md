@@ -11,6 +11,10 @@ This folder holds the computations behind
   own code.
 - [`m3/`](m3/README.md): Theorem 5 of [`../math/05-lower-half-m3.md`](../math/05-lower-half-m3.md), Conjecture F at
   (n, 3) for many n: the exact verifier, its logs for every n, and the checks.
+- [`m4/`](m4/README.md): Theorem 6 of [`../math/06-lower-half-m4.md`](../math/06-lower-half-m4.md), Conjecture F at
+  (n, 4) for many n: the certificate rules (one JSON table per n), three exact verifiers, the search scripts and logs.
+- [`coverage.svg`](coverage.svg): which (n, m) of the lower half are proved, for 1 ≤ n, m ≤ 16. It is drawn by
+  `python coverage_map.py coverage.svg N3 N4`, where N3 and N4 are the comma-separated lists of n of Theorems 5 and 6.
 
 Both checks are internal checks, made with newly written code. They are not external referee reports.
 

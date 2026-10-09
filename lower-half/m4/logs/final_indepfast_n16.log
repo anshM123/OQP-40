@@ -1,0 +1,21 @@
+n=16 qd=2: share identity holds exactly: True
+nonzero rows (exponents in units 1/2): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+parity block structure: True; blocks [9, 8]
+  minor 1: degree 32 = (scaled) s^0 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 2: degree 48 = (scaled) s^12 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 3: degree 64 = (scaled) s^20 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 4: degree 80 = (scaled) s^24 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 5: degree 96 = (scaled) s^24 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 6: degree 108 = (scaled) s^24 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 7: degree 116 = (scaled) s^24 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 8: degree 120 = (scaled) s^24 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 9: degree 120 = (scaled) s^24 (1-s)^2 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 10: degree 16 = (scaled) s^14 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 11: degree 32 = (scaled) s^24 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 12: degree 48 = (scaled) s^30 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 13: degree 64 = (scaled) s^32 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 14: degree 78 = (scaled) s^32 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 15: degree 88 = (scaled) s^32 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 16: degree 94 = (scaled) s^32 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 17: degree 96 = (scaled) s^32 (1-s)^2 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+INDEPENDENT VERIFICATION (fast variant): PASSED

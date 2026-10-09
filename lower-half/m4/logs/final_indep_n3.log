@@ -1,0 +1,11 @@
+n=3 qd=4: share identity holds exactly: True
+nonzero rows (exponents in units 1/4): [0, 1, 2, 3, 4, 5, 6]
+parity block structure: True; blocks [4, 3]
+  minor 1: degree 12 = (scaled) s^0 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 2: degree 18 = (scaled) s^2 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 3: degree 22 = (scaled) s^2 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 4: degree 22 = (scaled) s^2 (1-s)^2 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 5: degree 6 = (scaled) s^4 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 6: degree 12 = (scaled) s^4 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 7: degree 14 = (scaled) s^4 (1-s)^2 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+INDEPENDENT VERIFICATION: PASSED

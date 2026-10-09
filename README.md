@@ -19,8 +19,10 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
 - **The pinching inequality** that repairs the upper half (Dinh's conjecture) holds for all word lengths, with an
   exact formula for the gap; machine-checked in Lean.
 - **The lower half is open in general.** We prove it in many new cases in every dimension, including (3,3) (the key
-  inequality machine-checked in Lean), five cases with m = 4 or n = 4, and (n, 3), (3, n) for n ≤ 30 and n = 33,
-  36, …, 60. Extensive searches found no counterexample.
+  inequality machine-checked in Lean), (n, 3) and (3, n) for n ≤ 33 and n = 36, 39, …, 63, (n, 4) and (4, n) for
+  n ≤ 12 and n = 14, 16, 18, 20, 22, and (4, 6), (6, 4). The open case with the fewest letters is (5, 5), exactly where
+  the upper half fails.
+  Extensive searches found no counterexample. [Coverage map](lower-half/coverage.svg).
 - Nothing here has been refereed externally. The Lean proofs use only the standard axioms; the other new proofs
   were checked internally with independent code.
 
@@ -34,7 +36,7 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
 | **Corrected upper bound:** $p_{n,m}\le\operatorname{Tr}(A^nE_A(B)^m)+m(m-1)\|B\|^{m-2}S_n$, with a matching lower bound (equality for m = 2) | **Proved here** | same note, Theorem 3 |
 | Variants: indefinite letters under sign conditions; a Jensen form for functions convex in the B-variable; for fixed m, $n\mapsto p_{n,m}$ is the moment sequence of an explicit positive measure | **Proved here** | same note, Theorems 4–6 |
 | The identity behind all of this: the pinched two-variable BMV identity (Theorem A) | **Proved** (full proof); **machine-checked in Lean** for P with spectrum in [0, 1], which is all that the results above need. The generic case is Heinävaara's explicit BMV measure; the general-multiplicity form was stated in our OQP 27 paper | [`math/02-theorem-A.md`](math/02-theorem-A.md), [`lean/`](lean/) |
-| **Lower half:** $p_{n,m}(A,B)\ge\operatorname{Tr}\exp(n\log A+m\log B)$ | **Open in general.** Proved when min(n, m) ≤ 2; when (n, m) is (3,3), (3,4), (4,3), (4,4), (4,6) or (6,4), in every dimension; at (n, 3) and (3, n) for n = 1, …, 30 and n = 33, 36, …, 60, in every dimension (computer-assisted, exact); when A or B has at most two distinct eigenvalues (any dimension; this uses Stahl's theorem); and when B is entrywise nonnegative in some eigenbasis of A, which covers all d = 2. The (3,3) case, $\operatorname{Tr}(A^3B^3)+2\operatorname{Re}\operatorname{Tr}(A^2BAB^2)\ge3\operatorname{Tr}((AB)^3)$, has an elementary proof, machine-checked in Lean for positive semidefinite A, B of every size (`lean/OQP40/Thm33.lean`; the classical Araki–Lieb–Thirring step to the lower bound is not formalized); its single-word version is false. The cases (3,4), (4,3), (4,4), (4,6) and (6,4) rest on exact rational sum-of-squares certificates, and the cases (n,3), (3,n) on an exact computation for each n. In all these cases a stronger form also holds: $p_{n,m}\ge\operatorname{Tr}(A^{n/m}B)^m$, or its version with the letters exchanged. The new cases were checked internally with independent code; they have not been refereed externally. No counterexample in extensive searches. | [`math/03-lower-half.md`](math/03-lower-half.md), [`math/04-lower-half-new-cases.md`](math/04-lower-half-new-cases.md), [`math/05-lower-half-m3.md`](math/05-lower-half-m3.md), [`lower-half/`](lower-half/README.md) |
+| **Lower half:** $p_{n,m}(A,B)\ge\operatorname{Tr}\exp(n\log A+m\log B)$ | **Open in general.** Proved when min(n, m) ≤ 2; when (n, m) is (3,3), (3,4), (4,3), (4,4), (4,6) or (6,4), in every dimension; at (n, 3) and (3, n) for n = 1, …, 33 and n = 36, 39, …, 63, and at (n, 4) and (4, n) for n = 3, …, 12 and n = 14, 16, 18, 20, 22, in every dimension (computer-assisted, exact); when A or B has at most two distinct eigenvalues (any dimension; this uses Stahl's theorem); and when B is entrywise nonnegative in some eigenbasis of A, which covers all d = 2. The (3,3) case, $\operatorname{Tr}(A^3B^3)+2\operatorname{Re}\operatorname{Tr}(A^2BAB^2)\ge3\operatorname{Tr}((AB)^3)$, has an elementary proof, machine-checked in Lean for positive semidefinite A, B of every size (`lean/OQP40/Thm33.lean`; the classical Araki–Lieb–Thirring step to the lower bound is not formalized); its single-word version is false. The cases (3,4), (4,3), (4,4), (4,6) and (6,4) rest on exact rational sum-of-squares certificates; the cases (n,3), (3,n) on an exact computation for each n; and the cases (n,4), (4,n) on an exact polynomial certificate rule for each n, whose positivity is proved with exact univariate root counting (for (4,4) also by hand). In all these cases a stronger form also holds: $p_{n,m}\ge\operatorname{Tr}(A^{n/m}B)^m$, or its version with the letters exchanged. The new cases were checked internally with independent code; they have not been refereed externally. No counterexample in extensive searches. | [`math/03-lower-half.md`](math/03-lower-half.md), [`math/04-lower-half-new-cases.md`](math/04-lower-half-new-cases.md), [`math/05-lower-half-m3.md`](math/05-lower-half-m3.md), [`math/06-lower-half-m4.md`](math/06-lower-half-m4.md), [`lower-half/`](lower-half/README.md) |
 
 ### In words
 
@@ -44,9 +46,10 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
   - The excess over it is an explicit integral of a nonnegative density.
   - The excess is bounded above and below by explicit multiples of the two-letter excess.
 - **The lower half.** It is still open in general.
-  - It now holds in every dimension when min(n, m) ≤ 2; at (n, m) = (3,3), (3,4), (4,3), (4,4), (4,6) and (6,4); and
-    at (n, 3) and (3, n) for n = 1, …, 30 and n = 33, 36, …, 60 (an exact computation for each n,
-    [`math/05-lower-half-m3.md`](math/05-lower-half-m3.md)).
+  - It now holds in every dimension when min(n, m) ≤ 2; at (n, m) = (3,3), (3,4), (4,3), (4,4), (4,6) and (6,4);
+    at (n, 3) and (3, n) for n = 1, …, 33 and n = 36, 39, …, 63 (an exact computation for each n,
+    [`math/05-lower-half-m3.md`](math/05-lower-half-m3.md)); and at (n, 4) and (4, n) for n = 3, …, 12 and n = 14, 16, 18, 20, 22
+    (an exact polynomial certificate for each n, [`math/06-lower-half-m4.md`](math/06-lower-half-m4.md)).
   - The (3,3) case has an elementary proof: an explicit certificate, plus the positivity of three explicit functions
     of two variables. The other five cases follow from exact sum-of-squares identities. Identities of that kind
     provably do not exist at (3,3) and (6,3), for the substitutions we tried.
@@ -94,6 +97,8 @@ external referee reports. For example:
 ```bash
 cd lower-half/sos && python verify_certificate.py certs/*.json   # all 25 certificate files, exact; about 2 minutes
 cd ../thm33/independent-check && python r3_interval.py           # (I)-(III) of the (3,3) proof, interval arithmetic
+cd ../../m3 && python verify_n.py 12                               # Conjecture F at (12,3), exact; under a second
+cd ../m4 && python verify_rule_independent.py rules/n8.json        # Conjecture F at (8,4), exact; a few seconds
 ```
 
 ## Credits

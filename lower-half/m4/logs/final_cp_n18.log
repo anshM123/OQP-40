@@ -1,0 +1,8 @@
+n=18 qd=2 m=19 nv=615 D=36
+s=0 orders [16, 14, 12, 10, 8, 6, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+559 equalities, rank 373, residual 1.1e-15; free dim 242
+PSD blocks per sample: [10, 9]
+iter 0: 80 samples, status AlmostSolved, lam 2.2994e-06, fine-grid min eig -5.3440e-05 at side 0 x=4.067e-02 (17.9 s)
+iter 1: 120 samples, status AlmostSolved, lam 2.2926e-06, fine-grid min eig -2.6468e-05 at side 0 x=1.640e-01 (19.6 s)
+iter 2: 160 samples, status AlmostSolved, lam 2.2931e-06, fine-grid min eig 1.1171e-06 at side 0 x=2.867e-01 (23.1 s)
+saved sol/n18_q2_cpfinal.npz; equality residual 1.6e-12; total 61.3 s

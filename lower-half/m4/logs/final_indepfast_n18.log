@@ -1,0 +1,23 @@
+n=18 qd=2: share identity holds exactly: True
+nonzero rows (exponents in units 1/2): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+parity block structure: True; blocks [10, 9]
+  minor 1: degree 36 = (scaled) s^0 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 2: degree 54 = (scaled) s^14 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 3: degree 72 = (scaled) s^24 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 4: degree 90 = (scaled) s^30 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 5: degree 108 = (scaled) s^32 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 6: degree 124 = (scaled) s^32 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 7: degree 136 = (scaled) s^32 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 8: degree 144 = (scaled) s^32 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 9: degree 148 = (scaled) s^32 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 10: degree 148 = (scaled) s^32 (1-s)^2 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 11: degree 18 = (scaled) s^16 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 12: degree 36 = (scaled) s^28 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 13: degree 54 = (scaled) s^36 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 14: degree 72 = (scaled) s^40 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 15: degree 90 = (scaled) s^40 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 16: degree 104 = (scaled) s^40 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 17: degree 114 = (scaled) s^40 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 18: degree 120 = (scaled) s^40 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 19: degree 122 = (scaled) s^40 (1-s)^2 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+INDEPENDENT VERIFICATION (fast variant): PASSED

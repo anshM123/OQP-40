@@ -2,12 +2,12 @@
 
 **Status (2026-10-09).** Let
 
-$$\mathcal N=\{1,2,\dots,30\}\cup\{33,36,\dots,60\}.$$
+$$\mathcal N=\{1,2,\dots,33\}\cup\{36,39,\dots,63\}.$$
 
 For every n ∈ 𝒩 and all positive definite A, B of any size, $\mathcal A_{n,3}(A,B)\ge\operatorname{Tr}((A^{n/3}B)^3)$.
 This is Conjecture F at (n, 3). Hence the lower half (LH) of OQP 40 holds at (n, 3) and, by exchanging the letters, at
 (3, n), for every n ∈ 𝒩.
-- **New cases of (LH):** (n, 3) and (3, n) for n = 5, …, 30 and n = 33, 36, …, 60. The cases (3, 3), (3, 4) and (4, 3)
+- **New cases of (LH):** (n, 3) and (3, n) for n = 5, …, 33 and n = 36, 39, …, 63. The cases (3, 3), (3, 4) and (4, 3)
   were already proved in [`04-lower-half-new-cases.md`](04-lower-half-new-cases.md); for (4, 3) Conjecture F itself is
   new here (that note has only the version with the letters exchanged). The case (6, 3) is out of reach of the
   sum-of-squares certificates of that note (its Section 4.4).
@@ -143,16 +143,16 @@ All obligations hold for every n ∈ 𝒩 (logs `verify_n{n}.log`). The largest 
 
 | n | variables | largest polynomial: degree, terms | time (s) | n | variables | largest polynomial: degree, terms | time (s) |
 |---|---|---|---|---|---|---|---|
-| 1 | cube roots | 16, 114 | 0.0 | 21 | s, t | 232, 25518 | 1.8 |
-| 2 | cube roots | 48, 1089 | 0.0 | 22 | cube roots | 764, 277602 | 603 |
-| 3 | s, t | 16, 114 | 0.0 | 23 | cube roots | 800, 304372 | 801 |
-| 4 | cube roots | 116, 6414 | 0.1 | 24 | s, t | 268, 34064 | 3.3 |
-| 5 | cube roots | 152, 11008 | 0.3 | 25 | cube roots | 872, 361608 | 908 |
-| 6 | s, t | 52, 1268 | 0.0 | 26 | cube roots | 908, 392074 | 1258 |
-| 7 | cube roots | 224, 23892 | 1.6 | 27 | s, t | 304, 43842 | 5.8 |
-| 8 | cube roots | 260, 32182 | 2.9 | 28 | cube roots | 980, 456702 | 1767 |
-| 9 | s, t | 88, 3654 | 0.0 | 29 | cube roots | 1016, 490864 | 1866 |
-| 10 | cube roots | 332, 52458 | 8.3 | 30 | s, t | 340, 54852 | 9.1 |
+| 1 | cube roots | 16, 114 | 0.0 | 23 | cube roots | 800, 304372 | 801 |
+| 2 | cube roots | 48, 1089 | 0.0 | 24 | s, t | 268, 34064 | 3.3 |
+| 3 | s, t | 16, 114 | 0.0 | 25 | cube roots | 872, 361608 | 908 |
+| 4 | cube roots | 116, 6414 | 0.1 | 26 | cube roots | 908, 392074 | 1258 |
+| 5 | cube roots | 152, 11008 | 0.3 | 27 | s, t | 304, 43842 | 5.8 |
+| 6 | s, t | 52, 1268 | 0.0 | 28 | cube roots | 980, 456702 | 1767 |
+| 7 | cube roots | 224, 23892 | 1.6 | 29 | cube roots | 1016, 490864 | 1866 |
+| 8 | cube roots | 260, 32182 | 2.9 | 30 | s, t | 340, 54852 | 9.1 |
+| 9 | s, t | 88, 3654 | 0.0 | 31 | cube roots | 1088, 562884 | 2986 |
+| 10 | cube roots | 332, 52458 | 8.3 | 32 | cube roots | 1124, 600742 | 3981 |
 | 11 | cube roots | 368, 64444 | 13 | 33 | s, t | 376, 67094 | 14 |
 | 12 | s, t | 124, 7272 | 0.2 | 36 | s, t | 412, 80568 | 22 |
 | 13 | cube roots | 440, 92112 | 29 | 39 | s, t | 448, 95274 | 33 |
@@ -163,8 +163,10 @@ All obligations hold for every n ∈ 𝒩 (logs `verify_n{n}.log`). The largest 
 | 18 | s, t | 196, 18204 | 1.0 | 54 | s, t | 628, 187284 | 166 |
 | 19 | cube roots | 656, 204684 | 298 | 57 | s, t | 664, 209382 | 231 |
 | 20 | cube roots | 692, 227758 | 313 | 60 | s, t | 700, 232712 | 360 |
+| 21 | s, t | 232, 25518 | 1.8 | 63 | s, t | 736, 257274 | 466 |
+| 22 | cube roots | 764, 277602 | 603 |  |  |  |  |
 
-The cases n > 60 were not run; the cost grows quickly when 3 does not divide n (about 31 minutes for n = 29).
+The cases n > 33 with 3 ∤ n, and n > 63, were not run; the cost grows quickly when 3 does not divide n (about 66 minutes for n = 32).
 
 **n = 3 explicitly.** For n = 3 all polynomials are small, and
 [`../lower-half/m3/show_n3.log`](../lower-half/m3/show_n3.log) prints them in full. For example
@@ -184,8 +186,8 @@ This gives a second proof of Theorem 1 of the previous note, with no rational pa
 All checks are internal; none is an external referee report. Scripts and logs are in
 [`../lower-half/m3/`](../lower-half/m3/README.md).
 
-1. **Reproducibility.** Rerunning `verify_n.py` for n = 4, 9 and 30 reproduced the logs exactly, including the SHA-256
-   digests of the proved polynomials.
+1. **Reproducibility.** Rerunning `verify_n.py` for n = 4, 9, 30 and 63 reproduced the logs exactly, including the
+   SHA-256 digests of the proved polynomials (for n = 63: `verify_n63_rerun.log`).
 2. **The conditions against direct differentiation**
    ([`crosscheck_conditions.py`](../lower-half/m3/crosscheck_conditions.py), `crosscheck.log`). For n = 3, …, 9 the
    polynomial conditions $C_0,\dots,C_3$ agree with the stated positive multiples of F, $F_X$, $F_Y$, $F_{XY}$ computed
@@ -205,18 +207,20 @@ All checks are internal; none is an external referee report. Scripts and logs ar
    evaluated at random points and compared with the claimed multiples of F, $F_X$, $F_Y$, $F_{XY}$ computed straight
    from the definitions (real powers, numerical differentiation at 80 digits). They agree to $10^{-74}$ for
    n = 4, 5, 6 and 7, and to at least $10^{-65}$ for every other n ∈ 𝒩 up to 24 and for 27, …, 60, including the cube-root variables. (For
-   n = 25, 26, 28 and 29, whose exact checks take 15 to 31 minutes each, this comparison was not repeated.)
+   n = 25, 26, 28, 29, 31, 32 and 63, whose exact checks take 8 to 70 minutes each, this comparison was not
+   repeated; for 31, 32 and 63 see item 6.)
    (`second-check/verify_polys_vs_direct_all.log`).
 6. **Direct sign checks** ([`second-check/direct_signs.py`](../lower-half/m3/second-check/direct_signs.py)). F and
    its derivatives were evaluated straight from the definitions, with no polynomial algebra, at 60 digits (and at 250
    digits for n ≥ 30, where 60 digits lose the small values of F far from the diagonal). Points were taken
    log-uniformly with 1 < s < t < 10⁴, near the diagonal and near s = 1. No sign violation was found for n = 3, 4, 5,
-   7, 11, 17, 24, 36 and 60.
+   7, 11, 17, 24, 36 and 60, nor at 250 digits for n = 31, 32, 34 and 63
+   (`second-check/direct_signs_new_250digits.log`).
 
 ## 7. Open, and priority
 
 - **Open.** Conjecture F, and (LH), at (n, 3) for every n (only n ∈ 𝒩 is proved); and every (n, m) with
-  min(n, m) ≥ 4 other than (4,4), (4,6) and (6,4).
+  min(n, m) ≥ 4 other than (4,6), (6,4) and the cases (n, 4), (4, n) of [`06-lower-half-m4.md`](06-lower-half-m4.md).
 - **Priority.** The search of Section 5.2 of the previous note (2026-10-08 and 2026-10-09) found no source that proves
   the lower bound at any (n, m) beyond n = m = 1 and commuting pairs, and no source for $\mathcal A_{n,m}\ge
   \operatorname{Tr}(A^{n/m}B)^m$ at these (n, m). This is not a guarantee of novelty.

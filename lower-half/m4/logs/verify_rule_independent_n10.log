@@ -1,0 +1,21 @@
+n=10 qd=2: share identity checked on 1771 monomials, mismatches: 0
+nonzero rows: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  minor 1: degree 20, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 2: degree 30, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 3: degree 40, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 4: degree 50, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 5: degree 60, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 6: degree 70, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 7: degree 78, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 8: degree 84, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 9: degree 88, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 10: degree 90, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 11: degree 90, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+KERNEL CONDITION (P): PROVED
+  trial 0: d=3, direct sum = 9.19762856635e+17, certificate sum = 9.19762856635e+17
+  trial 1: d=3, direct sum = 1.63825959256e+19, certificate sum = 1.63825959256e+19
+  trial 2: d=4, direct sum = 4.29640412726e+15, certificate sum = 4.29640412726e+15
+  trial 3: d=4, direct sum = 2.02280649044e+20, certificate sum = 2.02280649044e+20
+end-to-end: max relative identity error 9.8662e-60; min normalised eigenvalue of G^ab -2.4169e-58
+RESULT: ALL CHECKS PASSED
+exit 0 time 11s

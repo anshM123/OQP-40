@@ -1,0 +1,7 @@
+n=7 qd=4 m=15 nv=308 D=28
+s=0 orders [12, 10, 8, 6, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+277 equalities, rank 188, residual 4.5e-15; free dim 120
+PSD blocks per sample: [8, 7]
+iter 0: 80 samples, status AlmostSolved, lam 1.0297e-04, fine-grid min eig -1.7574e-05 at side 0 x=2.650e-01 (3.0 s)
+iter 1: 120 samples, status AlmostSolved, lam 1.0325e-04, fine-grid min eig 3.5286e-05 at side 0 x=3.860e-01 (4.1 s)
+saved sol/n7_q4_cpfinal.npz; equality residual 4.0e-13; total 7.2 s

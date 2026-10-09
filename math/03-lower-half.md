@@ -4,8 +4,10 @@
 - min(n, m) ≤ 2;
 - (n, m) = (3,3), (3,4), (4,3), (4,4), (4,6) and (6,4), in any dimension
   ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md));
-- (n, 3) and (3, n) for n = 1, …, 30 and n = 33, 36, …, 60, in any dimension, by an exact computation for each n
+- (n, 3) and (3, n) for n = 1, …, 33 and n = 36, 39, …, 63, in any dimension, by an exact computation for each n
   ([`05-lower-half-m3.md`](05-lower-half-m3.md));
+- (n, 4) and (4, n) for n = 3, …, 12 and n = 14, 16, 18, 20, 22, in any dimension, by an exact polynomial certificate for each n
+  ([`06-lower-half-m4.md`](06-lower-half-m4.md));
 - A or B has at most two distinct eigenvalues, in any dimension (Proposition 2.5);
 - B has nonnegative entries in some eigenbasis of A (Proposition 2.4). This includes every pair with d = 2; for d = 2
   even every single word satisfies $\operatorname{Tr}W\ge\operatorname{Tr}(A^{n/m}B)^m$, by Theorem 2.2 of Furuichi,
@@ -149,6 +151,7 @@ All scripts are in `code/`, with logs in `logs/`.
 | Search | Scope | Result |
 |---|---|---|
 | Adversarial GPU hunt, `lh_hunt.py` | (n,m) = (4,5), (5,4), (5,5), (4,7), (7,4), (5,6), (6,5), (6,6), (5,7), (7,5), (7,7), (4,9), (9,4), (5,9), (8,8), (10,10); d = 3, 4, 5; starts generic, Cha–Lee-like (x down to 1e-4) and widely spread (eigenvalue ratios up to e¹⁶); command `lh_hunt.py d n m 384 2000 11`, log `logs/lh_hunt.log` | min log(𝒜/L) ≥ −1.7e-13, i.e. nothing below rounding; the minima are reached at nearly commuting pairs |
+| Limit n → ∞, `lh_limit_search.py` | with A = e^{H/n} and n → ∞, Conjecture F becomes $\partial_t^m\operatorname{Tr}e^{H+tB}|_{t=0}\ge\operatorname{Tr}((e^{H/m}B)^m)$ and (LH) becomes $\partial_t^m\operatorname{Tr}e^{H+tB}|_{t=0}\ge\operatorname{Tr}e^{H+m\log B}$ (a higher-order Golden–Thompson inequality; for m = 1 it is Golden–Thompson). Both were searched for m = 2, …, 6 and d = 2, 3, 4, with Nelder–Mead from the best of 40 random starts per case; command `lh_limit_search.py 1`, log `logs/lh_limit_search.log` | min log-ratio ≥ −1.5e-10, i.e. nothing below rounding; the minima are at nearly commuting or nearly singular pairs. This covers the regime of large n, which the searches above do not reach |
 | Gradient (Adam, GPU), `oqp40_torch.py` | d = 2..5; (n,m) up to (6,6), (3,7), (2,9); command `oqp40_torch.py d n m 384 2000 7` (384 starts, seed 7) | min log(𝒜/L) ≥ −2e-12, i.e. nothing below rounding; the optimizer drifts to large-scale, nearly commuting configurations |
 | Nelder–Mead, `oqp40_lower.py` | d = 2, 3; (3,3), (4,4), (3,5); three seeds, each run stopped by a time limit after these cases (logs end with `exit 124`) | min log-ratio ≈ −2e-13 (rounding) |
 | Near-commuting expansion, `oqp40_second_order.py` | coefficient of ε² is a sum of 2 × 2 pair terms; formula checked against a direct computation to 5–7 digits | every pair term ≥ 0. This is in fact a theorem: each pair term is the ε² coefficient of a 2 × 2 problem, and (LH) holds for d = 2 (Proposition 2.4). The (8,8) entry `-inf` in the log is a floating-point overflow; all endpoints are positive at 60 digits |
@@ -173,11 +176,14 @@ No counterexample was found.
   - when A has at most two distinct eigenvalues (Proposition 2.5);
   - at (n, m) = (3,3), (3,4), (4,4) and (6,4), in every dimension
     ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md), Theorems 1 and 2);
-  - at (n, 3) for n = 1, …, 30 and n = 33, 36, …, 60, in every dimension
-    ([`05-lower-half-m3.md`](05-lower-half-m3.md), Theorem 5).
+  - at (n, 3) for n = 1, …, 33 and n = 36, 39, …, 63, in every dimension
+    ([`05-lower-half-m3.md`](05-lower-half-m3.md), Theorem 5);
+  - at (n, 4) for n = 3, …, 12 and n = 14, 16, 18, 20, 22, in every dimension
+    ([`06-lower-half-m4.md`](06-lower-half-m4.md), Theorem 6).
 
-  The version with the letters exchanged holds in the exchanged cases. At (4,3) and (4,6) only the version with the
-  letters exchanged is proved ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md), Corollary 3).
+  The version with the letters exchanged holds in the exchanged cases. At (4,6) only the version with the letters
+  exchanged is proved ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md), Corollary 3); Conjecture F at
+  (4,3) itself is the case n = 4 of Theorem 5.
 - **Numerics.** It held in every test above, including the Cha–Lee family (min ratio 1.25) and large-d Haar position
   (min ratio 1.06).
 - **For n = m** it reads $\mathcal A_{n,n}(A,B)\ge\operatorname{Tr}(AB)^n$: the average over all words dominates the

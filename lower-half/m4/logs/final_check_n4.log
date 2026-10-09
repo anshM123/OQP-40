@@ -1,0 +1,8 @@
+n=4 qd=2: 41 nonzero ordered monomials in the rule
+trial 0: d=3 spread=0.2 gap=5.940202e+02 cert=5.940202e+02 rel.diff=7.7e-14
+trial 1: d=3 spread=1.0 gap=3.162089e+04 cert=3.162089e+04 rel.diff=7.9e-15
+trial 2: d=2 spread=3.0 gap=2.186315e-02 cert=2.186315e-02 rel.diff=3.5e-15
+trial 3: d=2 spread=1.0 gap=7.449715e+00 cert=7.449715e+00 rel.diff=4.9e-14
+trial 4: d=2 spread=6.0 gap=2.543099e-01 cert=2.543099e-01 rel.diff=0.0e+00
+trial 5: d=2 spread=3.0 gap=1.118128e+07 cert=1.118128e+07 rel.diff=2.0e-14
+SUMMARY n=4: worst min eig/max|G| = -2.4034e-49, worst identity err (rel. to max alpha^n) = 6.0206e-51, worst certificate rel. diff = 7.73e-14

@@ -1,0 +1,4 @@
+n = 31: 120 points; minima (scaled): F 5.9343e-18, F_s 3.304e-17, -F_t 3.0659e-17, -F_st 1.707e-16; negative values: 0
+n = 32: 120 points; minima (scaled): F 1.6033e-18, F_s 9.197e-18, -F_t 8.5504e-18, -F_st 4.9048e-17; negative values: 0
+n = 34: 120 points; minima (scaled): F 1.1674e-19, F_s 7.0902e-19, -F_t 6.6152e-19, -F_st 4.0176e-18; negative values: 0
+n = 63: 120 points; minima (scaled): F 2.9514e-36, F_s 3.2237e-35, -F_t 3.0989e-35, -F_st 3.3848e-34; negative values: 0

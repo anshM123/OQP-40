@@ -1,0 +1,25 @@
+n=7 qd=4: share identity checked on 4495 monomials, mismatches: 0
+nonzero rows: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  minor 1: degree 28, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 2: degree 42, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 3: degree 56, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 4: degree 70, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 5: degree 84, no root in (0,1): True [descartes], value at 1/2 > 0: True -> OK
+  minor 6: degree 98, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 7: degree 112, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 8: degree 126, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 9: degree 138, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 10: degree 148, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 11: degree 156, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 12: degree 162, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 13: degree 166, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 14: degree 168, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+  minor 15: degree 168, no root in (0,1): True [arb], value at 1/2 > 0: True -> OK
+KERNEL CONDITION (P): PROVED
+  trial 0: d=3, direct sum = 4.67771802957e+13, certificate sum = 4.67771802957e+13
+  trial 1: d=3, direct sum = 2.70630350313e+14, certificate sum = 2.70630350313e+14
+  trial 2: d=4, direct sum = 1.0384135057e+12, certificate sum = 1.0384135057e+12
+  trial 3: d=4, direct sum = 2.34865484958e+15, certificate sum = 2.34865484958e+15
+end-to-end: max relative identity error 4.2311e-58; min normalised eigenvalue of G^ab -2.1891e-57
+RESULT: ALL CHECKS PASSED
+exit 0 time 33s
