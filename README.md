@@ -17,7 +17,7 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
 | Statement | Status | Where |
 |---|---|---|
 | **Upper half:** $\operatorname{Tr}(A^nB^m)\ge p_{n,m}(A,B)$ | **False.** Counterexample of H. Cha and J. Lee (arXiv:2603.19927): 3 × 3, n = m = 5. | not ours |
-| **Pinching inequality** (T. H. Dinh's Conjecture 5.1, arXiv:2605.17782): $p_{n,m}(A,B)\ge\operatorname{Tr}(A^nE_A(B)^m)$ for A, B ≥ 0 and **all** n, m, where $E_A(B)$ is the pinching of B onto the eigenspaces of A. Strict iff AB ≠ BA (m ≥ 2). | **Proved here.** Dinh had proved m = 2. | [`math/01-pinching-theorem.md`](math/01-pinching-theorem.md), Theorems 1–2 |
+| **Pinching inequality** (T. H. Dinh's Conjecture 5.1, arXiv:2605.17782): $p_{n,m}(A,B)\ge\operatorname{Tr}(A^nE_A(B)^m)$ for A, B ≥ 0 and **all** n, m, where $E_A(B)$ is the pinching of B onto the eigenspaces of A. Strict iff AB ≠ BA (m ≥ 2). | **Proved here.** Dinh had proved m = 2. It also follows in a few lines from O. Heinävaara's Corollary 1.2 (arXiv:2310.03227, Invent. Math. 2025) on higher derivatives of trace functions; see §4.0 of the note. We found no place where this consequence is stated. | [`math/01-pinching-theorem.md`](math/01-pinching-theorem.md), Theorems 1–2, §4.0 |
 | **Exact gap identity:** $p_{n,m}(A,B)-\operatorname{Tr}(A^nE_A(B)^m)=m(m-1)\iint s^{m-2}\tau^n\rho(s,\tau)\,ds\,d\tau$, with an explicit density ρ ≥ 0 | **Proved here** | same note, Theorem 1 |
 | **Corrected upper bound:** $p_{n,m}\le\operatorname{Tr}(A^nE_A(B)^m)+m(m-1)\|B\|^{m-2}S_n$, with a matching lower bound (equality for m = 2) | **Proved here** | same note, Theorem 3 |
 | Variants: indefinite letters under sign conditions; a Jensen form for functions convex in the B-variable; for fixed m, $n\mapsto p_{n,m}$ is the moment sequence of an explicit positive measure | **Proved here** | same note, Theorems 4–6 |
@@ -62,8 +62,11 @@ runs are in `logs/`.
 - **The counterexample to the upper half:** H. Cha and J. Lee, arXiv:2603.19927 (2026).
 - **The pinching conjecture and its m = 2 case:** T. H. Dinh, arXiv:2605.17782 (2026).
 - **Stahl's theorem and its explicit atoms/density structure:** H. R. Stahl, Acta Math. 211 (2013) 255–290.
+- **Higher derivatives of trace functions:** O. Heinävaara, *Tracial joint spectral measures*, arXiv:2310.03227 (2023),
+  Invent. Math. 239 (2025), Corollary 1.2. If f⁽ᵏ⁾ ≥ 0, then t ↦ tr f(tA + B) has a nonnegative k-th derivative, with
+  A ≥ 0 needed for odd k. The pinching inequality follows from it by the short argument in §4.0 of the note.
 - **The explicit |Im|-density for simple spectrum:** O. Heinävaara, *Tracial joint spectral measures*, PhD thesis,
-  Princeton (2024); see also Invent. Math. 239 (2025).
+  Princeton (2024).
 - **The high-frequency averaging lemma** is a special case of D. Burgarth, P. Facchi, H. Nakazato, S. Pascazio,
   K. Yuasa, Quantum 3, 152 (2019).
 - **Equivalent forms of BMV:** E. H. Lieb and R. Seiringer, J. Stat. Phys. 115 (2004).

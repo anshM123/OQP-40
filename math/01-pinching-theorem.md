@@ -1,10 +1,22 @@
 # The pinching inequality for word averages, for all word lengths
 
 This note proves, for every number of letters, the "pinching correction" that T. H. Dinh proposed for the refined
-Bessis–Moussa–Villani (BMV) conjecture, IQOQI Open Quantum Problem 40. Dinh proved the case m = 2. The proof is a
-coefficient comparison in an explicit integral identity for traces of exponentials (Theorem A, proved in
-[`02-theorem-A.md`](02-theorem-A.md)). Its essential analytic input, the positivity of the explicit BMV density, is due
-to Stahl and Heinävaara; see Section 6 for credits.
+Bessis–Moussa–Villani (BMV) conjecture, IQOQI Open Quantum Problem 40. Dinh proved the case m = 2.
+
+**Attribution, up front.**
+- The inequality (Theorem 2) follows in a few lines from a published theorem: O. Heinävaara, *Tracial joint spectral
+  measures*, arXiv:2310.03227 (2023), Invent. Math. 239 (2025), **Corollary 1.2**. That corollary says the k-th
+  derivative of t ↦ tr f(tA + B) is ≥ 0 when f⁽ᵏ⁾ ≥ 0 (A ≥ 0 for odd k).
+- This short derivation is in Section 4.0. We did not find the consequence stated anywhere, including in Dinh's paper,
+  which does not cite Heinävaara.
+- What this note adds:
+  - the **exact gap identity** with an explicit nonnegative density (Theorem 1), proved by coefficient comparison in an
+    integral identity for traces of exponentials (Theorem A, [`02-theorem-A.md`](02-theorem-A.md));
+  - the two-sided bound (Theorem 3), the sign-condition variants (Theorem 4) and the Jensen form (Theorem 5);
+  - the explicit form of the fixed-m measure (Theorem 6), whose positivity is equivalent to Heinävaara's
+    Corollary 1.2.
+
+See Section 6 for credits.
 
 ## 1. Setting
 
@@ -97,6 +109,10 @@ $$\pi_m=\sum_{i\in[d]^m}b_{i_1i_2}b_{i_2i_3}\cdots b_{i_mi_1}\,\mathrm{Law}\Bigl
 
 This "cycle expansion" has terms of both signs. Its positivity is not visible term by term.
 
+The positivity of $\pi_m$ is equivalent to Heinävaara's Corollary 1.2 (see Section 4.0): for smooth G,
+$\frac{d^m}{dy^m}\operatorname{Tr}G(A+yB)\big|_{y=0}=\int G^{(m)}\,d\pi_m$. What Theorem 6 adds is the explicit
+decomposition into the pinched atoms and the density $m(m-1)\int s^{m-2}\rho\,ds$.
+
 **Swapping the letters.** Pinching A onto the eigenspaces of B gives
 $\mathcal A_{n,m}(A,B)-\operatorname{Tr}(E_B(A)^nB^m)=n(n-1)\iint s^{n-2}\tau^m\rho_{A,B}$. So for A, B ≥ 0 both pinched
 quantities are lower bounds.
@@ -158,7 +174,32 @@ $\partial_s^2(\tau^ns^m)=m(m-1)\tau^ns^{m-2}$. For power series, use the term-by
   and averaging $\prod_jx_j^{N_j}$ over compositions, gives $h_n(x)/\binom{n+m-1}{n}=\mathbb E_u(\sum_ju_jx_j)^n$
   (Dirichlet(1,…,1)).
 
-## 4. A second route to Theorem 2 (via published results)
+## 4. Theorem 2 from published results
+
+### 4.0 Shortest route: Heinävaara's Corollary 1.2
+
+1. **Derivatives as a measure.** In an eigenbasis of A, the Daleckii–Krein formula and the Hermite–Genocchi formula
+   for divided differences give, for every smooth G,
+
+   $$\frac{d^m}{dy^m}\operatorname{Tr}G(A+yB)\Big|_{y=0}=\int G^{(m)}\,d\pi_m,\qquad \pi_m=\sum_{i\in[d]^m}b_{i_1i_2}\cdots b_{i_mi_1}\,\mathrm{Law}\Bigl(\sum_ju_j\alpha_{i_j}\Bigr),$$
+
+   with $u\sim\mathrm{Dirichlet}(1,\dots,1)$.
+2. **The measure is positive.** By Heinävaara's Corollary 1.2 (B ≥ 0 is needed for odd m), the left side is ≥ 0
+   whenever $G^{(m)}\ge0$. So $\pi_m$ is a positive measure.
+3. **The word averages are its moments.** The cycle expansion gives $\mathcal A_{n,m}(A,B)=\int\tau^n\,d\pi_m$
+   (Theorem 6).
+4. **Atoms versus density.**
+   - A term of $\pi_m$ is an atom exactly when all $\alpha_{i_j}$ are equal. Otherwise it is the push-forward of
+     the Dirichlet density by a non-constant linear map, hence absolutely continuous.
+   - So the atomic part of $\pi_m$ is $\sum_k\operatorname{Tr}_{Q_k}(Q_kBQ_k)^m\,\delta_{\alpha_k}$.
+   - Atoms and absolutely continuous parts are mutually singular, so positivity of $\pi_m$ forces its absolutely
+     continuous part to be ≥ 0.
+5. **Conclusion.** For A ≥ 0,
+   $\mathcal A_{n,m}(A,B)-\operatorname{Tr}(A^nE_A(B)^m)=\int\tau^n\,d\pi_m^{\rm ac}\ge0$. ∎
+
+Theorem 1 identifies $\pi_m^{\rm ac}$ exactly, as $m(m-1)\bigl(\int s^{m-2}\rho_{B,A}\,ds\bigr)d\tau$.
+
+### 4.1 Via the explicit density in Heinävaara's thesis
 
 The inequality of Theorem 2 can also be derived directly from the explicit BMV measure in O. Heinävaara's PhD thesis
 (*Tracial joint spectral measures*, Princeton 2024, Section 1.4, Theorem 24 and the proof of part 1, pp. 40–43).
@@ -206,6 +247,9 @@ is not in the thesis.
 ## 6. Credits and scope
 
 - **Not new:**
+  - The inequality of Theorem 2 as a mathematical fact. It follows from Heinävaara's Corollary 1.2 (arXiv:2310.03227,
+    2023; Invent. Math. 239 (2025)) by the short argument of Section 4.0.
+  - The positivity of the fixed-m measure in Theorem 6, which is equivalent to that corollary.
   - The deep input: positivity of the explicit two-variable BMV density. The atoms and density are due to H. Stahl
     (Acta Math. 211 (2013)); the explicit |Im| form for simple spectrum to O. Heinävaara (thesis, 2024).
   - The identity (∗) for general Hermitian P is also stated in our earlier paper on OQP 27
@@ -213,9 +257,11 @@ is not in the thesis.
     [`02-theorem-A.md`](02-theorem-A.md).
 - **New, as far as our searches show (arXiv, Semantic Scholar, Google Scholar, the Heinävaara and Cha author pages,
   2026-10-08):**
-  - Dinh's Conjecture 5.1 for all word lengths.
+  - The observation that Dinh's Conjecture 5.1 holds for all word lengths. Dinh did not cite Heinävaara, and we found
+    no place where this consequence is stated.
   - The exact gap identity, its strictness clause, the two-sided bound, the sign-condition variants, the Jensen form,
-    and the fixed-m positive measure.
-- **How hard it is.** Theorem 2 is short once the explicit density is available. It is not a soft consequence of
-  convexity: $B\mapsto\mathcal A_{n,m}(A,B)$ is not convex on positive semidefinite matrices (exact witnesses in the
-  independent check). Nor does it follow from Stahl's one-variable theorem alone; it needs joint positivity in (s, τ).
+    and the explicit form of the fixed-m measure.
+- **How hard it is.** Theorem 2 is short once Heinävaara's Corollary 1.2 (or the explicit density) is available.
+  - It is not a soft consequence of convexity: $B\mapsto\mathcal A_{n,m}(A,B)$ is not convex on positive
+    semidefinite matrices (exact witnesses in the independent check).
+  - Nor does it follow from Stahl's one-variable theorem alone.
