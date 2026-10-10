@@ -6,7 +6,7 @@
   ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md));
 - (n, 3) and (3, n) for n = 1, …, 36 and n = 39, 42, …, 66, in any dimension, by an exact computation for each n
   ([`05-lower-half-m3.md`](05-lower-half-m3.md));
-- (n, 4) and (4, n) for n = 3, …, 14 and n = 16, 18, 20, 22, in any dimension, by an exact polynomial certificate for each n
+- (n, 4) and (4, n) for n = 3, …, 16 and n = 18, 20, 22, in any dimension, by an exact polynomial certificate for each n
   ([`06-lower-half-m4.md`](06-lower-half-m4.md));
 - A or B has at most two distinct eigenvalues, in any dimension (Proposition 2.5);
 - B has nonnegative entries in some eigenbasis of A (Proposition 2.4). This includes every pair with d = 2; for d = 2
@@ -178,7 +178,7 @@ No counterexample was found.
     ([`04-lower-half-new-cases.md`](04-lower-half-new-cases.md), Theorems 1 and 2);
   - at (n, 3) for n = 1, …, 36 and n = 39, 42, …, 66, in every dimension
     ([`05-lower-half-m3.md`](05-lower-half-m3.md), Theorem 5);
-  - at (n, 4) for n = 3, …, 14 and n = 16, 18, 20, 22, in every dimension
+  - at (n, 4) for n = 3, …, 16 and n = 18, 20, 22, in every dimension
     ([`06-lower-half-m4.md`](06-lower-half-m4.md), Theorem 6).
 
   The version with the letters exchanged holds in the exchanged cases. At (4,6) only the version with the letters

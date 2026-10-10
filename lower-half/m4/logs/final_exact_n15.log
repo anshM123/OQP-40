@@ -1,0 +1,62 @@
+n=15 qd=4 m=31 nv=2600 D=60
+   endpoint 0 kernel eigenvalues [-0. -0. -0. -0. -0.  0.  0.  0.  0.  0.  0.  0.  0.  0.] rational kernel basis [['0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['-1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['-1', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['-1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0, 0.0]
+     w^T C_k w for k=0..3: [0.0, 0.0, 0.0056463477646951105, 0.002643196104456394]
+   WARNING endpoint 1: numerical kernel dim 5 != forced 2
+   endpoint 1 kernel eigenvalues [-0.0000e+00  0.0000e+00  9.0250e-09  4.8401e-08  9.4090e-08] rational kernel basis [['1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1'], ['0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0']]
+     w^T C_k w for k=0..3: [1.0495077029659683e-16, -2.270406085358445e-14, 121.88234481507311, -2363.178282667864]
+     w^T C_k w for k=0..3: [-1.6989448042847854e-16, 1.6917023337725823e-14, 49.117655184926946, -676.8217173321372]
+s=0: kernel dim 14, orders [28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 3360 coefficient conditions
+s=1: kernel dim 2, orders [2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 62 coefficient conditions
+2414 nontrivial exact linear constraints
+max residual of rounded z in the constraints: 4.17e-15
+RREF projection: 1578 pivot variables solved exactly; max |change| = 1.58e-15
+identically zero rows (exponents []) removed; size 31
+C(s) is exactly block diagonal (even/odd exponents): block sizes [16, 15]
+minors computed in 3125.2 s; degrees [60, 90, 120, 150, 180, 210, 240, 270, 298, 322, 342, 358, 370, 378, 382, 382, 30, 60, 90, 120, 150, 180, 210, 240, 266, 288, 306, 320, 330, 336, 338]
+  Delta_1: positive on (0,1): True  {'s_order': 0, 'one_minus_s_order': 0, 'degree': 60, 'intervals': 1}
+  Delta_2: positive on (0,1): True  {'s_order': 26, 'one_minus_s_order': 0, 'degree': 64, 'intervals': 1}
+  Delta_3: positive on (0,1): True  {'s_order': 48, 'one_minus_s_order': 0, 'degree': 72, 'intervals': 1}
+  Delta_4: positive on (0,1): True  {'s_order': 66, 'one_minus_s_order': 0, 'degree': 84, 'intervals': 1}
+  Delta_5: positive on (0,1): True  {'s_order': 80, 'one_minus_s_order': 0, 'degree': 100, 'intervals': 1}
+  Delta_6: positive on (0,1): True  {'s_order': 90, 'one_minus_s_order': 0, 'degree': 120, 'intervals': 1}
+  Delta_7: positive on (0,1): True  {'s_order': 96, 'one_minus_s_order': 0, 'degree': 144, 'intervals': 1}
+  Delta_8: positive on (0,1): True  {'s_order': 98, 'one_minus_s_order': 0, 'degree': 172, 'intervals': 1}
+  Delta_9: positive on (0,1): True  {'s_order': 98, 'one_minus_s_order': 0, 'degree': 200, 'intervals': 1}
+  Delta_10: positive on (0,1): True  {'s_order': 98, 'one_minus_s_order': 0, 'degree': 224, 'intervals': 1}
+  Delta_11: positive on (0,1): True  {'s_order': 98, 'one_minus_s_order': 0, 'degree': 244, 'intervals': 1}
+  Delta_12: positive on (0,1): True  {'s_order': 98, 'one_minus_s_order': 0, 'degree': 260, 'intervals': 1}
+  Delta_13: positive on (0,1): True  {'s_order': 98, 'one_minus_s_order': 0, 'degree': 272, 'intervals': 1}
+  Delta_14: positive on (0,1): True  {'s_order': 98, 'one_minus_s_order': 0, 'degree': 280, 'intervals': 3}
+  Delta_15: positive on (0,1): True  {'s_order': 98, 'one_minus_s_order': 0, 'degree': 284, 'intervals': 3}
+  Delta_16: positive on (0,1): True  {'s_order': 98, 'one_minus_s_order': 2, 'degree': 282, 'intervals': 11}
+  Delta_17: positive on (0,1): True  {'s_order': 28, 'one_minus_s_order': 0, 'degree': 2, 'intervals': 1}
+  Delta_18: positive on (0,1): True  {'s_order': 52, 'one_minus_s_order': 0, 'degree': 8, 'intervals': 1}
+  Delta_19: positive on (0,1): True  {'s_order': 72, 'one_minus_s_order': 0, 'degree': 18, 'intervals': 1}
+  Delta_20: positive on (0,1): True  {'s_order': 88, 'one_minus_s_order': 0, 'degree': 32, 'intervals': 1}
+  Delta_21: positive on (0,1): True  {'s_order': 100, 'one_minus_s_order': 0, 'degree': 50, 'intervals': 1}
+  Delta_22: positive on (0,1): True  {'s_order': 108, 'one_minus_s_order': 0, 'degree': 72, 'intervals': 1}
+  Delta_23: positive on (0,1): True  {'s_order': 112, 'one_minus_s_order': 0, 'degree': 98, 'intervals': 1}
+  Delta_24: positive on (0,1): True  {'s_order': 112, 'one_minus_s_order': 0, 'degree': 128, 'intervals': 1}
+  Delta_25: positive on (0,1): True  {'s_order': 112, 'one_minus_s_order': 0, 'degree': 154, 'intervals': 1}
+  Delta_26: positive on (0,1): True  {'s_order': 112, 'one_minus_s_order': 0, 'degree': 176, 'intervals': 1}
+  Delta_27: positive on (0,1): True  {'s_order': 112, 'one_minus_s_order': 0, 'degree': 194, 'intervals': 1}
+  Delta_28: positive on (0,1): True  {'s_order': 112, 'one_minus_s_order': 0, 'degree': 208, 'intervals': 1}
+  Delta_29: positive on (0,1): True  {'s_order': 112, 'one_minus_s_order': 0, 'degree': 218, 'intervals': 1}
+  Delta_30: positive on (0,1): True  {'s_order': 112, 'one_minus_s_order': 0, 'degree': 224, 'intervals': 1}
+  Delta_31: positive on (0,1): True  {'s_order': 112, 'one_minus_s_order': 2, 'degree': 224, 'intervals': 9}
+RESULT: C(s) positive definite on (0,1): PROVED
+saved rules/n15.json
+EXIT 0

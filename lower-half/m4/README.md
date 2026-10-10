@@ -1,7 +1,7 @@
 # Lower half at (n, 4) and (4, n): rules, verifiers and logs
 
 This folder holds the computations behind [`../../math/06-lower-half-m4.md`](../../math/06-lower-half-m4.md),
-Theorem 6: Conjecture F at (n, 4) for n ∈ 𝒩₄ = {3, …, 14} ∪ {16, 18, 20, 22}.
+Theorem 6: Conjecture F at (n, 4) for n ∈ 𝒩₄ = {3, …, 16} ∪ {18, 20, 22}.
 
 **What a certificate is.** For each n, `rules/n{n}.json` is a table of rational numbers γ. It defines the function
 k(x, y; e, f) of Section 3 of the note, a polynomial in x^{1/q}, y^{1/q}, e^{1/q}, f^{1/q}, where q = 2 for even n and
@@ -49,10 +49,11 @@ the second sympy.
 - `polyrule_cp.py`: the search, a semidefinite program solved with Clarabel. Near s = 0 and s = 1 it samples in scaled
   coordinates, and it adds cutting planes.
 - `exact_rule.py`: rounding to rationals, exact projection onto the endpoint equalities, and the first exact check.
-- `final_rule.sh`: the commands that produced `rules/`, except n = 13. For n = 13 the search used the regularised
-  option of `polyrule_cp.py` (it keeps the solution vector small), then the same exact step:
+- `final_rule.sh`: the commands that produced `rules/`, except n = 13 and n = 15. For these the search used the
+  regularised option of `polyrule_cp.py` (it keeps the solution vector small), then the same exact step, e.g. for n = 13:
   `REG=1 PARITY=1 python polyrule_cp.py 13 4 sol/n13_q4_reg.npz` (log `logs/final_cp_n13.log`) and
-  `PARITY=1 PROJ=rref python exact_rule.py 13 4 sol/n13_q4_reg.npz 40 rules/n13.json` (log `logs/final_exact_n13.log`).
+  `PARITY=1 PROJ=rref python exact_rule.py 13 4 sol/n13_q4_reg.npz 40 rules/n13.json` (log `logs/final_exact_n13.log`);
+  for n = 15 the same with 15 in place of 13 and 52 denominator bits in place of 40.
 - `m4core.py`, `m4sdp.py`: the kernel K_n, and the finite-spectrum share SDP. That SDP showed that certificates of this
   type exist.
 - `n4_simple.py`: produces `rules/n4_simple.json`.

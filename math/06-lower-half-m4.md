@@ -2,7 +2,7 @@
 
 **Status (2026-10-09).** Let
 
-$$\mathcal N_4=\{3,4,\dots,14\}\cup\{16,18,20,22\}.$$
+$$\mathcal N_4=\{3,4,\dots,16\}\cup\{18,20,22\}.$$
 
 For every n ∈ 𝒩₄ and all positive definite A, B of any size, $\mathcal A_{n,4}(A,B)\ge\operatorname{Tr}((A^{n/4}B)^4)$.
 This is Conjecture F at (n, 4). Hence the lower half (LH) of OQP 40 holds at (n, 4) and, by exchanging the letters, at
@@ -146,6 +146,7 @@ each n ∈ 𝒩₄.
 | 12 | 2 | 13 = 7 ⊕ 6 | 72 | 2.3e-4 | new |
 | 13 | 4 | 27 = 14 ⊕ 13 | 292 | 3.4e-9 | new |
 | 14 | 2 | 15 = 8 ⊕ 7 | 94 | 5.3e-5 | new |
+| 15 | 4 | 31 = 16 ⊕ 15 | 382 | 5.4e-11 | new |
 | 16 | 2 | 17 = 9 ⊕ 8 | 120 | 1.1e-5 | new |
 | 18 | 2 | 19 = 10 ⊕ 9 | 148 | 2.3e-6 | new |
 | 20 | 2 | 21 = 11 ⊕ 10 | 180 | 2.3e-7 | new |
@@ -202,7 +203,10 @@ All checks are internal; none is an external referee report. Scripts, certificat
      positive semidefinite.
 4. **End to end** (`check_rule.py`, 50 digits): the same identities and positivity on random positive definite A, B.
 
-All three exact verifiers pass for every n ∈ 𝒩₄ (logs in `lower-half/m4/logs/`).
+All three exact verifiers pass for every n ∈ 𝒩₄ except n = 15 (logs in `lower-half/m4/logs/`). For n = 15 the sympy
+verifier is too slow at this size: it checked 6 of the 31 minors, all positive, before its 11-hour limit
+(`final_indepfast_n15_timeout11h.log`). The other two exact verifiers, which share no code, and the end-to-end test
+pass for n = 15.
 
 ## 6. What is not claimed
 

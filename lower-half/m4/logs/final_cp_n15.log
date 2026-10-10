@@ -1,0 +1,16 @@
+n=15 qd=4 m=31 nv=2600 D=60
+s=0 orders [28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2414 equalities, rank 1578, residual 2.4e-15; free dim 1022
+PSD blocks per sample: [16, 15]
+   regularised: |w| 1.302e-01 (max-lam solution |w| 1.470e+03), status AlmostSolved
+iter 0: 160 samples, status Solved, lam 3.1297e-11, fine-grid min eig -6.7732e-08 at side 0 x=2.437e-01 (500.1 s)
+   regularised: |w| 1.305e-01 (max-lam solution |w| 1.440e+03), status AlmostSolved
+iter 1: 220 samples, status Solved, lam 6.0021e-11, fine-grid min eig -3.0709e-08 at side 0 x=2.934e-01 (634.4 s)
+   regularised: |w| 1.310e-01 (max-lam solution |w| 1.408e+03), status AlmostSolved
+iter 2: 279 samples, status Solved, lam 7.9854e-11, fine-grid min eig -1.8861e-08 at side 0 x=2.690e-01 (793.8 s)
+   regularised: |w| 1.313e-01 (max-lam solution |w| 1.341e+03), status AlmostSolved
+iter 3: 321 samples, status Solved, lam 9.4201e-11, fine-grid min eig -1.6050e-08 at side 1 x=2.057e-01 (1011.9 s)
+   regularised: |w| 1.312e-01 (max-lam solution |w| 1.348e+03), status AlmostSolved
+iter 4: 358 samples, status Solved, lam 9.1269e-11, fine-grid min eig 5.3984e-11 at side 1 x=5.000e-01 (973.4 s)
+saved sol/n15_q4_reg.npz; equality residual 2.5e-15; total 3932.2 s
+EXIT 0
