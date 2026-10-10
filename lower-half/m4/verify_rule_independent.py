@@ -25,6 +25,9 @@ from math import comb
 
 from flint import fmpq, fmpq_poly
 
+if hasattr(sys, 'set_int_max_str_digits'):
+    sys.set_int_max_str_digits(0)   # the exact tables can contain rationals with many thousands of digits
+
 d = json.load(open(sys.argv[1]))
 n, qd = int(d["n"]), int(d["qd"])
 N = n * qd

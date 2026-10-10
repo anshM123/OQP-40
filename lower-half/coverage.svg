@@ -61,7 +61,7 @@
 <rect x="144" y="208" width="28" height="28" fill="#1a5276" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (4,10): (n,4) and (4,n) (note 06)</title></rect>
 <rect x="144" y="180" width="28" height="28" fill="#1a5276" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (4,11): (n,4) and (4,n) (note 06)</title></rect>
 <rect x="144" y="152" width="28" height="28" fill="#1a5276" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (4,12): (n,4) and (4,n) (note 06)</title></rect>
-<rect x="144" y="124" width="28" height="28" fill="#ffffff" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (4,13): open</title></rect>
+<rect x="144" y="124" width="28" height="28" fill="#1a5276" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (4,13): (n,4) and (4,n) (note 06)</title></rect>
 <rect x="144" y="96" width="28" height="28" fill="#1a5276" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (4,14): (n,4) and (4,n) (note 06)</title></rect>
 <rect x="144" y="68" width="28" height="28" fill="#ffffff" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (4,15): open</title></rect>
 <rect x="144" y="40" width="28" height="28" fill="#1a5276" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (4,16): (n,4) and (4,n) (note 06)</title></rect>
@@ -196,7 +196,7 @@
 <rect x="396" y="460" width="28" height="28" fill="#cfd3d6" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (13,1): min(n, m) ≤ 2 (elementary)</title></rect>
 <rect x="396" y="432" width="28" height="28" fill="#cfd3d6" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (13,2): min(n, m) ≤ 2 (elementary)</title></rect>
 <rect x="396" y="404" width="28" height="28" fill="#2e86c1" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (13,3): (n,3) and (3,n) (note 05)</title></rect>
-<rect x="396" y="376" width="28" height="28" fill="#ffffff" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (13,4): open</title></rect>
+<rect x="396" y="376" width="28" height="28" fill="#1a5276" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (13,4): (n,4) and (4,n) (note 06)</title></rect>
 <rect x="396" y="348" width="28" height="28" fill="#ffffff" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (13,5): open</title></rect>
 <rect x="396" y="320" width="28" height="28" fill="#ffffff" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (13,6): open</title></rect>
 <rect x="396" y="292" width="28" height="28" fill="#ffffff" stroke="#7b7d7d" stroke-width="0.6"><title>(n,m) = (13,7): open</title></rect>

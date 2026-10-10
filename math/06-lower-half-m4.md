@@ -2,7 +2,7 @@
 
 **Status (2026-10-09).** Let
 
-$$\mathcal N_4=\{3,4,\dots,12\}\cup\{14,16,18,20,22\}.$$
+$$\mathcal N_4=\{3,4,\dots,14\}\cup\{16,18,20,22\}.$$
 
 For every n ∈ 𝒩₄ and all positive definite A, B of any size, $\mathcal A_{n,4}(A,B)\ge\operatorname{Tr}((A^{n/4}B)^4)$.
 This is Conjecture F at (n, 4). Hence the lower half (LH) of OQP 40 holds at (n, 4) and, by exchanging the letters, at
@@ -144,6 +144,7 @@ each n ∈ 𝒩₄.
 | 10 | 2 | 11 = 6 ⊕ 5 | 52 | 1.0e-3 | new |
 | 11 | 4 | 23 = 12 ⊕ 11 | 214 | 9.7e-8 | new |
 | 12 | 2 | 13 = 7 ⊕ 6 | 72 | 2.3e-4 | new |
+| 13 | 4 | 27 = 14 ⊕ 13 | 292 | 3.4e-9 | new |
 | 14 | 2 | 15 = 8 ⊕ 7 | 94 | 5.3e-5 | new |
 | 16 | 2 | 17 = 9 ⊕ 8 | 120 | 1.1e-5 | new |
 | 18 | 2 | 19 = 10 ⊕ 9 | 148 | 2.3e-6 | new |

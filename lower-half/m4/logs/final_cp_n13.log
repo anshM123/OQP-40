@@ -1,0 +1,10 @@
+n=13 qd=4 m=27 nv=1729 D=52
+s=0 orders [24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+1594 equalities, rank 1048, residual 7.5e-16; free dim 681
+PSD blocks per sample: [14, 13]
+   regularised: |w| 1.485e-01 (max-lam solution |w| 1.126e+03), status AlmostSolved
+iter 0: 160 samples, status Solved, lam 3.0653e-09, fine-grid min eig -1.9169e-08 at side 1 x=2.440e-01 (272.6 s)
+   regularised: |w| 1.502e-01 (max-lam solution |w| 1.083e+03), status AlmostSolved
+iter 1: 192 samples, status Solved, lam 3.3604e-09, fine-grid min eig 3.3603e-09 at side 1 x=5.000e-01 (307.5 s)
+saved sol/n13_q4_reg.npz; equality residual 6.9e-16; total 587.9 s
+EXIT 0

@@ -1,0 +1,32 @@
+n=13 qd=4: share identity holds exactly: True
+nonzero rows (exponents in units 1/4): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+parity block structure: True; blocks [14, 13]
+  minor 1: degree 52 = (scaled) s^0 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 2: degree 78 = (scaled) s^22 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 3: degree 104 = (scaled) s^40 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 4: degree 130 = (scaled) s^54 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 5: degree 156 = (scaled) s^64 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 6: degree 182 = (scaled) s^70 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 7: degree 208 = (scaled) s^72 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 8: degree 232 = (scaled) s^72 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 9: degree 252 = (scaled) s^72 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 10: degree 268 = (scaled) s^72 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 11: degree 280 = (scaled) s^72 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 12: degree 288 = (scaled) s^72 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 13: degree 292 = (scaled) s^72 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 14: degree 292 = (scaled) s^72 (1-s)^2 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 15: degree 26 = (scaled) s^24 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 16: degree 52 = (scaled) s^44 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 17: degree 78 = (scaled) s^60 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 18: degree 104 = (scaled) s^72 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 19: degree 130 = (scaled) s^80 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 20: degree 156 = (scaled) s^84 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 21: degree 182 = (scaled) s^84 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 22: degree 204 = (scaled) s^84 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 23: degree 222 = (scaled) s^84 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 24: degree 236 = (scaled) s^84 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 25: degree 246 = (scaled) s^84 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 26: degree 252 = (scaled) s^84 (1-s)^0 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+  minor 27: degree 254 = (scaled) s^84 (1-s)^2 Q, real roots of Q in [0,1]: 0, Q(1/2) > 0: True -> OK
+INDEPENDENT VERIFICATION (fast variant): PASSED
+exit 0

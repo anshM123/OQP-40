@@ -11,8 +11,8 @@ python verify_n.py n
 
 This checks the obligations (P0), (Pg), (P1) and (P2) of Section 3 of the note exactly, over the rationals, and ends
 with `RESULT n = ...: ALL OBLIGATIONS VERIFIED` and a SHA-256 digest of the proved polynomials. Logs: `verify_n{n}.log`
-for n = 1, …, 34 and n = 36, 39, …, 63. Run times are in the table of Section 4 of the note (up to about 89 minutes,
-for n = 34).
+for n = 1, …, 36 and n = 39, 42, …, 66. Run times are in the table of Section 4 of the note (up to about 99 minutes,
+for n = 35).
 
 ## Checks (Section 6 of the note)
 
@@ -29,5 +29,8 @@ for n = 34).
 | `python second-check/direct_signs.py n 80 2` (n = 11, 17, 24, 36, 60) | the same, 60 digits; at n = 36 and 60 the small values of F far from the diagonal fall below 60-digit resolution | `second-check/direct_signs_large.log` |
 | `python second-check/direct_signs.py n 80 2 250` (n = 36, 60) | the same points at 250 digits: no violation | `second-check/direct_signs_large_250digits.log` |
 | `python second-check/direct_signs_hp.py 36 80 2` | the points flagged at 60 digits for n = 36, re-evaluated at 150 and 300 digits: all positive | `second-check/direct_signs_hp_n36.log` |
+| `python second-check/direct_signs.py n 80 2 250` (n = 31, 32, 34, 63) | the four sign conditions straight from the definitions, 250 digits, 120 points per n: no violation | `second-check/direct_signs_new_250digits.log` |
+| `python second-check/direct_signs.py n 120 1 250` (n = 35, 66) | the same, 180 points per n: no violation | `second-check/direct_signs_35_66_250digits.log` |
+| `python verify_n.py n`, run again (n = 63, 66) | reproducibility: the same result and the same SHA-256 digest of the proved polynomials | `verify_n63_rerun.log`, `verify_n66_rerun.log` |
 
 `crosscheck_conditions.py` uses the helper modules `m3flint.py` and `m3flint2.py` in this folder.
