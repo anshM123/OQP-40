@@ -2,12 +2,12 @@
 
 **Status (2026-10-09).** Let
 
-$$\mathcal N=\{1,2,\dots,33\}\cup\{36,39,\dots,63\}.$$
+$$\mathcal N=\{1,2,\dots,34\}\cup\{36,39,\dots,63\}.$$
 
 For every n ∈ 𝒩 and all positive definite A, B of any size, $\mathcal A_{n,3}(A,B)\ge\operatorname{Tr}((A^{n/3}B)^3)$.
 This is Conjecture F at (n, 3). Hence the lower half (LH) of OQP 40 holds at (n, 3) and, by exchanging the letters, at
 (3, n), for every n ∈ 𝒩.
-- **New cases of (LH):** (n, 3) and (3, n) for n = 5, …, 33 and n = 36, 39, …, 63. The cases (3, 3), (3, 4) and (4, 3)
+- **New cases of (LH):** (n, 3) and (3, n) for n = 5, …, 34 and n = 36, 39, …, 63. The cases (3, 3), (3, 4) and (4, 3)
   were already proved in [`04-lower-half-new-cases.md`](04-lower-half-new-cases.md); for (4, 3) Conjecture F itself is
   new here (that note has only the version with the letters exchanged). The case (6, 3) is out of reach of the
   sum-of-squares certificates of that note (its Section 4.4).
@@ -154,19 +154,19 @@ All obligations hold for every n ∈ 𝒩 (logs `verify_n{n}.log`). The largest 
 | 9 | s, t | 88, 3654 | 0.0 | 31 | cube roots | 1088, 562884 | 2986 |
 | 10 | cube roots | 332, 52458 | 8.3 | 32 | cube roots | 1124, 600742 | 3981 |
 | 11 | cube roots | 368, 64444 | 13 | 33 | s, t | 376, 67094 | 14 |
-| 12 | s, t | 124, 7272 | 0.2 | 36 | s, t | 412, 80568 | 22 |
-| 13 | cube roots | 440, 92112 | 29 | 39 | s, t | 448, 95274 | 33 |
-| 14 | cube roots | 476, 107794 | 44 | 42 | s, t | 484, 111212 | 50 |
-| 15 | s, t | 160, 12122 | 0.4 | 45 | s, t | 520, 128382 | 64 |
-| 16 | cube roots | 548, 142854 | 91 | 48 | s, t | 556, 146784 | 85 |
-| 17 | cube roots | 584, 162232 | 128 | 51 | s, t | 592, 166418 | 128 |
-| 18 | s, t | 196, 18204 | 1.0 | 54 | s, t | 628, 187284 | 166 |
-| 19 | cube roots | 656, 204684 | 298 | 57 | s, t | 664, 209382 | 231 |
-| 20 | cube roots | 692, 227758 | 313 | 60 | s, t | 700, 232712 | 360 |
-| 21 | s, t | 232, 25518 | 1.8 | 63 | s, t | 736, 257274 | 466 |
-| 22 | cube roots | 764, 277602 | 603 |  |  |  |  |
+| 12 | s, t | 124, 7272 | 0.2 | 34 | cube roots | 1196, 680154 | 5323 |
+| 13 | cube roots | 440, 92112 | 29 | 36 | s, t | 412, 80568 | 22 |
+| 14 | cube roots | 476, 107794 | 44 | 39 | s, t | 448, 95274 | 33 |
+| 15 | s, t | 160, 12122 | 0.4 | 42 | s, t | 484, 111212 | 50 |
+| 16 | cube roots | 548, 142854 | 91 | 45 | s, t | 520, 128382 | 64 |
+| 17 | cube roots | 584, 162232 | 128 | 48 | s, t | 556, 146784 | 85 |
+| 18 | s, t | 196, 18204 | 1.0 | 51 | s, t | 592, 166418 | 128 |
+| 19 | cube roots | 656, 204684 | 298 | 54 | s, t | 628, 187284 | 166 |
+| 20 | cube roots | 692, 227758 | 313 | 57 | s, t | 664, 209382 | 231 |
+| 21 | s, t | 232, 25518 | 1.8 | 60 | s, t | 700, 232712 | 360 |
+| 22 | cube roots | 764, 277602 | 603 | 63 | s, t | 736, 257274 | 466 |
 
-The cases n > 33 with 3 ∤ n, and n > 63, were not run; the cost grows quickly when 3 does not divide n (about 66 minutes for n = 32).
+The cases n > 34 with 3 ∤ n, and n > 63, were not run; the cost grows quickly when 3 does not divide n (about 89 minutes for n = 34).
 
 **n = 3 explicitly.** For n = 3 all polynomials are small, and
 [`../lower-half/m3/show_n3.log`](../lower-half/m3/show_n3.log) prints them in full. For example
@@ -207,8 +207,8 @@ All checks are internal; none is an external referee report. Scripts and logs ar
    evaluated at random points and compared with the claimed multiples of F, $F_X$, $F_Y$, $F_{XY}$ computed straight
    from the definitions (real powers, numerical differentiation at 80 digits). They agree to $10^{-74}$ for
    n = 4, 5, 6 and 7, and to at least $10^{-65}$ for every other n ∈ 𝒩 up to 24 and for 27, …, 60, including the cube-root variables. (For
-   n = 25, 26, 28, 29, 31, 32 and 63, whose exact checks take 8 to 70 minutes each, this comparison was not
-   repeated; for 31, 32 and 63 see item 6.)
+   n = 25, 26, 28, 29, 31, 32, 34 and 63, whose exact checks take 8 to 90 minutes each, this comparison was not
+   repeated; for 31, 32, 34 and 63 see item 6.)
    (`second-check/verify_polys_vs_direct_all.log`).
 6. **Direct sign checks** ([`second-check/direct_signs.py`](../lower-half/m3/second-check/direct_signs.py)). F and
    its derivatives were evaluated straight from the definitions, with no polynomial algebra, at 60 digits (and at 250
