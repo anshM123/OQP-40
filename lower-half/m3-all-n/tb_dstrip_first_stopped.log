@@ -1,0 +1,3 @@
+region form=mixed3 a=[3,64] d=[0,3] eps=[0,1/37]
+  progress: 5000 boxes accepted, stack 369, 104 s, last box a=[63.38,63.44] d=[1.875,1.938]
+  progress: 10000 boxes accepted, stack 364, 206 s, last box a=[62.69,62.75] d=[2.125,2.188]

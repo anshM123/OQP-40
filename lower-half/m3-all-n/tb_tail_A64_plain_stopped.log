@@ -1,0 +1,8 @@
+stationary tail: a >= 64, d in [0, 64], m_a in [0, 1/64] (4 slices), eps in [0, 1/37] (16 slabs)
+  progress: 5000 boxes, stack 1016, 23 s, at m=[0.0146,0.0156] eps=[0.02608,0.02618] d=[3.562,3.578]
+  progress: 10000 boxes, stack 1019, 43 s, at m=[0.0151,0.0156] eps=[0.02697,0.02703] d=[3.141,3.156]
+  progress: 15000 boxes, stack 1000, 83 s, at m=[0.0127,0.0137] eps=[0.02513,0.02534] d=[5.75,5.812]
+  progress: 20000 boxes, stack 1001, 109 s, at m=[0.0151,0.0156] eps=[0.0247,0.02481] d=[3.438,3.453]
+  progress: 25000 boxes, stack 999, 135 s, at m=[0.0142,0.0146] eps=[0.02423,0.02428] d=[3.125,3.141]
+  progress: 30000 boxes, stack 982, 155 s, at m=[0.0127,0.0137] eps=[0.02291,0.02302] d=[5.5,5.562]
+  progress: 35000 boxes, stack 984, 173 s, at m=[0.0127,0.0137] eps=[0.02207,0.02217] d=[3.484,3.5]

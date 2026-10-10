@@ -1,0 +1,8 @@
+n=37    a=0.5    d=600: aL1 0.987656770669 L2 0.068324247445 aL3 0.067480170173  |form - definition| = 1.7e-18 6.7e-18 6.7e-18  (ball radius 2e-11)
+n=inf   a=0.5    d=600: aL1 0.988235953133 L2 0.070824938778 aL3 0.069992404318  |form - definition| = 1.7e-18 6.7e-18 6.7e-18  (ball radius 2e-11)
+n=37    a=0.01   d=700: aL1 0.999740973479 L2 0.068564260371 aL3 0.068546490093  |form - definition| = 3.3e-20 6.7e-18 6.7e-18  (ball radius 2e-11)
+n=100   a=3      d=520: aL1 0.955057889057 L2 0.068151370509 aL3 0.065083021154  |form - definition| = 1.3e-17 6.7e-18 7.2e-18  (ball radius 4e-11)
+n=37    a=0.001  d=512: aL1 0.999973809053 L2 0.068033486002 aL3 0.068031702208  |form - definition| = 3.3e-21 6.7e-18 6.7e-18  (ball radius 2e-11)
+n=1000  a=2      d=2000: aL1 0.963563923377 L2 0.069734034967 aL3 0.067193264551  |form - definition| = 7.9e-18 6.7e-18 7.0e-18  (ball radius 3e-11)
+n=50    a=0.1    d=1000: aL1 0.997433438532 L2 0.068996535233 aL3 0.068819400559  |form - definition| = 3.4e-19 6.7e-18 6.7e-18  (ball radius 2e-11)
+max deviation 1.27e-17

@@ -1,0 +1,5 @@
+intervals: 6184
+  certified min of -f1/f on (0, 60]: >= 6.001617e-02  (attained on [5.2265625, 5.234375])
+  certified min of f2/f on (0, 60]: >= 1.340015e-04  (attained on [8.3984375, 8.398681640625])
+  certified min of 1 - (rr on [0,2], e^{lam d} f on [2,60]) on (0, 60]: >= 2.204802e-02  (attained on [8.548828125, 8.54931640625])
+RESULT: ALL VERIFIED  (V1) f' < 0, (V2) f''/f >= 1.34e-4, (V3) rr < 1 (= e^{lam d} f < 1) on (0, 60]

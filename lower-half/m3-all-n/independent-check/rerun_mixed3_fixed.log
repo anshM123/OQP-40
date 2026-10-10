@@ -1,0 +1,117 @@
+region 0: form=mixed3 (S_of corrected) a=[28,33] d=[0,3] eps=[0,1/37] init 5x6
+  progress: 5000 boxes accepted, stack 24, 113 s, last box a=[31,31.03] d=[2.125,2.188]
+  progress: 10000 boxes accepted, stack 17, 221 s, last box a=[29.69,29.72] d=[2.688,2.75]
+  progress: 15000 boxes accepted, stack 10, 329 s, last box a=[28.72,28.75] d=[1.688,1.75]
+boxes accepted: 16071, failures: 0, time 352.9 s
+  certified min lower bound of L1: 0.0751062 on box (32.40625, 32.4375, 2.0, 2.0625, 0.0, 0.013513513513513514)
+  certified min lower bound of L2: 0.072549 on box (32.40625, 32.4375, 2.0, 2.0625, 0.0, 0.013513513513513514)
+  certified min lower bound of L3: 1.92001e-07 on box (31.875, 31.9375, 0.125, 0.25, 0.0, 0.013513513513513514)
+RESULT: REGION VERIFIED
+region 1: form=mixed3 (S_of corrected) a=[23,28] d=[0,3] eps=[0,1/37] init 5x6
+  progress: 5000 boxes accepted, stack 24, 111 s, last box a=[26.12,26.16] d=[2.25,2.312]
+  progress: 10000 boxes accepted, stack 14, 223 s, last box a=[24.5,24.53] d=[2.75,2.812]
+  progress: 15000 boxes accepted, stack 6, 333 s, last box a=[23.56,23.59] d=[1.75,1.812]
+boxes accepted: 16095, failures: 0, time 357.9 s
+  certified min lower bound of L1: 0.0780556 on box (27.96875, 28.0, 2.0625, 2.125, 0.0, 0.013513513513513514)
+  certified min lower bound of L2: 0.0753395 on box (27.96875, 28.0, 2.0625, 2.125, 0.0, 0.013513513513513514)
+  certified min lower bound of L3: 4.73016e-06 on box (23.9375, 24.0, 0.125, 0.25, 0.013513513513513514, 0.02702702702702703)
+RESULT: REGION VERIFIED
+region 2: form=mixed3 (S_of corrected) a=[18,23] d=[0,3] eps=[0,1/37] init 5x6
+  progress: 5000 boxes accepted, stack 25, 112 s, last box a=[21,21.03] d=[2.375,2.438]
+  progress: 10000 boxes accepted, stack 16, 223 s, last box a=[19.5,19.53] d=[2.875,2.938]
+  progress: 15000 boxes accepted, stack 8, 332 s, last box a=[18.47,18.5] d=[1.625,1.688]
+boxes accepted: 15969, failures: 0, time 353.2 s
+  certified min lower bound of L1: 0.0824366 on box (22.96875, 23.0, 2.0625, 2.125, 0.0, 0.013513513513513514)
+  certified min lower bound of L2: 0.0792226 on box (22.96875, 23.0, 2.0625, 2.125, 0.0, 0.013513513513513514)
+  certified min lower bound of L3: 8.31038e-07 on box (22.09375, 22.125, 2.125, 2.1875, 0.0, 0.013513513513513514)
+RESULT: REGION VERIFIED
+region 3: form=mixed3 (S_of corrected) a=[13,18] d=[0,3] eps=[0,1/37] init 5x6
+  progress: 5000 boxes accepted, stack 26, 109 s, last box a=[16.88,16.91] d=[1.75,1.812]
+  progress: 10000 boxes accepted, stack 14, 218 s, last box a=[14.75,14.78] d=[2.625,2.688]
+  progress: 15000 boxes accepted, stack 6, 329 s, last box a=[13.62,13.69] d=[0.875,0.9375]
+boxes accepted: 15442, failures: 0, time 338.9 s
+  certified min lower bound of L1: 0.0886122 on box (17.96875, 18.0, 2.1875, 2.25, 0.0, 0.013513513513513514)
+  certified min lower bound of L2: 0.0838716 on box (17.96875, 18.0, 2.1875, 2.25, 0.0, 0.013513513513513514)
+  certified min lower bound of L3: 1.58512e-06 on box (17.96875, 18.0, 2.1875, 2.25, 0.0, 0.013513513513513514)
+RESULT: REGION VERIFIED
+region 4: form=mixed3 (S_of corrected) a=[8,13] d=[0,3] eps=[0,1/37] init 5x6
+  progress: 5000 boxes accepted, stack 25, 111 s, last box a=[11.34,11.38] d=[1.5,1.562]
+  progress: 10000 boxes accepted, stack 12, 223 s, last box a=[9.312,9.375] d=[1.562,1.625]
+boxes accepted: 13619, failures: 0, time 304.6 s
+  certified min lower bound of L1: 0.100246 on box (12.9375, 13.0, 0.0, 0.0625, 0.0, 0.013513513513513514)
+  certified min lower bound of L2: 0.0921978 on box (12.96875, 13.0, 2.3125, 2.375, 0.0, 0.013513513513513514)
+  certified min lower bound of L3: 1.72051e-06 on box (9.75, 9.8125, 1.625, 1.6875, 0.0, 0.013513513513513514)
+RESULT: REGION VERIFIED
+region 5: form=mixed3 (S_of corrected) a=[3,8] d=[0,3] eps=[0,1/37] init 5x6
+  progress: 5000 boxes accepted, stack 28, 110 s, last box a=[6.688,6.75] d=[2.438,2.5]
+  progress: 10000 boxes accepted, stack 16, 222 s, last box a=[4.375,4.438] d=[2.688,2.75]
+  progress: 15000 boxes accepted, stack 10, 333 s, last box a=[3.812,3.875] d=[2.375,2.438]
+boxes accepted: 17209, failures: 0, time 384.0 s
+  certified min lower bound of L1: 0.13324 on box (7.9375, 8.0, 0.0, 0.0625, 0.0, 0.013513513513513514)
+  certified min lower bound of L2: 0.114195 on box (7.9375, 8.0, 2.9375, 3.0, 0.0, 0.0033783783783783786)
+  certified min lower bound of L3: 8.53495e-07 on box (6.625, 6.6875, 1.375, 1.5, 0.006756756756756757, 0.013513513513513514)
+RESULT: REGION VERIFIED
+region 6: form=mixed3 (S_of corrected) a=[33,48] d=[0,3] eps=[0,1/37] init 15x6
+  progress: 5000 boxes accepted, stack 84, 111 s, last box a=[46.5,46.56] d=[1.375,1.438]
+  progress: 10000 boxes accepted, stack 72, 222 s, last box a=[44.12,44.19] d=[2,2.062]
+  progress: 15000 boxes accepted, stack 61, 333 s, last box a=[42.25,42.31] d=[2.5,2.562]
+  progress: 20000 boxes accepted, stack 53, 443 s, last box a=[41.75,41.81] d=[0.5,0.625]
+  progress: 25000 boxes accepted, stack 43, 554 s, last box a=[39.25,39.28] d=[2,2.062]
+  progress: 30000 boxes accepted, stack 33, 666 s, last box a=[37.69,37.72] d=[2.625,2.688]
+  progress: 35000 boxes accepted, stack 26, 777 s, last box a=[36.69,36.75] d=[1.312,1.375]
+  progress: 40000 boxes accepted, stack 18, 888 s, last box a=[34.72,34.75] d=[2.188,2.25]
+boxes accepted: 44815, failures: 0, time 995.9 s
+  certified min lower bound of L1: 0.0718245 on box (47.9375, 48.0, 1.25, 1.3125, 0.013513513513513514, 0.02702702702702703)
+  certified min lower bound of L2: 0.0704168 on box (47.9375, 48.0, 1.25, 1.3125, 0.013513513513513514, 0.02702702702702703)
+  certified min lower bound of L3: 9.46833e-07 on box (42.125, 42.1875, 0.0, 0.125, 0.0, 0.013513513513513514)
+RESULT: REGION VERIFIED
+region 7: form=mixed3 (S_of corrected) a=[48,64] d=[0,3] eps=[0,1/37] init 16x6
+  progress: 5000 boxes accepted, stack 89, 112 s, last box a=[62.75,62.81] d=[1.125,1.25]
+  progress: 10000 boxes accepted, stack 80, 223 s, last box a=[60.31,60.38] d=[2,2.062]
+  progress: 15000 boxes accepted, stack 70, 335 s, last box a=[58.34,58.38] d=[2.75,2.812]
+  progress: 20000 boxes accepted, stack 57, 447 s, last box a=[57.5,57.56] d=[0.25,0.375]
+  progress: 25000 boxes accepted, stack 48, 558 s, last box a=[55.12,55.19] d=[1.562,1.625]
+  progress: 30000 boxes accepted, stack 38, 670 s, last box a=[53.5,53.56] d=[2.062,2.125]
+  progress: 35000 boxes accepted, stack 26, 782 s, last box a=[51.53,51.56] d=[2.5,2.562]
+  progress: 40000 boxes accepted, stack 18, 892 s, last box a=[50.19,50.25] d=[0.75,0.875]
+  progress: 45000 boxes accepted, stack 9, 1003 s, last box a=[48.44,48.5] d=[1.688,1.75]
+boxes accepted: 46032, failures: 0, time 1026.0 s
+  certified min lower bound of L1: 0.0712678 on box (49.25, 49.3125, 1.25, 1.3125, 0.013513513513513514, 0.02702702702702703)
+  certified min lower bound of L2: 0.0698809 on box (49.25, 49.3125, 1.25, 1.3125, 0.013513513513513514, 0.02702702702702703)
+  certified min lower bound of L3: 2.03408e-08 on box (49.25, 49.3125, 1.25, 1.3125, 0.013513513513513514, 0.02702702702702703)
+RESULT: REGION VERIFIED
+region 8: form=mixed3 (S_of corrected) a=[16,40] d=[3,15/4] eps=[0,1/37] init 24x3
+  progress: 5000 boxes accepted, stack 72, 109 s, last box a=[37.94,37.97] d=[3.625,3.688]
+  progress: 10000 boxes accepted, stack 65, 218 s, last box a=[35.88,35.91] d=[3.625,3.688]
+  progress: 15000 boxes accepted, stack 58, 328 s, last box a=[33.75,33.78] d=[3.688,3.75]
+  progress: 20000 boxes accepted, stack 54, 437 s, last box a=[31.59,31.62] d=[3.625,3.688]
+  progress: 25000 boxes accepted, stack 46, 547 s, last box a=[29.41,29.44] d=[3.562,3.625]
+  progress: 30000 boxes accepted, stack 42, 656 s, last box a=[27.09,27.12] d=[3.688,3.75]
+  progress: 35000 boxes accepted, stack 34, 766 s, last box a=[25.78,25.81] d=[3.344,3.375]
+  progress: 40000 boxes accepted, stack 25, 875 s, last box a=[23.25,23.28] d=[3.375,3.438]
+  progress: 45000 boxes accepted, stack 19, 984 s, last box a=[21.38,21.41] d=[3.125,3.188]
+  progress: 50000 boxes accepted, stack 14, 1093 s, last box a=[18.59,18.62] d=[3.562,3.625]
+  progress: 55000 boxes accepted, stack 4, 1202 s, last box a=[16.38,16.41] d=[3.312,3.375]
+boxes accepted: 55718, failures: 0, time 1217.2 s
+  certified min lower bound of L1: 0.0764658 on box (39.96875, 40.0, 3.3125, 3.375, 0.0, 0.006756756756756757)
+  certified min lower bound of L2: 0.0742853 on box (39.96875, 40.0, 3.3125, 3.375, 0.0, 0.006756756756756757)
+  certified min lower bound of L3: 4.38403e-08 on box (31.34375, 31.375, 3.1875, 3.25, 0.02027027027027027, 0.02702702702702703)
+RESULT: REGION VERIFIED
+region 9: form=mixed3 (S_of corrected) a=[40,64] d=[3,15/4] eps=[0,1/37] init 24x3
+  progress: 5000 boxes accepted, stack 71, 108 s, last box a=[62.28,62.31] d=[3.062,3.125]
+  progress: 10000 boxes accepted, stack 65, 217 s, last box a=[60.53,60.56] d=[3.188,3.25]
+  progress: 15000 boxes accepted, stack 57, 326 s, last box a=[58.78,58.81] d=[3,3.062]
+  progress: 20000 boxes accepted, stack 56, 435 s, last box a=[56.78,56.81] d=[3.219,3.25]
+  progress: 25000 boxes accepted, stack 47, 544 s, last box a=[54.81,54.84] d=[3.125,3.188]
+  progress: 30000 boxes accepted, stack 41, 652 s, last box a=[52.75,52.78] d=[3.188,3.25]
+  progress: 35000 boxes accepted, stack 35, 760 s, last box a=[50.81,50.84] d=[3.062,3.125]
+  progress: 40000 boxes accepted, stack 28, 869 s, last box a=[48.75,48.78] d=[3.062,3.125]
+  progress: 45000 boxes accepted, stack 23, 978 s, last box a=[46.81,46.84] d=[3.188,3.25]
+  progress: 50000 boxes accepted, stack 16, 1086 s, last box a=[44.75,44.78] d=[3.188,3.25]
+  progress: 55000 boxes accepted, stack 10, 1195 s, last box a=[42.81,42.84] d=[3.062,3.125]
+  progress: 60000 boxes accepted, stack 3, 1304 s, last box a=[40.75,40.78] d=[3.062,3.125]
+boxes accepted: 60410, failures: 0, time 1312.7 s
+  certified min lower bound of L1: 0.0712614 on box (63.96875, 64.0, 3.25, 3.3125, 0.0, 0.006756756756756757)
+  certified min lower bound of L2: 0.0693551 on box (63.96875, 64.0, 3.25, 3.3125, 0.0, 0.006756756756756757)
+  certified min lower bound of L3: 9.87602e-08 on box (55.6875, 55.71875, 3.3125, 3.375, 0.0, 0.006756756756756757)
+RESULT: REGION VERIFIED

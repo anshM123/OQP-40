@@ -1,0 +1,30 @@
+independent strip verifier (own a-Taylor models): nu form, a in [0,3] (6 strips), b in [15/2, 515] for every strip, geometric b-cells 1/16; all eps in [0, 1/37]; 4926 initial boxes; box Taylor models before univariate functions: False
+  progress: 672 boxes, 628 splits, stack 4882, 120 s, box a=[0,0.5] b=[13.875,14.75] e=[0.02027,0.02703]
+  progress: 783 boxes, 675 splits, stack 4818, 241 s, box a=[0,0.5] b=[39.141,41.594] e=[0,0.003378]
+  progress: 914 boxes, 680 splits, stack 4692, 361 s, box a=[0,0.5] b=[116.78,124.09] e=[0.0172,0.01966]
+  progress: 1067 boxes, 680 splits, stack 4539, 482 s, box a=[0,0.5] b=[227.66,241.89] e=[0,0.001287]
+  progress: 1340 boxes, 680 splits, stack 4266, 604 s, box a=[0,0.5] b=[417.53,443.64] e=[0,0.0007305]
+  progress: 2023 boxes, 1181 splits, stack 4084, 724 s, box a=[0.5,0.625] b=[10.844,11.188] e=[0,0.003378]
+  progress: 2942 boxes, 2053 splits, stack 4037, 845 s, box a=[0.5,0.625] b=[21.953,22.625] e=[0.0152,0.01689]
+  progress: 3828 boxes, 2877 splits, stack 3975, 965 s, box a=[0.625,0.75] b=[53.031,56.359] e=[0.005405,0.008108]
+  progress: 4609 boxes, 3480 splits, stack 3797, 1085 s, box a=[0.875,1] b=[168.08,178.59] e=[0.01081,0.01261]
+  progress: 5170 boxes, 3902 splits, stack 3658, 1205 s, box a=[0.5,0.625] b=[257.02,273.09] e=[0.02233,0.0235]
+  progress: 5657 boxes, 4266 splits, stack 3535, 1325 s, box a=[0.875,1] b=[348.08,369.84] e=[0.007847,0.008718]
+  progress: 6078 boxes, 4583 splits, stack 3431, 1445 s, box a=[0.5,0.625] b=[417.53,443.64] e=[0.01169,0.01242]
+  progress: 6456 boxes, 4866 splits, stack 3336, 1566 s, box a=[0.75,0.875] b=[471.38,500.84] e=[0.02124,0.02188]
+  progress: 7269 boxes, 5582 splits, stack 3239, 1686 s, box a=[1,1.25] b=[15.688,16.18] e=[0,0.001689]
+  progress: 8173 boxes, 6235 splits, stack 2988, 1806 s, box a=[1,1.25] b=[158.19,168.08] e=[0.01737,0.01931]
+  progress: 8765 boxes, 6531 splits, stack 2692, 1926 s, box a=[1,1.25] b=[369.84,392.97] e=[0.000819,0.001638]
+  progress: 9251 boxes, 6789 splits, stack 2464, 2046 s, box a=[1.875,2] b=[7.5,7.6211] e=[0.003378,0.006757]
+  progress: 10197 boxes, 7644 splits, stack 2373, 2166 s, box a=[1.5,1.75] b=[30.688,32.609] e=[0,0.001689]
+  progress: 10991 boxes, 8093 splits, stack 2028, 2286 s, box a=[1.75,2] b=[257.02,273.09] e=[0.005875,0.007051]
+  progress: 11506 boxes, 8351 splits, stack 1771, 2406 s, box a=[1.5,1.75] b=[417.53,443.64] e=[0.02411,0.02484]
+  progress: 12223 boxes, 8925 splits, stack 1628, 2527 s, box a=[2.375,2.5] b=[9.3047,9.4492] e=[0.02027,0.02365]
+  progress: 13186 boxes, 9243 splits, stack 983, 2647 s, box a=[2,2.5] b=[392.97,417.53] e=[0.02625,0.02703]
+  progress: 14056 boxes, 9914 splits, stack 784, 2767 s, box a=[2.5,3] b=[13.047,13.461] e=[0.01014,0.01351]
+  progress: 14968 boxes, 10075 splits, stack 33, 2887 s, box a=[2.5,3] b=[500.84,515] e=[0.005657,0.006285]
+boxes accepted: 15001, splits: 10075, failures: 0, time 2890.7 s
+  smallest certified lower bound of L2: 0.0240902 on box (a0,a1,b0,b1,e0,e1) = (0.0, 0.5, 34.65625, 36.828125, 0.013513513513513514, 0.02027027027027027)
+  smallest certified lower bound of aL1: 0.306227 on box (a0,a1,b0,b1,e0,e1) = (1.5, 2.0, 500.84375, 515.0, 0.026398491514770583, 0.02702702702702703)
+  smallest certified lower bound of aL3: 6.41495e-05 on box (a0,a1,b0,b1,e0,e1) = (0.75, 0.875, 36.828125, 39.140625, 0.016891891891891893, 0.02027027027027027)
+RESULT: REGION VERIFIED

@@ -1,0 +1,3 @@
+max rel. deviation of the direct eps-form from the definition: 2.49e-62 at n=37, a=0.05, d=0.01 (F=0.8328)
+max rel. deviation of the nu eps-form from the definition: 2.93e-57 at n=37, a=0.05, d=0.01 (F=0.8328)
+eps = 0 (nu-form) and direct form at eps = 0 against the limit kernel: max rel. deviation 2.0e-65

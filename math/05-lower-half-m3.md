@@ -7,6 +7,10 @@ $$\mathcal N=\{1,2,\dots,36\}\cup\{39,42,\dots,66\}.$$
 For every n ∈ 𝒩 and all positive definite A, B of any size, $\mathcal A_{n,3}(A,B)\ge\operatorname{Tr}((A^{n/3}B)^3)$.
 This is Conjecture F at (n, 3). Hence the lower half (LH) of OQP 40 holds at (n, 3) and, by exchanging the letters, at
 (3, n), for every n ∈ 𝒩.
+
+**Update (2026-10-10).** Every n ≥ 37 is now covered at once by a computer-assisted proof with a modified
+certificate (Theorem 7, [`07-lower-half-m3-all-n.md`](07-lower-half-m3-all-n.md)). So Conjecture F at (n, 3), and the
+lower half at (n, 3) and (3, n), hold for every n.
 - **New cases of (LH):** (n, 3) and (3, n) for n = 5, …, 36 and n = 39, 42, …, 66. The cases (3, 3), (3, 4) and (4, 3)
   were already proved in [`04-lower-half-new-cases.md`](04-lower-half-new-cases.md); for (4, 3) Conjecture F itself is
   new here (that note has only the version with the letters exchanged). The case (6, 3) is out of reach of the

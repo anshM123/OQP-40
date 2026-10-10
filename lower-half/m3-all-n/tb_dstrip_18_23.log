@@ -1,0 +1,9 @@
+region form=mixed3 a=[18,23] d=[0,3] eps=[0,1/37]
+  progress: 5000 boxes accepted, stack 28, 115 s, last box a=[21.12,21.16] d=[2.438,2.5]
+  progress: 10000 boxes accepted, stack 15, 214 s, last box a=[19.81,19.84] d=[2.625,2.688]
+  progress: 15000 boxes accepted, stack 8, 311 s, last box a=[18.88,18.91] d=[1.75,1.812]
+boxes accepted: 16300, failures: 0, time 337.5 s
+  certified min lower bound of L1: 0.0824157 on box (22.96875, 23.0, 2.0625, 2.125, 0.0, 0.013513513513513514)
+  certified min lower bound of L2: 0.0791463 on box (22.96875, 23.0, 2.0625, 2.125, 0.0, 0.013513513513513514)
+  certified min lower bound of L3: 1.48936e-06 on box (18.375, 18.40625, 2.0625, 2.125, 0.013513513513513514, 0.02702702702702703)
+RESULT: REGION VERIFIED

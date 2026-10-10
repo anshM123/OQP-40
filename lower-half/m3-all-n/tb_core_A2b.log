@@ -1,0 +1,7 @@
+region form=nu2 a=[3,16] d=[16,64] eps=[0,1/37]
+  progress: 5000 boxes accepted, stack 29, 260 s, last box a=[4.5,4.75] d=[18,19]
+boxes accepted: 6254, failures: 0, time 311.6 s
+  certified min lower bound of L1: 0.0683014 on box (15.0, 16.0, 42.0, 44.0, 0.02027027027027027, 0.02702702702702703)
+  certified min lower bound of L2: 0.0462595 on box (11.0, 12.0, 42.0, 44.0, 0.02027027027027027, 0.02702702702702703)
+  certified min lower bound of L3: 2.9145e-06 on box (3.75, 4.0, 46.0, 48.0, 0.02027027027027027, 0.02702702702702703)
+RESULT: REGION VERIFIED

@@ -1,0 +1,49 @@
+  1 boxes, 24 checks, 0 violations
+nu_far box [0.5, 1.0, 196.5, 197.0, 0.015202702702702704, 0.016891891891891893]: evaluation failed ([+/- 67.9])
+  11 boxes, 240 checks, 0 violations
+  21 boxes, 480 checks, 0 violations
+  31 boxes, 720 checks, 0 violations
+  41 boxes, 960 checks, 0 violations
+nu_far box [0.5, 1.0, 183.5, 185.5, 0.016891891891891893, 0.018581081081081082]: evaluation failed ([+/- 65.7])
+nu_far box [0.5, 1.0, 373.5, 374.0, 0.0, 0.0033783783783783786]: evaluation failed (recip of [+/- 0.0214])
+  51 boxes, 1152 checks, 0 violations
+direct box [0.125, 0.25, 0.5, 0.625, 0.02195945945945946, 0.022804054054054054]: evaluation failed ([+/- 0.108])
+  61 boxes, 1368 checks, 0 violations
+direct box [0.0625, 0.125, 2.25, 2.375, 0.02195945945945946, 0.02364864864864865]: evaluation failed ([+/- 3.13e+2])
+  71 boxes, 1584 checks, 0 violations
+direct box [0.25, 0.375, 0.5, 0.625, 0.0059121621621621625, 0.00633445945945946]: evaluation failed ([+/- 7.84])
+nu_far box [0.0, 0.5, 387.0, 387.5, 0.0, 0.0033783783783783786]: evaluation failed (recip of [+/- 0.0248])
+  91 boxes, 2016 checks, 0 violations
+nu_far box [0.5, 1.0, 161.5, 162.0, 0.02195945945945946, 0.02364864864864865]: evaluation failed ([+/- 55.9])
+  111 boxes, 2472 checks, 0 violations
+  121 boxes, 2712 checks, 0 violations
+direct box [0.25, 0.375, 2.0, 2.125, 0.008445945945945946, 0.010135135135135136]: evaluation failed ([+/- 5.49])
+  131 boxes, 2928 checks, 0 violations
+direct box [0.0625, 0.09375, 1.125, 1.25, 0.010135135135135136, 0.013513513513513514]: evaluation failed ([+/- 38.0])
+nu_far box [0.5, 1.0, 65.5, 66.0, 0.008023648648648648, 0.008445945945945946]: evaluation failed ([+/- 23.0])
+direct box [0.25, 0.375, 1.75, 1.875, 0.013513513513513514, 0.016891891891891893]: evaluation failed ([+/- 5.40])
+  141 boxes, 3096 checks, 0 violations
+direct box [0.0625, 0.125, 2.5, 2.5625, 0.005067567567567568, 0.005489864864864865]: evaluation failed ([+/- 2.25e+2])
+  151 boxes, 3312 checks, 0 violations
+  161 boxes, 3552 checks, 0 violations
+  171 boxes, 3792 checks, 0 violations
+  181 boxes, 4032 checks, 0 violations
+nu_far box [0.5, 1.0, 12.5, 13.5, 0.0059121621621621625, 0.006756756756756757]: evaluation failed ([+/- 12.5])
+direct box [0.125, 0.25, 1.375, 1.5, 0.006756756756756757, 0.007601351351351352]: evaluation failed ([+/- 97.3])
+  191 boxes, 4224 checks, 0 violations
+nu box [0.125, 0.25, 4.125, 4.15625, 0.010135135135135136, 0.013513513513513514]: evaluation failed ([+/- 1.27e+2])
+  201 boxes, 4440 checks, 0 violations
+nu_far box [1.0, 1.5, 228.0, 229.0, 0.0, 0.0033783783783783786]: evaluation failed ([+/- 19.1])
+  211 boxes, 4656 checks, 0 violations
+nu_far box [1.0, 1.5, 126.0, 126.5, 0.006756756756756757, 0.010135135135135136]: evaluation failed ([+/- 10.4])
+  221 boxes, 4872 checks, 0 violations
+  231 boxes, 5112 checks, 0 violations
+direct box [0.25, 0.375, 2.25, 2.28125, 0.013513513513513514, 0.016891891891891893]: evaluation failed ([+/- 4.30])
+  241 boxes, 5328 checks, 0 violations
+  251 boxes, 5568 checks, 0 violations
+  261 boxes, 5808 checks, 0 violations
+  271 boxes, 6048 checks, 0 violations
+  281 boxes, 6288 checks, 0 violations
+  291 boxes, 6528 checks, 0 violations
+nu_far box [0.5, 1.0, 127.5, 129.5, 0.013513513513513514, 0.016891891891891893]: evaluation failed ([+/- 46.5])
+tb_sx soundness spot-check: 280 boxes evaluated, 6720 checks, 0 violations

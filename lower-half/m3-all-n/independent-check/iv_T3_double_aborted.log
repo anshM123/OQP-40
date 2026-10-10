@@ -1,0 +1,1 @@
+tail verifier double: a >= 250 (m_a cells), d >= 512 (w cells), all eps in [0,1/37]; grid 2x4x8

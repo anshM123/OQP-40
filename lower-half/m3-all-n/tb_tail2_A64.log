@@ -1,0 +1,12 @@
+stationary tail (eps-jets): a >= 64, d in [0, 64], m_a in [0, 1/64] (2 slices), eps in [0, 1/37] (4 slabs)
+  progress: 5000 boxes, stack 119, 32 s
+  progress: 10000 boxes, stack 120, 58 s
+  progress: 15000 boxes, stack 118, 93 s
+  progress: 20000 boxes, stack 103, 131 s
+  progress: 25000 boxes, stack 70, 156 s
+  progress: 30000 boxes, stack 37, 180 s
+boxes accepted: 34689, failures: 0, time 202.8 s
+  certified min lower bound of L1: 0.0489135 on (m0, m1, e0, e1, d0, d1) = (0.0, 0.0078125, 0.02364864864864865, 0.02702702702702703, 40.0, 42.0)
+  certified min lower bound of L2: 0.0487144 on (m0, m1, e0, e1, d0, d1) = (0.0, 0.0078125, 0.02364864864864865, 0.02702702702702703, 40.0, 42.0)
+  certified min lower bound of L3: 7.84524e-09 on (m0, m1, e0, e1, d0, d1) = (0.013671875, 0.015625, 0.026288006756756757, 0.026393581081081082, 3.546875, 3.5625)
+RESULT: REGION VERIFIED

@@ -1,0 +1,9 @@
+a-tail chart, mean value in (d, eps) at fixed m_a: a >= 250, d in [0,512], eps cells 2..7 of 8; grid 512 x 2
+  progress: 505 boxes, stack 5644, 121 s, box m=[3.21e-05,6.42e-05] d=[11.5,12] e=[0.02365,0.02703]
+  progress: 9667 boxes, stack 2057, 241 s, box m=[0,0.000239] d=[3.984,4] e=[0.0152,0.01689]
+boxes accepted: 14805, failures: 0, time 289.4 s
+  smallest certified lower bound of L1: 0.0532662 on (0.0, 3.208735119584368e-05, 36.0, 37.0, 0.02364864864864865, 0.02702702702702703)
+  smallest certified lower bound of L2: 0.0532676 on (0.0, 3.208735119584368e-05, 36.0, 37.0, 0.02364864864864865, 0.02702702702702703)
+  smallest certified lower bound of L3: 1.80354e-06 on (0.0, 0.0007651893105221359, 3.609375, 3.6328125, 0.008445945945945946, 0.010135135135135136)
+RESULT: REGION VERIFIED
+exit 0

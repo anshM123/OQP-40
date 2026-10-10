@@ -1,0 +1,19 @@
+independent verifier (centre/box jets): form=nus a=[64,250] d=[64,512] eps=[0,1/37], initial grid 93x56x8
+  progress: 1101 boxes, 150 splits, stack 40713, 120 s, box (244.0, 246.0, 456.0, 464.0, 0.0017, 0.0034)
+  progress: 4757 boxes, 630 splits, stack 37537, 240 s, box (230.0, 232.0, 416.0, 424.0, 0.0017, 0.0034)
+  progress: 8413 boxes, 1101 splits, stack 34352, 360 s, box (216.0, 218.0, 368.0, 376.0, 0.0, 0.0017)
+  progress: 12105 boxes, 1570 splits, stack 31129, 480 s, box (202.0, 204.0, 280.0, 288.0, 0.0017, 0.0034)
+  progress: 15802 boxes, 2027 splits, stack 27889, 600 s, box (188.0, 190.0, 176.0, 184.0, 0.0034, 0.0068)
+  progress: 19527 boxes, 2465 splits, stack 24602, 720 s, box (172.0, 174.0, 472.0, 480.0, 0.0068, 0.0101)
+  progress: 23242 boxes, 2875 splits, stack 21297, 840 s, box (158.0, 160.0, 304.0, 312.0, 0.0017, 0.0034)
+  progress: 26996 boxes, 3264 splits, stack 17932, 960 s, box (144.0, 146.0, 72.0, 80.0, 0.0135, 0.0169)
+  progress: 30759 boxes, 3645 splits, stack 14550, 1080 s, box (128.0, 130.0, 272.0, 280.0, 0.0203, 0.0236)
+  progress: 34534 boxes, 3993 splits, stack 11123, 1200 s, box (112.0, 114.0, 432.0, 440.0, 0.0101, 0.0135)
+  progress: 38345 boxes, 4328 splits, stack 7647, 1320 s, box (98.0, 100.0, 88.0, 96.0, 0.0236, 0.027)
+  progress: 42153 boxes, 4658 splits, stack 4169, 1440 s, box (82.0, 84.0, 200.0, 208.0, 0.0017, 0.0034)
+  progress: 45989 boxes, 4971 splits, stack 646, 1560 s, box (66.0, 68.0, 256.0, 264.0, 0.0203, 0.0236)
+boxes accepted: 46682, splits: 5018, failures: 0, tightening errors: 0, time 1582.1 s
+  smallest certified lower bound of L1: 0.0375294 on box (248.0, 250.0, 416.0, 424.0, 0.0033783783783783786, 0.006756756756756757)
+  smallest certified lower bound of L2: 0.0466063 on box (104.0, 106.0, 504.0, 512.0, 0.0033783783783783786, 0.006756756756756757)
+  smallest certified lower bound of L3: 9.06732e-08 on box (208.0, 210.0, 440.0, 448.0, 0.0033783783783783786, 0.006756756756756757)
+RESULT: REGION VERIFIED

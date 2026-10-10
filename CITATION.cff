@@ -7,8 +7,8 @@ authors:
     given-names: Ansh
   - family-names: Senthilkumar
     given-names: Aryan
-version: "1.4.1"
-date-released: "2026-10-09"
+version: "1.5"
+date-released: "2026-10-10"
 license: MIT
 repository-code: "https://github.com/anshM123/OQP-40"
 keywords:

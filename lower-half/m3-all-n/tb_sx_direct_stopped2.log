@@ -1,0 +1,11 @@
+strip verification (tb_sx): direct form: a in [0, 3] (strips of width 1/4), b in [1/4, a_strip_lo + 4], all eps in [0, 1/37]; 1528 initial boxes
+  progress: 734 boxes, 617 splits, stack 1411, 60 s, last a=[0.25,0.2812] b=[0.25,0.25781] e=[0.02534,0.02703]
+  progress: 1983 boxes, 1852 splits, stack 1397, 120 s, last a=[0.25,0.2812] b=[0.6875,0.71875] e=[0.02365,0.02534]
+  progress: 3282 boxes, 3131 splits, stack 1377, 180 s, last a=[0.25,0.2812] b=[1.375,1.4062] e=[0.006757,0.008446]
+  progress: 4598 boxes, 4416 splits, stack 1346, 240 s, last a=[0.25,0.2812] b=[2.375,2.4062] e=[0,0.001689]
+  progress: 5904 boxes, 5692 splits, stack 1316, 300 s, last a=[0.4375,0.5] b=[3.125,3.1875] e=[0.01014,0.01182]
+  progress: 7253 boxes, 7022 splits, stack 1297, 360 s, last a=[0.2812,0.3125] b=[3.7812,3.8125] e=[0.01182,0.01351]
+  progress: 8549 boxes, 8295 splits, stack 1274, 420 s, last a=[0.5625,0.625] b=[0.65625,0.6875] e=[0.02365,0.02703]
+  progress: 9850 boxes, 9495 splits, stack 1173, 480 s, last a=[0.625,0.75] b=[3.8125,3.875] e=[0.01858,0.02027]
+  progress: 11123 boxes, 10631 splits, stack 1036, 541 s, last a=[0.75,0.875] b=[4.375,4.4375] e=[0.01689,0.01858]
+  progress: 12461 boxes, 11607 splits, stack 674, 601 s, last a=[1.5,1.75] b=[4.375,4.4375] e=[0.02027,0.02365]

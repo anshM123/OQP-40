@@ -1,0 +1,6 @@
+double tail: a >= 64 (m_a in [0, 1/64], 4 slices), d >= 512 (w in [0, 1/512], 4 slices), eps in [0, 1/37] (16 slabs)
+cells: 256, failures: 0, time 0.0 s
+  certified min lower bound of L1: 0.0679818 on (m0, m1, w0, w1, e0, e1) = (0.0, 0.00390625, 0.00146484375, 0.001953125, 0.02533783783783784, 0.02702702702702703)
+  certified min lower bound of L2: 0.0680333 on (m0, m1, w0, w1, e0, e1) = (0.01171875, 0.015625, 0.00146484375, 0.001953125, 0.02533783783783784, 0.02702702702702703)
+  certified min lower bound of L3: 0.00461396 on (m0, m1, w0, w1, e0, e1) = (0.0, 0.00390625, 0.00146484375, 0.001953125, 0.02533783783783784, 0.02702702702702703)
+RESULT: REGION VERIFIED

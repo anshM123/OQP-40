@@ -1,0 +1,39 @@
+stationary tail (eps-jets): a >= 64, d in [64, 512], m_a in [0, 1/64] (2 slices), eps in [0, 1/37] (4 slabs)
+  progress: 5000 boxes, stack 84, 25 s
+  progress: 10000 boxes, stack 83, 44 s
+  progress: 15000 boxes, stack 81, 63 s
+  progress: 20000 boxes, stack 82, 82 s
+  progress: 25000 boxes, stack 77, 101 s
+  progress: 30000 boxes, stack 82, 119 s
+  progress: 35000 boxes, stack 83, 138 s
+  progress: 40000 boxes, stack 77, 157 s
+  progress: 45000 boxes, stack 76, 174 s
+  progress: 50000 boxes, stack 36, 193 s
+  progress: 55000 boxes, stack 32, 215 s
+  progress: 60000 boxes, stack 30, 237 s
+  progress: 65000 boxes, stack 22, 255 s
+  progress: 70000 boxes, stack 19, 273 s
+  progress: 75000 boxes, stack 21, 291 s
+  progress: 80000 boxes, stack 21, 307 s
+  progress: 85000 boxes, stack 17, 326 s
+  progress: 90000 boxes, stack 18, 344 s
+  progress: 95000 boxes, stack 18, 363 s
+  progress: 100000 boxes, stack 17, 380 s
+  progress: 105000 boxes, stack 17, 399 s
+  progress: 110000 boxes, stack 18, 418 s
+  progress: 115000 boxes, stack 16, 437 s
+  progress: 120000 boxes, stack 16, 456 s
+  progress: 125000 boxes, stack 15, 475 s
+  progress: 130000 boxes, stack 16, 492 s
+  progress: 135000 boxes, stack 14, 508 s
+  progress: 140000 boxes, stack 15, 525 s
+  progress: 145000 boxes, stack 14, 541 s
+  progress: 150000 boxes, stack 13, 561 s
+  progress: 155000 boxes, stack 10, 580 s
+  progress: 160000 boxes, stack 7, 599 s
+  progress: 165000 boxes, stack 8, 616 s
+boxes accepted: 165150, failures: 0, time 616.7 s
+  certified min lower bound of L1: 0.0456 on (m0, m1, e0, e1, d0, d1) = (0.0, 0.0078125, 0.013513513513513514, 0.02027027027027027, 372.0, 400.0)
+  certified min lower bound of L2: 0.00954199 on (m0, m1, e0, e1, d0, d1) = (0.0, 0.0078125, 0.0016891891891891893, 0.0033783783783783786, 486.720703125, 486.734375)
+  certified min lower bound of L3: 2.0812e-07 on (m0, m1, e0, e1, d0, d1) = (0.0078125, 0.015625, 0.0, 0.0033783783783783786, 341.662109375, 341.67578125)
+RESULT: REGION VERIFIED

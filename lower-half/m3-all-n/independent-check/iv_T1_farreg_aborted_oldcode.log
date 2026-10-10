@@ -1,0 +1,2 @@
+tail verifier farreg: a in [3,250], d >= 512 (w = 1/d in [0,1/512]), all eps in [0,1/37]; grid 62x4x8
+atom bound used: X = 7.526e-18 (10 x the bound {'phit': 4.572711173804854e-20, 'Om_b': 8.210463647063277e-72, 'sg psi - 1': 4.2657109873779455e-123, 'tau': 7.525667187388374e-19})

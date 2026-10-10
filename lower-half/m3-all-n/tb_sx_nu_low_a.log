@@ -1,0 +1,24 @@
+strip verification (tb_sx): nu form: a in [0, 3/2] (strips of width 1/8), b in [a_strip_hi + 15/4, 15/2], all eps in [0, 1/37]; 1444 initial boxes; box tightening True
+  progress: 424 boxes, 268 splits, stack 1288, 60 s, last a=[0.125,0.1562] b=[4.0195,4.0391] e=[0.02534,0.02618]
+  progress: 929 boxes, 766 splits, stack 1281, 120 s, last a=[0.125,0.1562] b=[4.2344,4.2539] e=[0.001689,0.002534]
+  progress: 1465 boxes, 1288 splits, stack 1267, 180 s, last a=[0.2188,0.25] b=[4.3906,4.4297] e=[0.02027,0.02196]
+  progress: 2001 boxes, 1813 splits, stack 1256, 240 s, last a=[0.1562,0.1875] b=[4.625,4.6641] e=[0.01605,0.01689]
+  progress: 2539 boxes, 2341 splits, stack 1246, 300 s, last a=[0.125,0.1562] b=[4.8594,4.8984] e=[0.01098,0.01182]
+  progress: 3079 boxes, 2869 splits, stack 1234, 360 s, last a=[0.125,0.1562] b=[5.1094,5.1562] e=[0.005912,0.006757]
+  progress: 3616 boxes, 3396 splits, stack 1224, 420 s, last a=[0.125,0.1562] b=[5.4375,5.4844] e=[0,0.0008446]
+  progress: 4148 boxes, 3915 splits, stack 1211, 480 s, last a=[0.1875,0.2188] b=[5.5781,5.625] e=[0.02196,0.02365]
+  progress: 4681 boxes, 4435 splits, stack 1198, 541 s, last a=[0.125,0.1562] b=[5.9531,6] e=[0.01182,0.01267]
+  progress: 5216 boxes, 4956 splits, stack 1184, 601 s, last a=[0.125,0.1562] b=[6.375,6.4297] e=[0.0008446,0.001689]
+  progress: 5753 boxes, 5473 splits, stack 1164, 661 s, last a=[0.125,0.1562] b=[6.8125,6.9219] e=[0.02365,0.02449]
+  progress: 6279 boxes, 5977 splits, stack 1142, 721 s, last a=[0.25,0.3125] b=[4.125,4.1641] e=[0.006757,0.008446]
+  progress: 6806 boxes, 6470 splits, stack 1108, 781 s, last a=[0.25,0.3125] b=[4.75,4.7891] e=[0.0152,0.01689]
+  progress: 7344 boxes, 6959 splits, stack 1059, 841 s, last a=[0.25,0.3125] b=[5.8125,5.9062] e=[0.01689,0.01858]
+  progress: 7888 boxes, 7437 splits, stack 993, 901 s, last a=[0.375,0.4375] b=[4.3672,4.4062] e=[0.006757,0.008446]
+  progress: 8435 boxes, 7910 splits, stack 919, 961 s, last a=[0.375,0.4375] b=[5.875,5.9688] e=[0.01351,0.01689]
+  progress: 9041 boxes, 8322 splits, stack 725, 1022 s, last a=[0.625,0.75] b=[4.6562,4.7344] e=[0,0.001689]
+  progress: 9756 boxes, 8623 splits, stack 311, 1082 s, last a=[1,1.125] b=[6.5,6.6094] e=[0,0.006757]
+boxes accepted: 10122, splits: 8678, failures: 0, time 1106.3 s
+  certified min lower bound of L2: 0.05144 on box (a0,a1,b0,b1,e0,e1) = (0.0, 0.125, 4.234375, 4.3125, 0.0, 0.006756756756756757)
+  certified min lower bound of aL1: 0.965246 on box (a0,a1,b0,b1,e0,e1) = (0.375, 0.4375, 7.421875, 7.5, 0.013513513513513514, 0.02027027027027027)
+  certified min lower bound of aL3: 2.64676e-05 on box (a0,a1,b0,b1,e0,e1) = (0.625, 0.75, 5.046875, 5.140625, 0.010135135135135136, 0.013513513513513514)
+RESULT: REGION VERIFIED

@@ -1,0 +1,2 @@
+a >= 3: uncovered cells: none
+0 <= a <= 3: cells with uncovered b: none

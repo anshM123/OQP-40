@@ -1,0 +1,15 @@
+independent verifier (centre/box jets): form=nus2 a=[3,16] d=[15/4,16] eps=[0,1/37], initial grid 52x98x8
+  progress: 3392 boxes, 83 splits, stack 37459, 120 s, box (14.75, 15.0, 13.25, 13.375, 0.0101, 0.0135)
+  progress: 7803 boxes, 166 splits, stack 33131, 240 s, box (13.5, 13.75, 6.875, 7.0, 0.0101, 0.0135)
+  progress: 12235 boxes, 231 splits, stack 28764, 360 s, box (12.0, 12.25, 12.125, 12.25, 0.0135, 0.0169)
+  progress: 16795 boxes, 263 splits, stack 24236, 480 s, box (10.5, 10.75, 14.875, 15.0, 0.0135, 0.0169)
+  progress: 21391 boxes, 278 splits, stack 19655, 600 s, box (9.25, 9.5, 4.5, 4.625, 0.0236, 0.027)
+  progress: 25948 boxes, 298 splits, stack 15118, 720 s, box (7.75, 8.0, 7.125, 7.25, 0.0203, 0.0236)
+  progress: 30550 boxes, 409 splits, stack 10627, 840 s, box (6.25, 6.5, 10.5, 10.625, 0.0101, 0.0135)
+  progress: 35098 boxes, 572 splits, stack 6242, 960 s, box (4.75, 5.0, 15.5, 15.625, 0.0068, 0.0101)
+  progress: 39399 boxes, 985 splits, stack 2354, 1080 s, box (3.9375, 4.0, 3.75, 3.7812, 0.0, 0.0034)
+boxes accepted: 42866, splits: 2098, failures: 0, tightening errors: 0, time 1196.3 s
+  smallest certified lower bound of L1: 0.0945767 on box (15.75, 16.0, 4.125, 4.25, 0.0, 0.0033783783783783786)
+  smallest certified lower bound of L2: 0.0876561 on box (15.75, 16.0, 5.875, 6.0, 0.0, 0.0033783783783783786)
+  smallest certified lower bound of L3: 9.39659e-07 on box (12.75, 13.0, 3.875, 4.0, 0.006756756756756757, 0.010135135135135136)
+RESULT: REGION VERIFIED

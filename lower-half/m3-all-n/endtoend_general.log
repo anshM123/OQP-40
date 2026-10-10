@@ -1,0 +1,1 @@
+[Gaussian design] n = 24, spread 2.0: 6 random (A,B), r = 3..6, d <= 12: max rel. error of p - frac = Phi_B(K) = 3 sum<R,G>: 5.45e-39;  min normalised eigenvalue of all G^(l): 3.32e-26;  min p_n3/tr((A^(n/3)B)^3): 1.012797

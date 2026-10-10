@@ -1,0 +1,4 @@
+strip verification (tb_sx): nu form: a in [0, 3] (strips of width 1/8), b in [a_strip_hi + 15/4, 15/2], all eps in [0, 1/37]; 2080 initial boxes; box tightening True
+  progress: 450 boxes, 292 splits, stack 1922, 60 s, last a=[0.1562,0.1875] b=[4.1172,4.1562] e=[0.0008446,0.001689]
+  progress: 952 boxes, 787 splits, stack 1915, 120 s, last a=[0.125,0.1562] b=[4.2539,4.2734] e=[0.004223,0.005068]
+  progress: 1443 boxes, 1268 splits, stack 1905, 180 s, last a=[0.125,0.1562] b=[4.3906,4.4297] e=[0.01858,0.01943]

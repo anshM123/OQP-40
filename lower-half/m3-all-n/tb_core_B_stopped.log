@@ -1,0 +1,7 @@
+region form=nu2 a=[64,512] d=[3,64] eps=[0,1/37]
+  progress: 5000 boxes accepted, stack 1677, 47 s, last box a=[502.5,503] d=[28,29]
+  progress: 10000 boxes accepted, stack 1670, 87 s, last box a=[500,500.2] d=[22.5,23]
+  progress: 15000 boxes accepted, stack 1669, 125 s, last box a=[508.2,508.5] d=[19.5,20]
+  progress: 20000 boxes accepted, stack 1666, 163 s, last box a=[504.8,505] d=[17.5,18]
+  progress: 25000 boxes accepted, stack 1666, 199 s, last box a=[505.2,505.5] d=[16.5,16.75]
+  progress: 30000 boxes accepted, stack 1669, 233 s, last box a=[509.9,510] d=[15.75,16]

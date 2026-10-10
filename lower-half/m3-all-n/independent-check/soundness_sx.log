@@ -1,0 +1,11 @@
+  1 boxes, 18 checks, 0 violations
+  11 boxes, 198 checks, 0 violations
+  21 boxes, 378 checks, 0 violations
+nu_far box [0.5, 1.0, 342.5, 344.5, 0.02364864864864865, 0.02702702702702703]: evaluation failed ([+/- 1.21e+2])
+  31 boxes, 540 checks, 0 violations
+  41 boxes, 720 checks, 0 violations
+  51 boxes, 900 checks, 0 violations
+nu_far box [0.5, 1.0, 388.5, 389.5, 0.006756756756756757, 0.007601351351351352]: evaluation failed ([+/- 1.35e+2])
+  61 boxes, 1062 checks, 0 violations
+  71 boxes, 1242 checks, 0 violations
+tb_sx soundness spot-check: 78 boxes evaluated, 1404 checks, 0 violations

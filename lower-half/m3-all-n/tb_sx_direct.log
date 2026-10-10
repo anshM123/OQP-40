@@ -1,0 +1,18 @@
+strip verification (tb_sx): direct form: a in [0, 3] (strips of width 1/4), b in [1/4, a_strip_lo + 4], all eps in [0, 1/37]; 1528 initial boxes; box tightening False
+  progress: 770 boxes, 651 splits, stack 1409, 60 s, last a=[0.2812,0.3125] b=[0.32812,0.34375] e=[0.02027,0.02196]
+  progress: 2017 boxes, 1884 splits, stack 1395, 120 s, last a=[0.3125,0.375] b=[0.75,0.78125] e=[0.003378,0.005068]
+  progress: 3278 boxes, 3123 splits, stack 1373, 180 s, last a=[0.375,0.4375] b=[1.375,1.4375] e=[0.003378,0.006757]
+  progress: 4550 boxes, 4366 splits, stack 1344, 240 s, last a=[0.2812,0.3125] b=[2.25,2.3125] e=[0.01858,0.02027]
+  progress: 5766 boxes, 5558 splits, stack 1320, 300 s, last a=[0.25,0.2812] b=[3.0625,3.0938] e=[0.02534,0.02703]
+  progress: 6933 boxes, 6706 splits, stack 1301, 360 s, last a=[0.3125,0.375] b=[3.6562,3.6875] e=[0.008446,0.01014]
+  progress: 8058 boxes, 7818 splits, stack 1288, 420 s, last a=[0.2812,0.3125] b=[4.1875,4.2188] e=[0,0.001689]
+  progress: 9214 boxes, 8908 splits, stack 1222, 480 s, last a=[0.625,0.75] b=[2.25,2.3125] e=[0.01689,0.02027]
+  progress: 10348 boxes, 9978 splits, stack 1158, 540 s, last a=[0.5,0.5625] b=[4.375,4.4062] e=[0.01182,0.01351]
+  progress: 11487 boxes, 10916 splits, stack 957, 600 s, last a=[1.125,1.25] b=[3,3.125] e=[0.02027,0.02365]
+  progress: 12754 boxes, 11770 splits, stack 544, 660 s, last a=[1.75,2] b=[4.8125,4.875] e=[0,0.003378]
+  progress: 14066 boxes, 12595 splits, stack 57, 720 s, last a=[2.75,3] b=[4.875,5] e=[0.02027,0.02365]
+boxes accepted: 14491, splits: 12963, failures: 0, time 740.6 s
+  certified min lower bound of L2: 0.0981922 on box (a0,a1,b0,b1,e0,e1) = (0.0, 0.25, 3.125, 3.25, 0.006756756756756757, 0.010135135135135136)
+  certified min lower bound of aL1: 0.990464 on box (a0,a1,b0,b1,e0,e1) = (0.0, 0.25, 0.375, 0.5, 0.02027027027027027, 0.02702702702702703)
+  certified min lower bound of aL3: 5.98872e-05 on box (a0,a1,b0,b1,e0,e1) = (2.0, 2.25, 4.625, 4.75, 0.0033783783783783786, 0.006756756756756757)
+RESULT: REGION VERIFIED

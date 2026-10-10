@@ -1,0 +1,20 @@
+independent verifier (centre/box jets): form=nus2 a=[64,250] d=[15/4,8] eps=[0,1/37], initial grid 93x34x8
+  progress: 3033 boxes, 1364 splits, stack 23627, 120 s, box (236.0, 238.0, 7.375, 7.4375, 0.0101, 0.0135)
+  progress: 6234 boxes, 2809 splits, stack 21871, 240 s, box (224.0, 226.0, 5.375, 5.4375, 0.0236, 0.027)
+  progress: 9407 boxes, 4252 splits, stack 20141, 360 s, box (212.0, 214.0, 3.9375, 4.0, 0.0135, 0.0169)
+  progress: 12619 boxes, 5690 splits, stack 18367, 480 s, box (198.0, 200.0, 5.9375, 6.0, 0.0203, 0.0236)
+  progress: 15811 boxes, 7142 splits, stack 16627, 600 s, box (186.0, 188.0, 4.3125, 4.375, 0.0068, 0.0101)
+  progress: 19018 boxes, 8576 splits, stack 14854, 720 s, box (172.0, 174.0, 6.3125, 6.375, 0.0169, 0.0203)
+  progress: 22150 boxes, 9992 splits, stack 13138, 840 s, box (160.0, 162.0, 5.0625, 5.125, 0.0034, 0.0068)
+  progress: 25318 boxes, 11409 splits, stack 11387, 960 s, box (146.0, 148.0, 7.4375, 7.5, 0.0068, 0.0101)
+  progress: 28468 boxes, 12812 splits, stack 9640, 1080 s, box (134.0, 136.0, 5.5625, 5.625, 0.0236, 0.027)
+  progress: 31604 boxes, 14212 splits, stack 7904, 1200 s, box (122.0, 124.0, 3.9375, 4.0, 0.0236, 0.027)
+  progress: 34769 boxes, 15579 splits, stack 6106, 1320 s, box (108.0, 110.0, 5.6875, 5.75, 0.0034, 0.0068)
+  progress: 37898 boxes, 16932 splits, stack 4330, 1440 s, box (94.0, 96.0, 7.625, 7.75, 0.0068, 0.0101)
+  progress: 41044 boxes, 18241 splits, stack 2493, 1560 s, box (82.0, 84.0, 4.4375, 4.5, 0.0135, 0.0169)
+  progress: 44219 boxes, 19492 splits, stack 569, 1680 s, box (68.0, 70.0, 4.125, 4.1875, 0.0034, 0.0068)
+boxes accepted: 45129, splits: 19833, failures: 0, tightening errors: 0, time 1715.5 s
+  smallest certified lower bound of L1: 0.0524895 on box (248.0, 250.0, 5.1875, 5.25, 0.0, 0.0033783783783783786)
+  smallest certified lower bound of L2: 0.0631459 on box (248.0, 250.0, 5.0625, 5.125, 0.0, 0.0033783783783783786)
+  smallest certified lower bound of L3: 3.67026e-08 on box (102.0, 104.0, 6.25, 6.375, 0.016891891891891893, 0.02027027027027027)
+RESULT: REGION VERIFIED

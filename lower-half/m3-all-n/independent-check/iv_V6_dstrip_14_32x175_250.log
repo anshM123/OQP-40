@@ -1,0 +1,8 @@
+independent verifier (centre/box jets): form=mix a=[14,32] d=[7/4,5/2] eps=[0,1/37], initial grid 144x12x8
+  progress: 5712 boxes, 0 splits, stack 8112, 120 s, box (24.5, 24.625, 2.125, 2.1875, 0.0, 0.0034)
+  progress: 11858 boxes, 0 splits, stack 1966, 240 s, box (16.5, 16.625, 2.0625, 2.125, 0.0203, 0.0236)
+boxes accepted: 13824, splits: 0, failures: 0, tightening errors: 0, time 278.9 s
+  smallest certified lower bound of L1: 0.0816095 on box (31.875, 32.0, 2.4375, 2.5, 0.0, 0.0033783783783783786)
+  smallest certified lower bound of L2: 0.0811775 on box (31.875, 32.0, 2.4375, 2.5, 0.0, 0.0033783783783783786)
+  smallest certified lower bound of L3: 0.0072545 on box (31.875, 32.0, 2.4375, 2.5, 0.0, 0.0033783783783783786)
+RESULT: REGION VERIFIED

@@ -1,0 +1,4 @@
+strip verification (tb_sx): direct form: a in [0, 3], b in [1/4, 8] (b >= a part), all eps in [0, 1/37]; 2536 initial boxes
+  progress: 746 boxes, 572 splits, stack 2362, 60 s, last a=[0,0.25] b=[5.75,5.7812] e=[0.003378,0.005068]
+  progress: 2009 boxes, 1826 splits, stack 2353, 120 s, last a=[0.1406,0.1562] b=[6.1094,6.125] e=[0.01478,0.0152]
+  progress: 3258 boxes, 3077 splits, stack 2355, 180 s, last a=[0.125,0.1406] b=[6.1875,6.2031] e=[0.003378,0.003801]
