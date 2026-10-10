@@ -208,3 +208,7 @@ No counterexample was found.
 - **Per-composition (Schur-convexity) arguments** fail because single words can have negative trace.
 - **A continuous-Dirichlet intermediate.** $P_{\rm cont}=\frac{d^m}{ds^m}\operatorname{Tr}e^{n\log A+sB}\big|_{s=0}$
   is not below $\mathcal A_{n,m}$ in general (Cha–Lee family, ratio 0.80).
+- **Further variants** (dominance of ray projections of the joint spectral measure without a tilt, tilts along a
+  column, the reference built from AB, monotonicity of p/L in n): see
+  [`08-general-lower-half-route.md`](08-general-lower-half-route.md), Section 5. That note also reduces the general
+  lower half to a single conjecture (TF), which survives all our tests.

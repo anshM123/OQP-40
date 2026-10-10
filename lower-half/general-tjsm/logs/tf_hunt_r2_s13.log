@@ -1,0 +1,30 @@
+[    0.0s] sample 1: new min rho* = 2.0340159 (d=5, spread=3.0, gen=3.0)
+[    0.0s] sample 2: new min rho* = 1.0000349 (d=5, spread=0.2, gen=1.0)
+[    0.1s] sample 5: new min rho* = 1.0000007 (d=2, spread=2.0, gen=0.1)
+[    0.3s] sample 20: new min rho* = 1.0000005 (d=3, spread=0.2, gen=0.03)
+[    0.6s] sample 47: new min rho* = 1.0000003 (d=2, spread=0.5, gen=0.03)
+[    1.0s] sample 73: new min rho* = 1.0000000 (d=2, spread=0.5, gen=3.0)
+tf_ratio_sdp.py:47: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver=cp.CLARABEL)
+[   11.0s] sample 571: new min rho* = 1.0000000 (d=2, spread=0.2, gen=0.03)
+[   31.6s] sample 1528: new min rho* = 1.0000000 (d=2, spread=0.2, gen=0.03)
+[  137.3s] sample 6075: new min rho* = 1.0000000 (d=2, spread=3.0, gen=0.03)
+  descent it 10: rho* = 1.0000000
+  descent it 14: rho* = 1.0000000
+  descent it 44: rho* = 1.0000000
+  descent it 45: rho* = 1.0000000
+  descent it 68: rho* = 1.0000000
+  descent it 88: rho* = 1.0000000
+  descent it 105: rho* = 1.0000000
+  descent it 148: rho* = 1.0000000
+  descent it 162: rho* = 1.0000000
+  descent it 173: rho* = 1.0000000
+  descent it 184: rho* = 1.0000000
+  descent it 187: rho* = 1.0000000
+  descent it 194: rho* = 1.0000000
+  descent it 199: rho* = 1.0000000
+  descent it 211: rho* = 1.0000000
+  descent it 217: rho* = 1.0000000
+  descent it 236: rho* = 1.0000000
+  descent it 318: rho* = 1.0000000
+FINAL min rho* = 1.0000000 (d=2); samples 22819

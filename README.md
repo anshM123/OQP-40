@@ -22,7 +22,9 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
   and independently checked for n ≥ 37; the key (3,3) inequality machine-checked in Lean), and at (n, 4) and (4, n) for
   n ≤ 16 and n = 18, 20, 22, and (4, 6), (6, 4). The open case with the fewest letters is (5, 5), exactly where
   the upper half fails.
-  Extensive searches found no counterexample. [Coverage map](lower-half/coverage.svg).
+  Extensive searches found no counterexample. [Coverage map](lower-half/coverage.svg). For the general case we reduce
+  the lower half to a single conjecture about Heinävaara's joint spectral measure (Conjecture TF; tested, not proved):
+  [`math/08-general-lower-half-route.md`](math/08-general-lower-half-route.md).
 - Nothing here has been refereed externally. The Lean proofs use only the standard axioms; the other new proofs
   were checked internally with independent code.
 
@@ -56,6 +58,11 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
     provably do not exist at (3,3) and (6,3), for the substitutions we tried.
   - Any proof of the general case must be at least as strong as Stahl's theorem (the former BMV conjecture), because
     the lower half implies $p_{n,m}>0$.
+  - A route to the general case ([`math/08-general-lower-half-route.md`](math/08-general-lower-half-route.md)). By
+    O. Heinävaara's tracial joint spectral measure, all word averages are moments of one positive measure. The lower half
+    for all n, m ≥ 1 follows from a tilted-dominance conjecture (TF) about its projections along rays. TF survives
+    exact-data tests and adversarial searches but is not proved. Numerically, the lower half fails for small real
+    exponents in the natural continuation, so a proof will have to use n, m ≥ 1.
 
 ## Verification
 

@@ -1,0 +1,17 @@
+near-comm d=3 eps=0.3: r=3 K=10: rho*_F = 1.001695, rho*_L = 1.001993; F ratios min 1.001137
+near-comm d=3 eps=0.1: r=3 K=10: rho*_F = 1.000244, rho*_L = 1.000274; F ratios min 1.000151
+near-comm d=3 eps=0.03: r=3 K=10: rho*_F = 1.002561, rho*_L = 1.003527; F ratios min 1.001932
+near-comm d=4 eps=0.3: r=3 K=10: rho*_F = 1.066872, rho*_L = 1.080656; F ratios min 1.050777
+near-comm d=4 eps=0.1: r=3 K=10: rho*_F = 1.099082, rho*_L = 1.105922; F ratios min 1.026755
+near-comm d=4 eps=0.03: r=3 K=10: rho*_F = 1.000026, rho*_L = 1.000028; F ratios min 1.000012
+Cha-Lee x=0.3 delta=0.01: r=3 K=10: rho*_F = 1.465907, rho*_L = 1.536847; F ratios min 1.335236
+Cha-Lee x=0.1 delta=0.01: r=3 K=10: rho*_F = 2.015085, rho*_L = 2.393390; F ratios min 1.514825
+Cha-Lee x=0.1 delta=0.001: r=3 K=10: rho*_F = 3.292491, rho*_L = 5.119235; F ratios min 2.056431
+random d=3 sp=1: r=3 K=10: rho*_F = 1.007889, rho*_L = 1.009078; F ratios min 1.005727
+random d=3 sp=2: r=3 K=10: rho*_F = 1.133179, rho*_L = 1.158649; F ratios min 1.088310
+random d=4 sp=1: r=3 K=10: rho*_F = 1.117524, rho*_L = 1.131330; F ratios min 1.067633
+random d=4 sp=2: r=3 K=10: rho*_F = 1.804631, rho*_L = 2.240555; F ratios min 1.574443
+random d=5 sp=1: r=3 K=10: rho*_F = 1.570144, rho*_L = 1.713970; F ratios min 1.316105
+random d=5 sp=2: r=3 K=10: rho*_F = 1.145524, rho*_L = 1.169840; F ratios min 1.092968
+random d=6 sp=1: r=3 K=10: rho*_F = 1.190789, rho*_L = 1.244758; F ratios min 1.137855
+random d=6 sp=2: r=3 K=10: rho*_F = 1.472520, rho*_L = 1.638786; F ratios min 1.284684

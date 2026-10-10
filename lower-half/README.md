@@ -16,6 +16,9 @@ This folder holds the computations behind
   re-implementation with its report.
 - [`m4/`](m4/README.md): Theorem 6 of [`../math/06-lower-half-m4.md`](../math/06-lower-half-m4.md), Conjecture F at
   (n, 4) for many n: the certificate rules (one JSON table per n), three exact verifiers, the search scripts and logs.
+- [`general-tjsm/`](general-tjsm/README.md): the computations behind
+  [`../math/08-general-lower-half-route.md`](../math/08-general-lower-half-route.md) (the joint-spectral-measure route
+  and Conjecture TF; numerical and exact-data tests, not a proof).
 - [`coverage.svg`](coverage.svg): which (n, m) of the lower half are proved, for 1 ≤ n, m ≤ 16. It is drawn by
   `python coverage_map.py coverage.svg N3 N4`, where N3 and N4 are the comma-separated lists of n of Theorems 5 and 6.
 

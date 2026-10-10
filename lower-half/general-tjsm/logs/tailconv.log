@@ -1,0 +1,5 @@
+200 100 moment rel errors ['3.5e-05', '8.5e-05', '1.2e-04'] min diff -9.8242e-04 at u=-0.360 total cont mass 0.05096704750239567
+400 200 moment rel errors ['3.5e-06', '1.2e-05', '2.5e-05'] min diff -9.9532e-04 at u=-0.360 total cont mass 0.050954152330950464
+800 400 moment rel errors ['8.8e-06', '4.3e-05', '1.2e-04'] min diff -9.9457e-04 at u=-0.360 total cont mass 0.05095494797809408
+1600 400 moment rel errors ['1.2e-04', '6.1e-04', '1.8e-03'] min diff -9.7232e-04 at u=-0.360 total cont mass 0.05097790234925524
+zeta [-0.35972789  0.10222149] zS [-0.12767089 -0.18078863]

@@ -1,0 +1,3 @@
+tf_hunt_best_r1_s11.npy: d=2, ray through (1,1): rho* (K=8) = 1.0000000000; relative commutator |[A,B]|/(|A||B|) = 1.426e-10
+tf_hunt_best_r1_s12.npy: d=2, ray through (1,1): rho* (K=8) = 1.0000000000; relative commutator |[A,B]|/(|A||B|) = 5.152e-08
+tf_hunt_best_r2_s13.npy: d=2, ray through (1,2): rho* (K=8) = 1.0000000000; relative commutator |[A,B]|/(|A||B|) = 1.667e-08

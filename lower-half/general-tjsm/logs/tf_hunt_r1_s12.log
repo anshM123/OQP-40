@@ -1,0 +1,24 @@
+[    0.0s] sample 1: new min rho* = 1.0060456 (d=4, spread=0.5, gen=3.0)
+[    0.0s] sample 2: new min rho* = 1.0019737 (d=5, spread=0.5, gen=1.0)
+[    0.1s] sample 5: new min rho* = 1.0006636 (d=4, spread=0.2, gen=1.0)
+[    0.1s] sample 6: new min rho* = 1.0000046 (d=2, spread=0.5, gen=0.3)
+[    0.1s] sample 8: new min rho* = 1.0000006 (d=4, spread=0.2, gen=0.03)
+tf_ratio_sdp.py:47: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver=cp.CLARABEL)
+[    0.3s] sample 21: new min rho* = 1.0000000 (d=2, spread=0.2, gen=0.3)
+[    2.8s] sample 207: new min rho* = 1.0000000 (d=2, spread=1.0, gen=0.03)
+[    4.3s] sample 277: new min rho* = 1.0000000 (d=2, spread=0.2, gen=0.1)
+[    6.3s] sample 396: new min rho* = 1.0000000 (d=2, spread=0.5, gen=0.1)
+[   66.9s] sample 3450: new min rho* = 1.0000000 (d=2, spread=0.2, gen=0.1)
+  descent it 8: rho* = 1.0000000
+  descent it 23: rho* = 1.0000000
+  descent it 28: rho* = 1.0000000
+  descent it 36: rho* = 1.0000000
+  descent it 49: rho* = 1.0000000
+  descent it 50: rho* = 1.0000000
+  descent it 53: rho* = 1.0000000
+  descent it 58: rho* = 1.0000000
+  descent it 60: rho* = 1.0000000
+  descent it 81: rho* = 1.0000000
+  descent it 164: rho* = 1.0000000
+FINAL min rho* = 1.0000000 (d=2); samples 25979
