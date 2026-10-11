@@ -1,0 +1,7 @@
+worst over grid of min(ratio_T, ratio_W) (must be <= 1): 0.00641026 (0.5, 40, 40.0, 1.9846729709818036e+79, 0.00641025641025641)
+largest (W) ratio max(L+, L-) over grid points with min(a, c) >= 1 (F2): (0.5, 40, 40.0, 1.9846729709818036e+79, 0.00641025641025641)
+largest (T) ratio over grid points with min(a, c) < 1 (F1): (0.5, 40, 0.4, 3.346582257249707e-17, 9.716357743391467e-16)
+
+real	0m1.239s
+user	0m0.030s
+sys	0m0.000s

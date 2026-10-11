@@ -12,6 +12,9 @@ supporting facts:
   - near the identity, to leading order.
 
   The global conjecture is still open.
+- **Update (v1.8):** TF holds for every 2 × 2 pair, in [`10-tf-2x2.md`](10-tf-2x2.md). Hence it also holds in every
+  dimension when A and B each have at most two distinct eigenvalues. The 2 × 2 argument (a lens lemma for the Weyl
+  distribution) fails for d ≥ 3.
 - **Negative results:** variants of TF that fail. These are proofs or reproducible computations, as labelled.
 
 Notation as in [`03-lower-half.md`](03-lower-half.md):
@@ -169,6 +172,10 @@ fails, while the *static* statements (TF, the lower half) survive.
   - Near the identity, the mechanism is the Hermite–Hadamard inequality on eigenvalue pairs of Z_θ, weighted by the
     pair marginal of Theorem A.
   - The tightest point is the bottom level at θ = 1/2. There the TF value is (h⁵/48)·Tr((S − s₁)|[X, Y]|²) ≥ 0.
+- **2 × 2 pairs: done.** [`10-tf-2x2.md`](10-tf-2x2.md) proves TF for every 2 × 2 pair. A lens lemma for the Weyl
+  distribution confines the minimum of the TF tail to the window below min_W ℓ_θ, where everything is in closed
+  form. In every dimension that window is still explicit (note 10, Section 6). The open range for d ≥ 3 is
+  (min_W ℓ_θ, ζ_d), where the lens lemma fails.
 - **A reformulation.** TF says: Heinävaara's measure of the pair dominates (tilted, on rays) that of the commuting pair
   obtained by pinching log A − log B onto the eigenspaces of Z_θ while keeping Z_θ fixed. This is the shape of
   Theorem A ([`02-theorem-A.md`](02-theorem-A.md)), which gives an exact positive formula for a pinching difference of

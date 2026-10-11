@@ -1,6 +1,6 @@
 # Open Quantum Problem 40: the refined BMV inequality
 
-**Authors:** Ansh Mishra, Aryan Senthilkumar. **License:** MIT. **Started:** 2026-10-08; **updated:** 2026-10-10.
+**Authors:** Ansh Mishra, Aryan Senthilkumar. **License:** MIT. **Started:** 2026-10-08; **updated:** 2026-10-11.
 
 This repository concerns **IQOQI Vienna Open Quantum Problem 40**, "Refinement of the Bessis–Moussa–Villani
 conjecture". The problem is due to D. Hägele, communicated by R. F. Werner, and is also listed as
@@ -23,10 +23,12 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
   n ≤ 16 and n = 18, 20, 22, and (4, 6), (6, 4). The open case with the fewest letters is (5, 5), exactly where
   the upper half fails.
   Extensive searches found no counterexample. [Coverage map](lower-half/coverage.svg). For the general case we reduce
-  the lower half to a single conjecture about Heinävaara's joint spectral measure (Conjecture TF; tested, not proved):
+  the lower half to a single conjecture about Heinävaara's joint spectral measure (Conjecture TF):
   [`math/08-general-lower-half-route.md`](math/08-general-lower-half-route.md). TF is proved in both perturbative
   regimes: to second order at commuting pairs (computer-assisted) and near the identity
-  ([`math/09-tf-local.md`](math/09-tf-local.md)).
+  ([`math/09-tf-local.md`](math/09-tf-local.md)). **TF holds for every 2 × 2 pair**, hence in every dimension for
+  pairs whose two matrices each have at most two distinct eigenvalues ([`math/10-tf-2x2.md`](math/10-tf-2x2.md);
+  computer-assisted for condition numbers up to e^80, analytic beyond). TF is open for d ≥ 3.
 - Nothing here has been refereed externally. The Lean proofs use only the standard axioms; the other new proofs
   were checked internally with independent code.
 
@@ -72,6 +74,14 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
       θ log A + (1−θ) log B, weighted by the pair marginal of Theorem A. The tightest point has an explicit positive
       value.
     - Two natural monotone-path strategies are shown to fail.
+  - **TF for every 2 × 2 pair** ([`math/10-tf-2x2.md`](math/10-tf-2x2.md)).
+    - **Exact reduction.** A *lens lemma* for the Weyl distribution of a 2 × 2 pair reduces TF at every level to one
+      closed-form inequality, (Tr(AB^r) − λ₂^{N₀})^θ (Tr(A⁻¹ #_{1−θ} B⁻¹) − λ₂⁻¹) ≥ 1, with λ₂ the top eigenvalue of
+      e^{θ log A + (1−θ) log B}.
+    - **That inequality** is proved with rigorous ball arithmetic for condition numbers up to e^80 (183,421 certified
+      boxes), and analytically beyond.
+    - **Corollary:** TF in every dimension when A and B each have at most two distinct eigenvalues.
+    - **d ≥ 3:** the lens lemma fails there, so the general case needs a different argument.
 
 ## Verification
 
@@ -125,6 +135,18 @@ with independent code ([`lower-half/tf-local/`](lower-half/tf-local/README.md)).
 ```bash
 cd lower-half/tf-local/E-proof && sh run_final_A.sh && sh run_final_B.sh   # about 15 minutes
 python check_coverage.py runs/A_final_0.json runs/A_final_1.json runs/B_final_lo.json runs/B_final_hi.json
+```
+
+**Conjecture TF for 2 × 2 pairs** ([`math/10-tf-2x2.md`](math/10-tf-2x2.md)). The bounded region is a
+computer-assisted proof in rigorous ball arithmetic; the far region is analytic, with its constants verified in ball
+arithmetic. We re-ran the smaller certification run and checked both parts with independent code
+([`lower-half/tf-2x2/`](lower-half/tf-2x2/README.md)).
+
+```bash
+cd lower-half/tf-2x2
+python cert_v2.py 0.0 0.25 40.0 runs/final_L40_lo.txt && python cert_v2.py 0.25 0.5 40.0 runs/final_L40_hi.txt
+python check_coverage.py 40 runs/final_L40_lo.txt runs/final_L40_hi.txt      # about 20 minutes in total
+python tail_constants.py                                                      # constants of the far region
 ```
 
 ## Credits

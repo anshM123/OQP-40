@@ -1,0 +1,15 @@
+# python lens_general.py 1 0.5 4
+trial 0 d=2 th=0.5: zeta=[-0.13   0.016] v_min~-0.130 v_max~0.016; max over u in (v_min,v_max) of [Lambda(u) - #zeta>u] = -0.0020
+trial 1 d=3 th=0.5: zeta=[-0.757 -0.679 -0.014] v_min~-0.749 v_max~-0.002; max over u in (v_min,v_max) of [Lambda(u) - #zeta>u] = -0.0174
+trial 2 d=3 th=0.5: zeta=[-0.228  0.079  0.628] v_min~-0.162 v_max~0.877; max over u in (v_min,v_max) of [Lambda(u) - #zeta>u] = 0.7924
+   positive at [(np.float64(0.083), np.float64(0.792)), (np.float64(0.108), np.float64(0.783)), (np.float64(0.133), np.float64(0.771)), (np.float64(0.158), np.float64(0.756)), (np.float64(0.183), np.float64(0.733)), (np.float64(0.208), np.float64(0.702)), (np.float64(0.232), np.float64(0.667)), (np.float64(0.257), np.float64(0.638))]
+trial 3 d=4 th=0.5: zeta=[-0.569 -0.156  0.04   0.677] v_min~-0.484 v_max~0.682; max over u in (v_min,v_max) of [Lambda(u) - #zeta>u] = 0.9290
+   positive at [(np.float64(-0.153), np.float64(0.865)), (np.float64(0.043), np.float64(0.929))]
+# python lens_general.py 2 0.35 4
+trial 0 d=2 th=0.35: zeta=[-0.45   0.095] v_min~-0.446 v_max~0.098; max over u in (v_min,v_max) of [Lambda(u) - #zeta>u] = -0.0082
+trial 1 d=3 th=0.35: zeta=[-0.913 -0.559  0.341] v_min~-0.831 v_max~0.421; max over u in (v_min,v_max) of [Lambda(u) - #zeta>u] = 0.8516
+   positive at [(np.float64(-0.536), np.float64(0.777)), (np.float64(-0.506), np.float64(0.788)), (np.float64(0.365), np.float64(0.847)), (np.float64(0.395), np.float64(0.852))]
+trial 2 d=3 th=0.35: zeta=[0.33  0.474 1.386] v_min~0.347 v_max~1.402; max over u in (v_min,v_max) of [Lambda(u) - #zeta>u] = 0.9076
+   positive at [(np.float64(0.494), np.float64(0.908))]
+trial 3 d=4 th=0.35: zeta=[-0.482 -0.143  0.092  0.975] v_min~-0.361 v_max~1.025; max over u in (v_min,v_max) of [Lambda(u) - #zeta>u] = 0.9025
+   positive at [(np.float64(-0.134), np.float64(0.832)), (np.float64(-0.1), np.float64(0.841)), (np.float64(0.099), np.float64(0.773)), (np.float64(0.133), np.float64(0.613)), (np.float64(0.998), np.float64(0.902))]

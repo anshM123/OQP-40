@@ -1,0 +1,14 @@
+       7s processed 2000 stack 5356 leaves {'W': 1018, 'P': 438, 'I': 66, 'F': 0, 'D': 0, 'X': 0}
+      13s processed 4000 stack 4282 leaves {'W': 2006, 'P': 938, 'I': 115, 'F': 0, 'D': 0, 'X': 0}
+      20s processed 6000 stack 2962 leaves {'W': 3232, 'P': 1336, 'I': 151, 'F': 0, 'D': 0, 'X': 0}
+      26s processed 8000 stack 1706 leaves {'W': 4443, 'P': 1705, 'I': 199, 'F': 0, 'D': 0, 'X': 0}
+      29s processed 10000 stack 1524 leaves {'W': 4643, 'P': 2420, 'I': 375, 'F': 0, 'D': 0, 'X': 0}
+      31s processed 12000 stack 1444 leaves {'W': 4789, 'P': 3127, 'I': 562, 'F': 0, 'D': 0, 'X': 0}
+      33s processed 14000 stack 1342 leaves {'W': 4982, 'P': 3848, 'I': 699, 'F': 0, 'D': 0, 'X': 0}
+      35s processed 16000 stack 1244 leaves {'W': 5154, 'P': 4585, 'I': 839, 'F': 0, 'D': 0, 'X': 0}
+      38s processed 18000 stack 1148 leaves {'W': 5341, 'P': 5293, 'I': 992, 'F': 0, 'D': 0, 'X': 0}
+      40s processed 20000 stack 1018 leaves {'W': 5575, 'P': 5968, 'I': 1148, 'F': 0, 'D': 0, 'X': 0}
+      42s processed 22000 stack 882 leaves {'W': 5811, 'P': 6631, 'I': 1317, 'F': 0, 'D': 0, 'X': 0}
+      45s processed 24000 stack 686 leaves {'W': 6161, 'P': 7330, 'I': 1366, 'F': 0, 'D': 0, 'X': 0}
+      48s processed 26000 stack 424 leaves {'W': 6568, 'P': 8025, 'I': 1395, 'F': 0, 'D': 0, 'X': 0}
+DONE 49s processed 27638 leaves {'W': 6882, 'P': 8698, 'I': 1398, 'F': 0, 'D': 41, 'X': 0}

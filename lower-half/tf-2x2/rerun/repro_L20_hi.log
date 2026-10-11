@@ -1,0 +1,20 @@
+       7s processed 2000 stack 5682 leaves {'W': 778, 'P': 512, 'I': 69, 'F': 0, 'D': 0, 'X': 0}
+      12s processed 4000 stack 5012 leaves {'W': 1568, 'P': 984, 'I': 142, 'F': 0, 'D': 0, 'X': 0}
+      13s processed 6000 stack 4970 leaves {'W': 1606, 'P': 1820, 'I': 289, 'F': 0, 'D': 0, 'X': 0}
+      14s processed 8000 stack 4936 leaves {'W': 1669, 'P': 2653, 'I': 410, 'F': 0, 'D': 0, 'X': 0}
+      16s processed 10000 stack 4934 leaves {'W': 1669, 'P': 3512, 'I': 552, 'F': 0, 'D': 0, 'X': 0}
+      18s processed 12000 stack 4932 leaves {'W': 1669, 'P': 4365, 'I': 700, 'F': 0, 'D': 0, 'X': 0}
+      19s processed 14000 stack 4924 leaves {'W': 1669, 'P': 5277, 'I': 792, 'F': 0, 'D': 0, 'X': 0}
+      20s processed 16000 stack 4888 leaves {'W': 1726, 'P': 6129, 'I': 901, 'F': 0, 'D': 0, 'X': 0}
+      21s processed 18000 stack 4840 leaves {'W': 1813, 'P': 7035, 'I': 920, 'F': 0, 'D': 12, 'X': 0}
+      22s processed 20000 stack 4826 leaves {'W': 1813, 'P': 7988, 'I': 974, 'F': 0, 'D': 12, 'X': 0}
+      25s processed 22000 stack 4474 leaves {'W': 2131, 'P': 8806, 'I': 1009, 'F': 0, 'D': 17, 'X': 0}
+      31s processed 24000 stack 3412 leaves {'W': 3191, 'P': 9206, 'I': 1080, 'F': 0, 'D': 17, 'X': 0}
+      32s processed 26000 stack 3332 leaves {'W': 3263, 'P': 10045, 'I': 1209, 'F': 0, 'D': 17, 'X': 0}
+      33s processed 28000 stack 3288 leaves {'W': 3302, 'P': 10929, 'I': 1308, 'F': 0, 'D': 17, 'X': 0}
+      34s processed 30000 stack 3228 leaves {'W': 3360, 'P': 11887, 'I': 1322, 'F': 0, 'D': 17, 'X': 0}
+      39s processed 32000 stack 2642 leaves {'W': 3906, 'P': 12580, 'I': 1376, 'F': 0, 'D': 17, 'X': 0}
+      43s processed 34000 stack 1730 leaves {'W': 4797, 'P': 13075, 'I': 1446, 'F': 0, 'D': 17, 'X': 0}
+      45s processed 36000 stack 1514 leaves {'W': 4960, 'P': 13972, 'I': 1494, 'F': 0, 'D': 17, 'X': 0}
+      52s processed 38000 stack 440 leaves {'W': 6007, 'P': 14396, 'I': 1560, 'F': 0, 'D': 17, 'X': 0}
+DONE 54s processed 39206 leaves {'W': 6379, 'P': 14841, 'I': 1566, 'F': 0, 'D': 17, 'X': 0}

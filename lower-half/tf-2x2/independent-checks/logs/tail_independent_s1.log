@@ -1,0 +1,5 @@
+120 far-region points (seed 1); violations: 0
+max (L+) ratio lhs/rhs: 7.84149e-6 | min (L-) ratio /(2 theta): 7.3989e+24 | max (T) ratio: 1.3827e-19
+max -d eps_G/dw / K+: 1.0 | max d eps_G/dw / (2 th^2 ac shc): 1.0
+min F over the sampled w: 0.0218803
+derivative formula of eps_G vs numerical derivative, 20 points: max rel. deviation 9.34e-150

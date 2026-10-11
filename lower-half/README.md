@@ -25,6 +25,12 @@ This folder holds the computations behind
     with our re-run and independent soundness checks;
   - the near-identity checks;
   - the refuted monotonicity statements.
+- [`tf-2x2/`](tf-2x2/README.md): the computations behind [`../math/10-tf-2x2.md`](../math/10-tf-2x2.md) (TF for
+  every 2 × 2 pair). It contains:
+  - the rigorous ball-arithmetic certification of the bounded region, with its leaf lists and coverage check;
+  - the verification of the constants of the analytic far-region proof;
+  - our re-run and independent checks;
+  - the d ≥ 3 computation showing that the lens lemma fails.
 - [`coverage.svg`](coverage.svg): which (n, m) of the lower half are proved, for 1 ≤ n, m ≤ 16. It is drawn by
   `python coverage_map.py coverage.svg N3 N4`, where N3 and N4 are the comma-separated lists of n of Theorems 5 and 6.
 

@@ -1,0 +1,5 @@
+leaf counts by type: {'W': 60095, 'P': 100733, 'I': 22535, 'D': 58}
+total leaf volume = 1600  domain volume = 1600  equal: True
+pair tests 5245022 overlaps 0
+random points not covered: 0
+COVERAGE: OK
