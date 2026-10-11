@@ -7,6 +7,11 @@ supporting facts:
 - **Proved:** Corollary 1, Lemma 2 and Proposition 3, all from O. Heinävaara's theorem on tracial joint spectral measures.
 - **Conjecture TF:** if true, TF implies the lower half for all n, m ≥ 1. It is supported by exact-data tests and
   adversarial searches, but not proved.
+- **Update (v1.7):** TF is proved in both perturbative regimes, in [`09-tf-local.md`](09-tf-local.md):
+  - to second order at every generic commuting pair (computer-assisted);
+  - near the identity, to leading order.
+
+  The global conjecture is still open.
 - **Negative results:** variants of TF that fail. These are proofs or reproducible computations, as labelled.
 
 Notation as in [`03-lower-half.md`](03-lower-half.md):
@@ -143,12 +148,31 @@ counterexamples to stronger or different statements.
    Conjecture F rather than the lower half. Then the dominance fails: ρ* = 0.99989 for a random 3 × 3 pair
    (`tff_sdp.py`). So TF genuinely uses the gap between F and L (Araki's log-majorization).
 5. **p_{n,m}/L_{n,m} is not monotone in n**, even at m = 1 (`latmono.py`, exact word averages).
+6. **Monotonicity along the family that fixes Z_θ fails** (v1.7, [`../lower-half/tf-local/dead-ends/`](../lower-half/tf-local/dead-ends/)).
+   - **The family.** Write log A = Z + (1−θ)T and log B = Z − θT, and put f(λ) = p_{n,m}(e^{Z+(1−θ)λT}, e^{Z−θλT}) on
+     the ray θ = n/(n+m). Then f(0) = L_{n,m}, f'(0) = 0 and f(1) = p_{n,m}.
+   - **The candidates.** If f were nondecreasing on [0, ∞), or the Laplace transform of a positive measure, the lower
+     half would follow.
+   - **What is true.** For d = 2 and (n,m) = (1,1) the Laplace-transform statement holds. With Z = δσ_z and
+     T = 2kσ_x, f(λ) = 2 + 4δ²(sinh r/r)² with r² = δ² + k²λ², and sinh r/r = ½∫₋₁¹ e^{kλx} I₀(δ√(1−x²)) dx.
+   - **What fails.** For d = 3 both statements fail, confirmed at 50 digits: f is not log-convex, and it can decrease.
+7. **p_{n,m}(A^h, B^h)/L_{n,m}(A^h, B^h) is not monotone in h**, for d = 3, even at (n, m) = (3, 1). If it were, the
+   lower half would follow from its limit 1 as h → 0 (50 digits, same folder).
+
+In every counterexample of items 6 and 7 the lower half itself holds. So far, every *dynamic* monotonicity we tried
+fails, while the *static* statements (TF, the lower half) survive.
 
 ## 6. Where a proof could start
 
-- **Small parameter.** TF is tightest near commuting pairs, where all deviations are of second order in the commutator.
-  An exact second-order expansion of T_θ(u), which for the lower half itself reduces to 2 × 2 pair terms
-  ([`03-lower-half.md`](03-lower-half.md), Section 4), is the natural first step.
+- **Small parameters: done.** [`09-tf-local.md`](09-tf-local.md) proves TF to second order at commuting pairs and near
+  the identity.
+  - Near the identity, the mechanism is the Hermite–Hadamard inequality on eigenvalue pairs of Z_θ, weighted by the
+    pair marginal of Theorem A.
+  - The tightest point is the bottom level at θ = 1/2. There the TF value is (h⁵/48)·Tr((S − s₁)|[X, Y]|²) ≥ 0.
+- **A reformulation.** TF says: Heinävaara's measure of the pair dominates (tilted, on rays) that of the commuting pair
+  obtained by pinching log A − log B onto the eigenspaces of Z_θ while keeping Z_θ fixed. This is the shape of
+  Theorem A ([`02-theorem-A.md`](02-theorem-A.md)), which gives an exact positive formula for a pinching difference of
+  Tr e^{ag−tP}. An analogue of Theorem A for word averages would prove TF.
 - **A dead end.** The pinching and convex-ridge arguments that make Heinävaara's measure monotone under pinching do not
   apply directly, because the test functions a^x b^y are not convex.
 

@@ -1,0 +1,4 @@
+box th0=0.495 x0=0.0 y0=0.0 rt=0.005: rho'=[0.015, 1.2, 1.2] M'=306.5; max|H|/M' on torus = 0.0007831 (must be <= 1); max|H-P|/errH = 6.122e-17; max|dH/ds - dP/ds|/errS = 3.205e-17 (both must be <= 1)
+box th0=0.4 x0=1.0 y0=-0.5 rt=0.0125: rho'=[0.0375, 0.7, 1.2] M'=33.22; max|H|/M' on torus = 0.008301 (must be <= 1); max|H-P|/errH = 6.988e-18; max|dH/ds - dP/ds|/errS = 1.004e-17 (both must be <= 1)
+box th0=0.15 x0=0.0 y0=0.0 rt=0.025: rho'=[0.075, 1.2, 1.2] M'=6.823; max|H|/M' on torus = 0.04413 (must be <= 1); max|H-P|/errH = 1.333e-15; max|dH/ds - dP/ds|/errS = 8.399e-16 (both must be <= 1)
+box th0=0.475 x0=-1.5 y0=2.0 rt=0.005: rho'=[0.015, 1.2, 1.2] M'=68.46; max|H|/M' on torus = 0.006032 (must be <= 1); max|H-P|/errH = 3.07e-18; max|dH/ds - dP/ds|/errS = 9.026e-18 (both must be <= 1)

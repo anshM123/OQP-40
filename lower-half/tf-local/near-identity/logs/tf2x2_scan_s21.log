@@ -1,0 +1,11 @@
+near_identity\tf2x2_sphere.py:39: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  return sum(integrate.quad(g, lo, hi, epsabs=1e-15, epsrel=1e-12, limit=200)[0] for lo, hi in zip(edges[:-1], edges[1:]))
+    394s pairs=10 worst T/base = 0.0197349 at (1, np.float64(0.5), np.float64(0.7430799739330385), [-0.8500634259162856, 0.7430799739330385], np.float64(0.7470406459035503))
+    709s pairs=20 worst T/base = 0.00158713 at (10, np.float64(0.1), np.float64(2.1730968076518806), [-0.3878408890391122, 2.1730968076518806], np.float64(2.1733713294071677))
+    977s pairs=30 worst T/base = 0.00158713 at (10, np.float64(0.1), np.float64(2.1730968076518806), [-0.3878408890391122, 2.1730968076518806], np.float64(2.1733713294071677))
+   1197s pairs=40 worst T/base = 0 at (34, np.float64(0.1), np.float64(0.2320400850939083), [-0.33357323500040437, 0.2320400850939083], np.float64(0.232693978756366))
+   1423s pairs=50 worst T/base = 0 at (34, np.float64(0.1), np.float64(0.2320400850939083), [-0.33357323500040437, 0.2320400850939083], np.float64(0.232693978756366))
+   1742s pairs=60 worst T/base = 0 at (34, np.float64(0.1), np.float64(0.2320400850939083), [-0.33357323500040437, 0.2320400850939083], np.float64(0.232693978756366))
+FINAL pairs 63 worst (np.float64(0.0), (34, np.float64(0.1), np.float64(0.2320400850939083), [-0.33357323500040437, 0.2320400850939083], np.float64(0.232693978756366)))

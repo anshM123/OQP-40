@@ -19,6 +19,12 @@ This folder holds the computations behind
 - [`general-tjsm/`](general-tjsm/README.md): the computations behind
   [`../math/08-general-lower-half-route.md`](../math/08-general-lower-half-route.md) (the joint-spectral-measure route
   and Conjecture TF; numerical and exact-data tests, not a proof).
+- [`tf-local/`](tf-local/README.md): the computations behind [`../math/09-tf-local.md`](../math/09-tf-local.md). It
+  contains:
+  - the rigorous ball-arithmetic proof of the last inequality of Theorem 1 (TF to second order at commuting pairs),
+    with our re-run and independent soundness checks;
+  - the near-identity checks;
+  - the refuted monotonicity statements.
 - [`coverage.svg`](coverage.svg): which (n, m) of the lower half are proved, for 1 ≤ n, m ≤ 16. It is drawn by
   `python coverage_map.py coverage.svg N3 N4`, where N3 and N4 are the comma-separated lists of n of Theorems 5 and 6.
 

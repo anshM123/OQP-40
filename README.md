@@ -1,6 +1,6 @@
 # Open Quantum Problem 40: the refined BMV inequality
 
-**Authors:** Ansh Mishra, Aryan Senthilkumar. **License:** MIT. **Started:** 2026-10-08; **updated:** 2026-10-09.
+**Authors:** Ansh Mishra, Aryan Senthilkumar. **License:** MIT. **Started:** 2026-10-08; **updated:** 2026-10-10.
 
 This repository concerns **IQOQI Vienna Open Quantum Problem 40**, "Refinement of the Bessis–Moussa–Villani
 conjecture". The problem is due to D. Hägele, communicated by R. F. Werner, and is also listed as
@@ -24,7 +24,9 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
   the upper half fails.
   Extensive searches found no counterexample. [Coverage map](lower-half/coverage.svg). For the general case we reduce
   the lower half to a single conjecture about Heinävaara's joint spectral measure (Conjecture TF; tested, not proved):
-  [`math/08-general-lower-half-route.md`](math/08-general-lower-half-route.md).
+  [`math/08-general-lower-half-route.md`](math/08-general-lower-half-route.md). TF is proved in both perturbative
+  regimes: to second order at commuting pairs (computer-assisted) and near the identity
+  ([`math/09-tf-local.md`](math/09-tf-local.md)).
 - Nothing here has been refereed externally. The Lean proofs use only the standard axioms; the other new proofs
   were checked internally with independent code.
 
@@ -63,6 +65,13 @@ $$\operatorname{Tr}(A^nB^m)\ \ge\ p_{n,m}(A,B)\ \ge\ \operatorname{Tr}\exp(n\log
     for all n, m ≥ 1 follows from a tilted-dominance conjecture (TF) about its projections along rays. TF survives
     exact-data tests and adversarial searches but is not proved. Numerically, the lower half fails for small real
     exponents in the natural continuation, so a proof will have to use n, m ≥ 1.
+  - TF in both perturbative regimes ([`math/09-tf-local.md`](math/09-tf-local.md)).
+    - **At commuting pairs, to second order**, in every dimension. The final inequality is proved with rigorous
+      ball arithmetic.
+    - **Near the identity.** There TF reduces to the Hermite–Hadamard inequality on eigenvalue pairs of
+      θ log A + (1−θ) log B, weighted by the pair marginal of Theorem A. The tightest point has an explicit positive
+      value.
+    - Two natural monotone-path strategies are shown to fail.
 
 ## Verification
 
@@ -107,6 +116,15 @@ cd lower-half/sos && python verify_certificate.py certs/*.json   # all 25 certif
 cd ../thm33/independent-check && python r3_interval.py           # (I)-(III) of the (3,3) proof, interval arithmetic
 cd ../../m3 && python verify_n.py 12                               # Conjecture F at (12,3), exact; under a second
 cd ../m4 && python verify_rule_independent.py rules/n8.json        # Conjecture F at (8,4), exact; a few seconds
+```
+
+**Conjecture TF to second order** (the inequality E ≥ 0 of [`math/09-tf-local.md`](math/09-tf-local.md)). This is a
+computer-assisted proof in rigorous ball arithmetic. We re-ran it from the published scripts and tested its enclosures
+with independent code ([`lower-half/tf-local/`](lower-half/tf-local/README.md)).
+
+```bash
+cd lower-half/tf-local/E-proof && sh run_final_A.sh && sh run_final_B.sh   # about 15 minutes
+python check_coverage.py runs/A_final_0.json runs/A_final_1.json runs/B_final_lo.json runs/B_final_hi.json
 ```
 
 ## Credits

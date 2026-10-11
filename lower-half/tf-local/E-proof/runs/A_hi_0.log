@@ -1,0 +1,28 @@
+[1/138] th0=0.3125 x0=-0.5 y0=0.0: leaves=1 errS=2.33e-04 M=24.2 t=2s
+[2/138] th0=0.3125 x0=-0.5 y0=1.0: leaves=1 errS=2.13e-03 M=68.0 t=4s
+[3/138] th0=0.3125 x0=0.0 y0=0.0: leaves=1 errS=1.70e-04 M=17.6 t=7s
+[4/138] th0=0.3125 x0=0.0 y0=1.0: leaves=1 errS=1.57e-03 M=50.1 t=10s
+[5/138] th0=0.3125 x0=0.5 y0=0.0: leaves=1 errS=1.11e-04 M=11.6 t=13s
+[6/138] th0=0.3125 x0=1.0 y0=-0.5: leaves=1 errS=6.08e-04 M=19.4 t=16s
+[7/138] th0=0.3375 x0=-0.5 y0=0.0: leaves=1 errS=3.11e-04 M=32.4 t=20s
+[8/138] th0=0.3375 x0=-0.5 y0=1.0: leaves=1 errS=2.44e-03 M=77.9 t=23s
+[9/138] th0=0.3375 x0=0.0 y0=0.0: leaves=1 errS=2.23e-04 M=23.2 t=27s
+[10/138] th0=0.3375 x0=0.0 y0=1.0: leaves=1 errS=1.78e-03 M=56.6 t=29s
+[11/138] th0=0.3375 x0=0.5 y0=0.0: leaves=1 errS=1.44e-04 M=15.0 t=32s
+[12/138] th0=0.3375 x0=1.0 y0=-0.5: leaves=1 errS=8.00e-04 M=25.5 t=35s
+Traceback (most recent call last):
+  File "E_proof\regionA_run.py", line 104, in <module>
+    res = run_box(th0, rt, x0, y0, R0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E_proof\regionA_run.py", line 78, in run_box
+    out += run_box(t, rt / 2, x0, y0, r, depth + 1, log)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E_proof\regionA_run.py", line 78, in run_box
+    out += run_box(t, rt / 2, x0, y0, r, depth + 1, log)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E_proof\regionA_run.py", line 84, in run_box
+    out += run_box(th0, rt, x0 + dx, y0 + dy, r / 2, depth + 1, log)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E_proof\regionA_run.py", line 73, in run_box
+    raise RuntimeError(f"box failed: th0={th0} rt={rt} x0={x0} y0={y0} r={r} last={best}")
+RuntimeError: box failed: th0=0.353125 rt=0.003125 x0=-1.375 y0=1.125 r=0.125 last={'ok': False, 'reason': 'M bound failed', 'th0': 0.353125, 'rt': 0.003125, 'x0': -1.375, 'y0': 1.125, 'r': 0.125, 'rp': [0.009375000000000001, 1.0, 0.8]}

@@ -1,0 +1,6 @@
+pieces: [[0.0, 0.3, 0.3, 0.6, 0.025], [0.3, 0.35, 0.6, 1.0, 0.0125], [0.35, 0.45, 0.6, 3.0, 0.0125], [0.45, 0.5, 0.6, 3.0, 0.005]]
+planned Taylor-model boxes: 318, certified leaves: 326
+REGION A' COVERAGE: OK
+runs/B_final_lo.json theta [0.0, 0.3] L 10.0 verified 47229 skipped 4871 failed 0 excl==pieces: True
+runs/B_final_hi.json theta [0.3, 0.5] L 10.0 verified 120397 skipped 5187 failed 0 excl==pieces: True
+REGION B: OK

@@ -1,0 +1,5 @@
+{'closed_vs_int': '7.77e-58', 'L21a': '2.35e-60', 'L21b': '2.68e-61', 'L21c': '2.82e-61', 'L22': '4.8e-58', 'L24': '9.55e-59'}
+Thm 3.1 formula vs limit of closed form: max rel diff 1.45e-25 ; monotonicity in theta and theta=1/2 formula: OK
+H(theta,0,0) at theta 0.1 : 0.08148148148 formula 0.08148148148
+H(theta,0,0) at theta 0.3 : 0.0619047619 formula 0.0619047619
+H(theta,0,0) at theta 0.5 : 1.875e-13 formula 0.0

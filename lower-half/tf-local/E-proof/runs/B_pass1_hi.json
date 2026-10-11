@@ -1,0 +1,1 @@
+{"th": [0.25, 0.5], "L": 6.0, "excl": [[0.0, 0.5, 1.0, 1.5], [0.25, 0.5, 1.0, 4.0]], "verified_boxes": 21488, "skipped_boxes": 1151, "failed_boxes": 0, "fails": [], "seconds": 17.81087040901184, "prec": 192}
